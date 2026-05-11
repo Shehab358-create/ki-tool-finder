@@ -158,7 +158,7 @@ matchedTools.forEach(tool => {
         <img src="${tool.image}" alt="${tool.name} Logo">
         <h2>${tool.name}</h2>
       </div>
-      <p>${tool.description[currentLang]}</p>
+      <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
       <a href="${tool.link}" target="_blank">Zum Tool</a>
     </div>
   `;
