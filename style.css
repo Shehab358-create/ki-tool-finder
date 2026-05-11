@@ -286,8 +286,8 @@ html {
   opacity: 0.8;
 }
 .logo img {
-  height: 90px;
-  width: auto;
+  height: auto;
+  width: 220px;
 }
 .nav-links a {
   color: black;
