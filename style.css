@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .container {
@@ -190,7 +190,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: #111827;
+  background: white;
 }
 
 .logo {
@@ -288,4 +288,7 @@ html {
 .logo img {
   height: 50px;
   width: auto;
+}
+.nav-links a {
+  color: black;
 }
