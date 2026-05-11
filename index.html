@@ -44,9 +44,19 @@
   <button onclick="quickSearch('Texte')">Texte</button>
 </div>
     <div id="results" class="results"></div>
-    
+
   </main>
 
   <script src="script.js"></script>
+<script>
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+
+input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        button.click();
+    }
+});
+</script>
 </body>
 </html>
