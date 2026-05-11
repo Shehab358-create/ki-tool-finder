@@ -134,62 +134,57 @@ const translations = {
     navContact: "اتصال"
   },
 
- es: {
-  title: "Encuentra la mejor herramienta de IA para tu problema",
-  subtitle: "Escribe en qué necesitas ayuda – por ejemplo CV, solicitud, logo o textos.",
-  button: "Buscar",
-  placeholder: "ej. escribir un CV...",
-  navStart: "Inicio",
-  navCv: "CV",
-  navApplication: "Solicitud",
-  navLogo: "Logo",
-  navContent: "Contenido",
-  navBlog: "Blog",
-  navImpressum: "Aviso legal",
-  navPrivacy: "Privacidad",
-  navContact: "Contacto"
-},
+  es: {
+    title: "Encuentra la mejor herramienta de IA para tu problema",
+    subtitle: "Escribe en que necesitas ayuda – por ejemplo CV, solicitud, logo o textos.",
+    button: "Buscar",
+    placeholder: "ej. escribir un CV...",
+    navStart: "Inicio",
+    navCv: "CV",
+    navApplication: "Solicitud",
+    navLogo: "Logo",
+    navContent: "Contenido",
+    navBlog: "Blog",
+    navImpressum: "Aviso legal",
+    navPrivacy: "Privacidad",
+    navContact: "Contacto"
+  },
 
-zh: {
-  title: "找到最适合你的 AI 工具",
-  subtitle: "输入你需要帮助的内容，例如简历、求职、Logo 或文本。",
-  button: "搜索",
-  placeholder: "例如：写简历...",
-  navStart: "首页",
-  navCv: "简历",
-  navApplication: "求职",
-  navLogo: "Logo",
-  navContent: "内容",
-  navBlog: "博客",
-  navImpressum: "法律声明",
-  navPrivacy: "隐私",
-  navContact: "联系"
-}
+  zh: {
+    title: "找到最适合你的AI工具",
+    subtitle: "输入你需要帮助的内容，例如简历、求职、Logo或文本。",
+    button: "搜索",
+    placeholder: "例如：写简历...",
+    navStart: "首页",
+    navCv: "简历",
+    navApplication: "求职",
+    navLogo: "Logo",
+    navContent: "内容",
+    navBlog: "博客",
+    navImpressum: "法律声明",
+    navPrivacy: "隐私",
+    navContact: "联系"
+  }
 };
 
-document.getElementById("languageSelect").addEventListener("change", function() {
+document.getElementById("languageSelect").addEventListener("change", function () {
+  const lang = this.value;
+  const t = translations[lang];
 
-    const lang = this.value;
+  document.getElementById("main-title").textContent = t.title;
+  document.getElementById("subtitle").textContent = t.subtitle;
+  document.getElementById("search-btn").textContent = t.button;
+  document.getElementById("searchInput").placeholder = t.placeholder;
 
-    document.getElementById("main-title").textContent =
-        translations[lang].title;
-
-    document.getElementById("subtitle").textContent =
-        translations[lang].subtitle;
-
-    document.getElementById("search-btn").textContent =
-        translations[lang].button;
-        document.getElementById("searchInput").placeholder = translations[lang].placeholder;
-
-document.getElementById("nav-start").textContent = translations[lang].navStart;
-document.getElementById("nav-cv").textContent = translations[lang].navCv;
-document.getElementById("nav-application").textContent = translations[lang].navApplication;
-document.getElementById("nav-logo").textContent = translations[lang].navLogo;
-document.getElementById("nav-content").textContent = translations[lang].navContent;
-document.getElementById("nav-blog").textContent = translations[lang].navBlog;
-document.getElementById("nav-impressum").textContent = translations[lang].navImpressum;
-document.getElementById("nav-privacy").textContent = translations[lang].navPrivacy;
-document.getElementById("nav-contact").textContent = translations[lang].navContact;
+  document.getElementById("nav-start").textContent = t.navStart;
+  document.getElementById("nav-cv").textContent = t.navCv;
+  document.getElementById("nav-application").textContent = t.navApplication;
+  document.getElementById("nav-logo").textContent = t.navLogo;
+  document.getElementById("nav-content").textContent = t.navContent;
+  document.getElementById("nav-blog").textContent = t.navBlog;
+  document.getElementById("nav-impressum").textContent = t.navImpressum;
+  document.getElementById("nav-privacy").textContent = t.navPrivacy;
+  document.getElementById("nav-contact").textContent = t.navContact;
 });
 </script>
 </body>
