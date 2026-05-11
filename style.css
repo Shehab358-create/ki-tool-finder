@@ -285,10 +285,16 @@ html {
 .tool-button:hover {
   opacity: 0.8;
 }
-.logo img {
-  height: auto;
-  width: 220px;
-}
+
 .nav-links a {
   color: black;
+}
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+.navbar {
+    height: 90px;
+    padding: 0 40px;
 }
