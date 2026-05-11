@@ -1,4 +1,22 @@
 let currentLang = "de";
+
+const noResultsText = {
+  de: ["Keine passenden Tools gefunden", "Versuche Wörter wie Lebenslauf, Bewerbung, Logo oder Texte."],
+  en: ["No matching tools found", "Try words like resume, application, logo or texts."],
+  fr: ["Aucun outil trouvé", "Essayez des mots comme CV, candidature, logo ou textes."],
+  ar: ["لم يتم العثور على أدوات مناسبة", "جرب كلمات مثل السيرة الذاتية أو التقديم أو الشعار أو النصوص."],
+  es: ["No se encontraron herramientas", "Prueba palabras como CV, solicitud, logo o textos."],
+  zh: ["没有找到合适的工具", "请尝试简历、求职、Logo或文本等关键词。"]
+};
+
+const toolButtonText = {
+  de: "Zum Tool",
+  en: "Open Tool",
+  fr: "Ouvrir l’outil",
+  ar: "افتح الأداة",
+  es: "Abrir herramienta",
+  zh: "打开工具"
+};
 const tools = {
   lebenslauf: [
     {
@@ -145,8 +163,8 @@ if (
     if (matchedTools.length === 0) {
   results.innerHTML = `
  <div class="card">
-      <h2>Keine passenden Tools gefunden</h2>
-      <p>Versuche Wörter wie Lebenslauf, Bewerbung, Logo oder Texte.</p>
+      <h2>${noResultsText[currentLang][0]}</h2>
+      <p>${noResultsText[currentLang][1]}</p>
     </div>
   `;
   return;
@@ -159,7 +177,7 @@ matchedTools.forEach(tool => {
         <h2>${tool.name}</h2>
       </div>
       <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
-      <a href="${tool.link}" target="_blank">Zum Tool</a>
+      <a href="${tool.link}" target="_blank">${toolButtonText[currentLang]}</a>
     </div>
   `;
 });
