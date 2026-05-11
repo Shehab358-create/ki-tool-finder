@@ -256,22 +256,17 @@ html {
   color: #38bdf8 !important;
 }
 .tool-card {
-  background: #111827;
-  padding: 30px;
-  border-radius: 20px;
-  margin-top: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+    background: white;
+    border: 2px solid #d1d5db;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .tool-card h2 {
-  margin-bottom: 15px;
+    color: black;
 }
 
 .tool-card p {
-  color: #d1d5db;
-  line-height: 1.7;
+    color: #374151;
 }
 
 .tool-button {
