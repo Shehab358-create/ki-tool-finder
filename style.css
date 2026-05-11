@@ -221,6 +221,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
+    overflow: hidden;
 }
 
 .navbar .logo {
@@ -288,15 +289,8 @@ html {
 
 
 .logo img {
-    height: 180px;
+    height: 70px;
     width: auto;
+    object-fit: contain;
     display: block;
-}
-
-.navbar {
-    height: 90px;
-    padding: 0 40px;
-}
-.nav-links a {
-  color: black;
 }
