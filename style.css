@@ -299,3 +299,16 @@ html {
      margin-top: 10px;
        margin-left: -40px;
 }
+.tool-card {
+    background: white !important;
+    border: 2px solid #d1d5db !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+}
+
+.tool-card h2 {
+    color: black !important;
+}
+
+.tool-card p {
+    color: #374151 !important;
+}
