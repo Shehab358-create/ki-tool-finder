@@ -23,15 +23,15 @@
         <option value="ar">AR</option>
     </select>
 </div>
-    <li><a href="index.html">Start</a></li>
-    <li><a href="lebenslauf.html">Lebenslauf</a></li>
-    <li><a href="bewerbung.html">Bewerbung</a></li>
-    <li><a href="logo.html">Logo</a></li>
-    <li><a href="content.html">Content</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="impressum.html">Impressum</a></li>
-<li><a href="datenschutz.html">Datenschutz</a></li>
-<li><a href="kontakt.html">Kontakt</a></li>
+  <a id="nav-start" href="index.html">Start</a>
+<a id="nav-cv" href="lebenslauf.html">Lebenslauf</a>
+<a id="nav-application" href="bewerbung.html">Bewerbung</a>
+<a id="nav-logo" href="logo.html">Logo</a>
+<a id="nav-content" href="content.html">Content</a>
+<a id="nav-blog" href="blog.html">Blog</a>
+<a id="nav-impressum" href="impressum.html">Impressum</a>
+<a id="nav-privacy" href="datenschutz.html">Datenschutz</a>
+<a id="nav-contact" href="kontakt.html">Kontakt</a>
   </ul>
 </nav>
   <main class="container">
@@ -43,7 +43,7 @@
 </p>
 
     <div class="search-box">
-      <input id="searchInput" type="text" placeholder="z.B. Lebenslauf schreiben..." />
+      <input id="searchInput" type="text" placeholder="z.B. Lebenslauf schreiben...">
       <button id="search-btn" onclick="searchTools()">Suchen</button>
     </div>
 <div class="category-buttons">
@@ -65,47 +65,6 @@ input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         button.click();
     }
-});
-</script>
-<script>
-const translations = {
-    de: {
-        title: "Finde das beste KI-Tool für dein Problem",
-        subtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
-        button: "Suchen"
-    },
-
-    en: {
-        title: "Find the best AI tool for your problem",
-        subtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
-        button: "Search"
-    },
-
-    fr: {
-        title: "Trouvez le meilleur outil IA pour votre problème",
-        subtitle: "Entrez ce dont vous avez besoin – CV, candidature, logo ou textes.",
-        button: "Rechercher"
-    },
-
-    ar: {
-        title: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
-        subtitle: "أدخل ما تحتاج المساعدة فيه مثل السيرة الذاتية أو الشعارات أو النصوص.",
-        button: "بحث"
-    }
-};
-
-document.getElementById("languageSelect").addEventListener("change", function() {
-
-    const lang = this.value;
-
-    document.getElementById("main-title").textContent =
-        translations[lang].title;
-
-    document.getElementById("subtitle").textContent =
-        translations[lang].subtitle;
-
-    document.getElementById("search-btn").textContent =
-        translations[lang].button;
 });
 </script>
 </body>
