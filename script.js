@@ -1,8 +1,16 @@
+let currentLang = "de";
 const tools = {
   lebenslauf: [
     {
       name: "Resume.io",
-      description: "Hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben zu erstellen.",
+      description: {
+    de: "Hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben zu erstellen.",
+    en: "Helps you create professional resumes and cover letters.",
+    fr: "Vous aide à créer des CV et lettres de motivation.",
+    ar: "يساعدك على إنشاء سير ذاتية ورسائل تقديم احترافية.",
+    es: "Te ayuda a crear currículums y cartas de presentación.",
+    zh: "帮助你创建专业简历和求职信。"
+},
       link: "https://resume.io",
       image: "https://www.google.com/s2/favicons?domain=resume.io&sz=64"
     },
@@ -150,7 +158,7 @@ matchedTools.forEach(tool => {
         <img src="${tool.image}" alt="${tool.name} Logo">
         <h2>${tool.name}</h2>
       </div>
-      <p>${tool.description}</p>
+      <p>${tool.description[currentLang]}</p>
       <a href="${tool.link}" target="_blank">Zum Tool</a>
     </div>
   `;

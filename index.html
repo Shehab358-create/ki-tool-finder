@@ -48,10 +48,10 @@
       <button id="search-btn" onclick="searchTools()">Suchen</button>
     </div>
 <div class="category-buttons">
-  <button onclick="quickSearch('Lebenslauf')">Lebenslauf</button>
-  <button onclick="quickSearch('Bewerbung')">Bewerbung</button>
-  <button onclick="quickSearch('Logo')">Logo</button>
-  <button onclick="quickSearch('Texte')">Texte</button>
+<button id="cat-cv" onclick="quickSearch('Lebenslauf')">Lebenslauf</button>
+<button id="cat-application" onclick="quickSearch('Bewerbung')">Bewerbung</button>
+<button id="cat-logo" onclick="quickSearch('Logo')">Logo</button>
+<button id="cat-text" onclick="quickSearch('Texte')">Texte</button>
 </div>
     <div id="results" class="results"></div>
 
@@ -75,6 +75,10 @@ const translations = {
     subtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
     button: "Suchen",
     placeholder: "z.B. Lebenslauf schreiben...",
+    catCv: "Lebenslauf",
+    catApplication: "Bewerbung",
+    catLogo: "Logo",
+    catText: "Texte",
     navStart: "Start",
     navCv: "Lebenslauf",
     navApplication: "Bewerbung",
@@ -91,6 +95,10 @@ const translations = {
     subtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
     button: "Search",
     placeholder: "e.g. write a resume...",
+    catCv: "Resume",
+    catApplication: "Application",
+    catLogo: "Logo",
+    catText: "Texts",
     navStart: "Home",
     navCv: "Resume",
     navApplication: "Application",
@@ -107,8 +115,10 @@ const translations = {
     subtitle: "Entrez ce dont vous avez besoin – CV, candidature, logo ou textes.",
     button: "Rechercher",
     placeholder: "ex. écrire un CV...",
-    navStart: "Accueil",
-    navCv: "CV",
+    catCv: "CV",
+    catApplication: "Candidature",
+    catLogo: "Logo",
+    catText: "Textes",
     navApplication: "Candidature",
     navLogo: "Logo",
     navContent: "Contenu",
@@ -123,6 +133,10 @@ const translations = {
     subtitle: "أدخل ما تحتاج المساعدة فيه مثل السيرة الذاتية أو التقديم أو الشعار أو النصوص.",
     button: "بحث",
     placeholder: "مثلاً: كتابة سيرة ذاتية...",
+    catCv: "السيرة الذاتية",
+    catApplication: "التقديم",
+    catLogo: "الشعار",
+    catText: "النصوص",
     navStart: "الرئيسية",
     navCv: "السيرة الذاتية",
     navApplication: "التقديم",
@@ -139,6 +153,10 @@ const translations = {
     subtitle: "Escribe en que necesitas ayuda – por ejemplo CV, solicitud, logo o textos.",
     button: "Buscar",
     placeholder: "ej. escribir un CV...",
+    catCv: "CV",
+    catApplication: "Solicitud",
+    catLogo: "Logo",
+    catText: "Textos",
     navStart: "Inicio",
     navCv: "CV",
     navApplication: "Solicitud",
@@ -155,6 +173,10 @@ const translations = {
     subtitle: "输入你需要帮助的内容，例如简历、求职、Logo或文本。",
     button: "搜索",
     placeholder: "例如：写简历...",
+    catCv: "简历",
+    catApplication: "求职",
+    catLogo: "Logo",
+    catText: "文本",
     navStart: "首页",
     navCv: "简历",
     navApplication: "求职",
@@ -169,6 +191,7 @@ const translations = {
 
 document.getElementById("languageSelect").addEventListener("change", function () {
   const lang = this.value;
+  currentLang = lang;
   const t = translations[lang];
 
   document.getElementById("main-title").textContent = t.title;
@@ -185,6 +208,10 @@ document.getElementById("languageSelect").addEventListener("change", function ()
   document.getElementById("nav-impressum").textContent = t.navImpressum;
   document.getElementById("nav-privacy").textContent = t.navPrivacy;
   document.getElementById("nav-contact").textContent = t.navContact;
+  document.getElementById("cat-cv").textContent = translations[lang].catCv;
+ document.getElementById("cat-application").textContent = translations[lang].catApplication;
+ document.getElementById("cat-logo").textContent = translations[lang].catLogo;
+ document.getElementById("cat-text").textContent = translations[lang].catText;
 });
 </script>
 </body>
