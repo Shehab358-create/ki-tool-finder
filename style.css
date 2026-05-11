@@ -343,3 +343,17 @@ h1 {
     transform: scale(1.05);
     background: #16a34a;
 }
+.language-switcher select {
+    background: #334155;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.language-switcher select:hover {
+    background: #475569;
+}
