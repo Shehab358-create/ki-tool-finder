@@ -186,17 +186,16 @@ html {
   background: #475569;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: #07152d;
 }
 
 .logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links {
@@ -286,9 +285,7 @@ html {
   opacity: 0.8;
 }
 
-.nav-links a {
-  color: black;
-}
+
 .logo img {
     width: 320px;
     height: auto;
@@ -297,4 +294,7 @@ html {
 .navbar {
     height: 90px;
     padding: 0 40px;
+}
+.nav-links a {
+  color: black;
 }
