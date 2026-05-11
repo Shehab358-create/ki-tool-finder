@@ -97,9 +97,26 @@ if (
   input.includes("bewerbung") ||
   input.includes("anschreiben") ||
   input.includes("job") ||
-  input.includes("interview")
+  input.includes("interview") ||
+  input.includes("application") ||
+  input.includes("cover letter") ||
+  input.includes("cv") ||
+  input.includes("candidature") ||
+  input.includes("سيرة") ||
+  input.includes("وظيفة") ||
+
+   // Spanisch
+  input.includes("currículum") ||
+  input.includes("empleo") ||
+  input.includes("trabajo") ||
+
+  // Chinesisch
+  input.includes("简历") ||
+  input.includes("工作") ||
+  input.includes("求职")
 ) {
   matchedTools = tools.bewerbung;
+
 
 } else if (
   input.includes("logo") ||
