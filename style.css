@@ -290,7 +290,7 @@ html {
 
 
 .logo img {
-    height: 200px;   /* hier Größe ändern */
+    height: 170px;   /* hier Größe ändern */
     width: auto;
     object-fit: contain;
     display: block;
