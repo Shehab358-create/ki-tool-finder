@@ -287,8 +287,10 @@ html {
 
 
 .logo img {
-    width: 320px;
+    width: 170px;
     height: auto;
+    display: block;
+    margin-top: 10px;
 }
 
 .navbar {
