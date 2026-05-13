@@ -466,8 +466,8 @@ h1 {
     }
 }
 .workflow-section {
-    margin-top: 120px;
-    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
 
 .workflow-section h2 {
@@ -477,22 +477,17 @@ h1 {
 }
 
 .workflow-grid {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 60px;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 40px !important;
+    flex-wrap: wrap !important;
+    max-width: 1200px;
+    margin: 60px auto 0 auto;
 }
 
 .workflow-card {
-    background: white;
-    border-radius: 30px;
-    padding: 40px;
-    border: 2px solid #e5e7eb;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    transition: 0.3s;
-
-    width: 500px;
+    width: 480px !important;
+    max-width: 480px !important;
 }
 
 .workflow-card:hover {
