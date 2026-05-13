@@ -357,3 +357,49 @@ h1 {
 .language-switcher select:hover {
     background: #475569;
 }
+.why-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.why-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #111827;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.why-card h3 {
+    color: #111827;
+    font-size: 22px;
+}
+
+.why-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
