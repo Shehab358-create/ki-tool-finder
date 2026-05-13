@@ -34,13 +34,27 @@ const tools = {
     },
     {
       name: "Kickresume",
-      description: "Erstellt Lebensläufe mit KI und bietet moderne Vorlagen.",
+      description: {
+    de: "Erstellt Lebensläufe mit KI und bietet moderne Vorlagen.",
+    en: "Creates AI-powered resumes and offers modern templates.",
+    fr: "Crée des CV avec l’IA et propose des modèles modernes.",
+    ar: "ينشئ سيرًا ذاتية بالذكاء الاصطناعي ويوفر قوالب حديثة.",
+    es: "Crea currículums con IA y ofrece plantillas modernas.",
+    zh: "使用AI创建简历并提供现代模板。"
+},
       link: "https://www.kickresume.com",
       image: "https://www.google.com/s2/favicons?domain=kickresume.com&sz=64"
     },
     {
       name: "Canva",
-      description: "Sehr gut für schöne Lebenslauf-Designs und Vorlagen.",
+      description: {
+        de: "Sehr gut für schöne Lebenslauf-Designs und Vorlagen.",
+        en: "Great for beautiful resume designs and templates.",
+        fr: "Idéal pour créer de beaux designs de CV.",
+        ar: "ممتاز لتصميم سير ذاتية جميلة.",
+        es: "Ideal para diseños de CV atractivos.",
+        zh: "非常适合制作精美简历设计。"
+    },
       link: "https://www.canva.com",
       image: "https://www.google.com/s2/favicons?domain=canva.com&sz=64"
     }
@@ -49,19 +63,40 @@ const tools = {
   bewerbung: [
     {
       name: "Grammarly",
-      description: "Hilft beim Verbessern von Bewerbungstexten auf Englisch.",
+      description: {
+    de: "Hilft beim Verbessern von Bewerbungstexten auf Englisch.",
+    en: "Helps improve application texts in English.",
+    fr: "Aide à améliorer les textes de candidature en anglais.",
+    ar: "يساعد في تحسين نصوص التقديم باللغة الإنجليزية.",
+    es: "Ayuda a mejorar textos de solicitud en inglés.",
+    zh: "帮助改进英文求职文本。"
+},
       link: "https://www.grammarly.com",
       image: "https://www.google.com/s2/favicons?domain=grammarly.com&sz=64"
     },
     {
       name: "ChatGPT",
-      description: "Kann Bewerbungsschreiben, Lebensläufe und Interviewantworten formulieren.",
+      description: {
+    de: "Kann Bewerbungsschreiben, Lebensläufe und Interviewantworten formulieren.",
+    en: "Can write cover letters, resumes and interview answers.",
+    fr: "Peut rédiger des lettres de motivation, CV et réponses d’entretien.",
+    ar: "يمكنه كتابة رسائل التقديم والسير الذاتية وإجابات المقابلات.",
+    es: "Puede escribir cartas de presentación, CV y respuestas de entrevista.",
+    zh: "可以撰写求职信、简历和面试回答。"
+},
       link: "https://chatgpt.com",
       image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64"
     },
     {
       name: "Rezi",
-      description: "KI-Tool speziell für Lebenslauf und Bewerbungsoptimierung.",
+      description: {
+    de: "KI-Tool speziell für Lebenslauf und Bewerbungsoptimierung.",
+    en: "AI tool specialized in resume and application optimization.",
+    fr: "Outil IA spécialisé dans l’optimisation des CV et candidatures.",
+    ar: "أداة ذكاء اصطناعي لتحسين السيرة الذاتية والتقديم.",
+    es: "Herramienta IA especializada en optimización de CV y solicitudes.",
+    zh: "专门用于优化简历和求职申请的AI工具。"
+},
       link: "https://www.rezi.ai",
       image: "https://www.google.com/s2/favicons?domain=rezi.ai&sz=64"
     }
@@ -70,13 +105,27 @@ const tools = {
   logo: [
     {
       name: "Looka",
-      description: "Erstellt Logos und Branding mit KI.",
+      description: {
+    de: "Erstellt Logos und Branding mit KI.",
+    en: "Creates logos and branding with AI.",
+    fr: "Crée des logos et du branding avec l’IA.",
+    ar: "ينشئ الشعارات والعلامات التجارية بالذكاء الاصطناعي.",
+    es: "Crea logotipos y branding con IA.",
+    zh: "使用AI创建Logo和品牌设计。"
+},
       link: "https://looka.com",
       image: "https://www.google.com/s2/favicons?domain=looka.com&sz=64"
     },
     {
       name: "Canva",
-      description: "Einfaches Tool für Logos, Designs und Social-Media-Grafiken.",
+       description: {
+        de: "Sehr gut für schöne Lebenslauf-Designs und Vorlagen.",
+        en: "Great for beautiful resume designs and templates.",
+        fr: "Idéal pour créer de beaux designs de CV.",
+        ar: "ممتاز لتصميم سير ذاتية جميلة.",
+        es: "Ideal para diseños de CV atractivos.",
+        zh: "非常适合制作精美简历设计。"
+    },
       link: "https://www.canva.com",
       image: "https://www.google.com/s2/favicons?domain=canva.com&sz=64"
     }
@@ -85,19 +134,42 @@ const tools = {
   texte: [
     {
       name: "ChatGPT",
-      description: "Sehr gut für Texte, Ideen, Zusammenfassungen und Content.",
+      description: {
+    de: "Kann Bewerbungsschreiben, Lebensläufe und Interviewantworten formulieren.",
+    en: "Can write cover letters, resumes and interview answers.",
+    fr: "Peut rédiger des lettres de motivation, CV et réponses d’entretien.",
+    ar: "يمكنه كتابة رسائل التقديم والسير الذاتية وإجابات المقابلات.",
+    es: "Puede escribir cartas de presentación, CV y respuestas de entrevista.",
+    zh: "可以撰写求职信、简历和面试回答。"
+},
       link: "https://chatgpt.com",
       image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64"
     },
     {
       name: "Jasper",
-      description: "KI-Schreibtool für Marketingtexte, Blogartikel und Werbung.",
+      description: {
+    de: "KI-Schreibtool für Marketingtexte, Blogartikel und Werbung.",
+    en: "AI writing tool for marketing texts, blog articles and advertising.",
+    fr: "Outil d’écriture IA pour le marketing et les blogs.",
+    ar: "أداة كتابة بالذكاء الاصطناعي للمقالات والتسويق.",
+    es: "Herramienta IA para marketing, blogs y publicidad.",
+    zh: "用于营销、博客和广告的AI写作工具。"
+},
+
       link: "https://www.jasper.ai",
       image: "https://www.google.com/s2/favicons?domain=jasper.ai&sz=64"
     },
     {
       name: "Copy.ai",
-      description: "Hilft beim Erstellen von Werbetexten, E-Mails und Social-Media-Posts.",
+      description: {
+    de: "Hilft beim Erstellen von Werbetexten, E-Mails und Social-Media-Posts.",
+    en: "Helps create ads, emails and social media posts.",
+    fr: "Aide à créer des publicités, e-mails et publications sociales.",
+    ar: "يساعد في إنشاء الإعلانات ورسائل البريد ومنشورات التواصل.",
+    es: "Ayuda a crear anuncios, correos y publicaciones sociales.",
+    zh: "帮助创建广告、邮件和社交媒体内容。"
+    },
+
       link: "https://www.copy.ai",
       image: "https://www.google.com/s2/favicons?domain=copy.ai&sz=64"
     }
