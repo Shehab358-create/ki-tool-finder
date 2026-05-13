@@ -403,3 +403,60 @@ h1 {
         grid-template-columns: 1fr;
     }
 }
+.trending-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.trending-section h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #111827;
+}
+
+.trending-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.trending-card {
+    background: linear-gradient(145deg, #33415c, #1e293b);
+    color: white;
+    border-radius: 24px;
+    padding: 30px;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.trending-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.trending-card img {
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+.trending-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.trending-card p {
+    line-height: 1.6;
+    color: #e2e8f0;
+}
+
+@media (max-width: 1000px) {
+    .trending-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .trending-grid {
+        grid-template-columns: 1fr;
+    }
+}
