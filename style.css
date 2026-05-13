@@ -477,11 +477,11 @@ h1 {
 }
 
 .workflow-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 40px;
-    max-width: 1200px;
-    margin: 60px auto;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
 
 .workflow-card {
@@ -491,6 +491,8 @@ h1 {
     border: 2px solid #e5e7eb;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     transition: 0.3s;
+
+    width: 500px;
 }
 
 .workflow-card:hover {
