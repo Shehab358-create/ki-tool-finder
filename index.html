@@ -54,6 +54,32 @@
 <button id="cat-text" onclick="quickSearch('Texte')">Texte</button>
 </div>
     <div id="results" class="results"></div>
+    <section class="ai-generator">
+
+    <h2>🤖 AI Workflow Generator</h2>
+
+    <p>
+        Beschreibe dein Ziel und erhalte automatisch
+        den besten KI-Workflow.
+    </p>
+
+    <div class="generator-box">
+
+        <input 
+            type="text"
+            id="goalInput"
+            placeholder="z.B. Ich möchte einen YouTube Kanal starten"
+        >
+
+        <button onclick="generateWorkflow()">
+            Workflow erstellen
+        </button>
+
+    </div>
+
+    <div id="workflowResult"></div>
+
+</section>
     <div id="workflow-results"></div>
     <section class="why-section">
   <h2>Warum MyAIFinder?</h2>

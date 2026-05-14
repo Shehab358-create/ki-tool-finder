@@ -522,3 +522,117 @@ function showWorkflow(keyword) {
         workflowBox.innerHTML = html;
     }
 }
+
+function generateWorkflow(){
+
+    const input = document
+        .getElementById("goalInput")
+        .value
+        .toLowerCase();
+
+    const result = document.getElementById("workflowResult");
+
+    let workflowHTML = "";
+
+    // YOUTUBE
+    if(input.includes("youtube") || input.includes("video")){
+
+        workflowHTML = `
+        
+        <div class="workflow-card">
+
+            <h3>🎬 YouTube Creator Workflow</h3>
+
+            <div class="workflow-step">
+                1. ChatGPT → Skript schreiben
+            </div>
+
+            <div class="workflow-step">
+                2. ElevenLabs → KI Stimme erstellen
+            </div>
+
+            <div class="workflow-step">
+                3. Canva → Thumbnail erstellen
+            </div>
+
+            <div class="workflow-step">
+                4. CapCut → Video schneiden
+            </div>
+
+        </div>
+
+        `;
+    }
+
+    // INSTAGRAM
+    else if(input.includes("instagram") || input.includes("social media")){
+
+        workflowHTML = `
+        
+        <div class="workflow-card">
+
+            <h3>📸 Instagram Content Workflow</h3>
+
+            <div class="workflow-step">
+                1. ChatGPT → Caption schreiben
+            </div>
+
+            <div class="workflow-step">
+                2. Canva → Design erstellen
+            </div>
+
+            <div class="workflow-step">
+                3. Remove.bg → Hintergrund entfernen
+            </div>
+
+        </div>
+
+        `;
+    }
+
+    // BEWERBUNG
+    else if(input.includes("bewerbung") || input.includes("lebenslauf")){
+
+        workflowHTML = `
+        
+        <div class="workflow-card">
+
+            <h3>📄 Bewerbungs Workflow</h3>
+
+            <div class="workflow-step">
+                1. Resume.io → Lebenslauf erstellen
+            </div>
+
+            <div class="workflow-step">
+                2. ChatGPT → Bewerbung schreiben
+            </div>
+
+            <div class="workflow-step">
+                3. Grammarly → Fehler korrigieren
+            </div>
+
+        </div>
+
+        `;
+    }
+
+    else{
+
+        workflowHTML = `
+        
+        <div class="workflow-card">
+
+            <h3>🤖 Keine passende Workflow gefunden</h3>
+
+            <p>
+                Versuche Begriffe wie YouTube,
+                Instagram oder Bewerbung.
+            </p>
+
+        </div>
+
+        `;
+    }
+
+    result.innerHTML = workflowHTML;
+}
