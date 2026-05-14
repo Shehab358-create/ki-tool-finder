@@ -227,19 +227,21 @@ function searchTools() {
     let workflowKey = "";
 
     if (
-        input.includes("youtube") ||
-        input.includes("video")
-    ) {
-        workflowKey = "youtube";
-    }
+    input.includes("youtube") ||
+    input.includes("video")
+) {
+    workflowKey = "youtube";
+    matchedTools = tools.texte;
+}
 
-    else if (
-        input.includes("instagram") ||
-        input.includes("insta") ||
-        input.includes("social media")
-    ) {
-        workflowKey = "instagram";
-    }
+   else if (
+    input.includes("instagram") ||
+    input.includes("insta") ||
+    input.includes("social media")
+) {
+    workflowKey = "instagram";
+    matchedTools = tools.texte;
+}
 
     else if (
         input.includes("lebenslauf") ||
