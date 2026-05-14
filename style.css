@@ -912,3 +912,31 @@ body.dark-mode .trend-card h3,
 body.dark-mode .trend-card p {
   color: #ffffff !important;
 }
+
+/* DARK MODE CARDS */
+
+body.dark-mode .why-card,
+body.dark-mode .trending-card,
+body.dark-mode .workflow-card {
+  background: #0f172a !important;
+  border: 1px solid #1e293b !important;
+}
+
+/* TEXT */
+
+body.dark-mode .why-card h3,
+body.dark-mode .why-card p,
+body.dark-mode .trending-card h3,
+body.dark-mode .trending-card p,
+body.dark-mode .workflow-card h3,
+body.dark-mode .workflow-card p,
+body.dark-mode .workflow-card li {
+  color: white !important;
+}
+
+/* ICONS */
+
+body.dark-mode .why-card .icon,
+body.dark-mode .trending-card img {
+  filter: brightness(1.1);
+}
