@@ -972,26 +972,32 @@ body.dark-mode .trending-card img {
 }
 
 @media (max-width: 900px) {
-  .menu-toggle {
-    display: block;
-  }
+ .menu-toggle {
+  display: block;
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+  margin-right: 20px;
+}
 
-  .nav-links {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: #000;
-    display: none !important;
-    flex-direction: column !important;
-    align-items: center;
-    gap: 20px;
-    padding: 25px 0;
-  }
+.nav-links {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 260px;
+  background: #000;
+  display: none !important;
+  flex-direction: column !important;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 25px;
+  border-radius: 0 0 20px 0;
+}
 
-  .nav-links.active {
-    display: flex !important;
-  }
+.nav-links.active {
+  display: flex !important;
+}
 
   .nav-links a {
     font-size: 20px;
