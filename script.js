@@ -533,7 +533,7 @@ function generateWorkflow(){
     const result = document.getElementById("workflowResult");
     result.innerHTML = `
   <div class="ai-thinking">
-    🧠 KI analysiert dein Ziel...
+    🧠 KI erstellt deinen optimalen Workflow...
   </div>
 `;
 
@@ -642,5 +642,5 @@ setTimeout(() => {
     }
 
     result.innerHTML = workflowHTML;
-}, 3000);
+}, 6000);
 }
