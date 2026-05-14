@@ -1029,3 +1029,20 @@ body.dark-mode .trending-card img {
 .nav-links.active {
   display: flex;
 }
+
+.navbar .nav-links {
+  display: none !important;
+  position: absolute !important;
+  top: 75px !important;
+  left: 20px !important;
+  background: #000 !important;
+  padding: 25px !important;
+  border-radius: 20px !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+  z-index: 9999 !important;
+}
+
+.navbar .nav-links.active {
+  display: flex !important;
+}
