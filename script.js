@@ -659,3 +659,47 @@ function toggleTheme(){
         button.innerHTML = "🌙";
     }
 }
+
+const examples = [
+  "Ich brauche ein Bewerbungsschreiben",
+  "Ich möchte ein YouTube Video erstellen",
+  "Erstelle mir ein Logo",
+  "Welche KI hilft bei Instagram Posts?"
+];
+
+let exampleIndex = 0;
+let charIndex = 0;
+
+const searchInput = document.getElementById("searchInput");
+
+function typeEffect() {
+
+  if (document.activeElement === searchInput) return;
+
+  let currentText = examples[exampleIndex];
+
+  searchInput.setAttribute(
+    "placeholder",
+    currentText.substring(0, charIndex)
+  );
+
+  charIndex++;
+
+  if (charIndex > currentText.length) {
+
+    setTimeout(() => {
+
+      charIndex = 0;
+      exampleIndex++;
+
+      if (exampleIndex >= examples.length) {
+        exampleIndex = 0;
+      }
+
+    }, 2000);
+
+  }
+
+}
+
+setInterval(typeEffect, 120);
