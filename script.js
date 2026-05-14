@@ -531,6 +531,13 @@ function generateWorkflow(){
         .toLowerCase();
 
     const result = document.getElementById("workflowResult");
+    result.innerHTML = `
+  <div class="ai-thinking">
+    🧠 KI analysiert dein Ziel...
+  </div>
+`;
+
+setTimeout(() => {
 
     let workflowHTML = "";
 
@@ -635,4 +642,5 @@ function generateWorkflow(){
     }
 
     result.innerHTML = workflowHTML;
+}, 1200);
 }
