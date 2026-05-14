@@ -713,8 +713,13 @@ function revealOnScroll() {
 
     if (elementTop < windowHeight - 100) {
       element.classList.add("active");
-    } else {
+    }
+
+    if (elementTop > windowHeight) {
       element.classList.remove("active");
     }
   });
 }
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
