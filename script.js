@@ -62,6 +62,9 @@ const tools = {
   lebenslauf: [
     {
       name: "Resume.io",
+  score: "8.9",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben zu erstellen.",
     en: "Helps you create professional resumes and cover letters.",
@@ -74,7 +77,10 @@ const tools = {
       image: "https://www.google.com/s2/favicons?domain=resume.io&sz=64"
     },
     {
-      name: "Kickresume",
+       name: "Kickresume",
+  score: "8.9",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Erstellt Lebensläufe mit KI und bietet moderne Vorlagen.",
     en: "Creates AI-powered resumes and offers modern templates.",
@@ -87,7 +93,10 @@ const tools = {
       image: "https://www.google.com/s2/favicons?domain=kickresume.com&sz=64"
     },
     {
-      name: "Canva",
+     name: "Canva",
+  score: "9.3",
+  pricing: "Free",
+  beginner: true,
       description: {
         de: "Sehr gut für schöne Lebenslauf-Designs und Vorlagen.",
         en: "Great for beautiful resume designs and templates.",
@@ -104,6 +113,9 @@ const tools = {
   bewerbung: [
     {
       name: "Grammarly",
+  score: "9.0",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Hilft beim Verbessern von Bewerbungstexten auf Englisch.",
     en: "Helps improve application texts in English.",
@@ -133,6 +145,9 @@ const tools = {
     },
     {
       name: "Rezi",
+  score: "8.8",
+  pricing: "Freemium",
+  beginner: false,
       description: {
     de: "KI-Tool speziell für Lebenslauf und Bewerbungsoptimierung.",
     en: "AI tool specialized in resume and application optimization.",
@@ -149,6 +164,9 @@ const tools = {
   logo: [
     {
       name: "Looka",
+  score: "8.6",
+  pricing: "Paid",
+  beginner: true,
       description: {
     de: "Erstellt Logos und Branding mit KI.",
     en: "Creates logos and branding with AI.",
@@ -161,7 +179,10 @@ const tools = {
       image: "https://www.google.com/s2/favicons?domain=looka.com&sz=64"
     },
    {
-  name: "Canva",
+ name: "Canva",
+  score: "9.3",
+  pricing: "Free",
+  beginner: true,
   score: "9.3",
   pricing: "Free",
   beginner: true,
@@ -180,7 +201,10 @@ const tools = {
 
   texte: [
     {
-      name: "ChatGPT",
+       name: "ChatGPT",
+  score: "9.8",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Kann Bewerbungsschreiben, Lebensläufe und Interviewantworten formulieren.",
     en: "Can write cover letters, resumes and interview answers.",
@@ -194,6 +218,9 @@ const tools = {
     },
     {
       name: "Jasper",
+  score: "8.7",
+  pricing: "Paid",
+  beginner: false,
       description: {
     de: "KI-Schreibtool für Marketingtexte, Blogartikel und Werbung.",
     en: "AI writing tool for marketing texts, blog articles and advertising.",
@@ -207,7 +234,10 @@ const tools = {
       image: "https://www.google.com/s2/favicons?domain=jasper.ai&sz=64"
     },
     {
-      name: "Copy.ai",
+       name: "Copy.ai",
+  score: "8.5",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Hilft beim Erstellen von Werbetexten, E-Mails und Social-Media-Posts.",
     en: "Helps create ads, emails and social media posts.",
@@ -224,7 +254,10 @@ const tools = {
 
 youtube: [
   {
-    name: "ChatGPT",
+     name: "ChatGPT",
+  score: "9.8",
+  pricing: "Freemium",
+  beginner: true,
     description: {
       de: "Hilft beim Schreiben von YouTube-Skripten und Videoideen.",
       en: "Helps write YouTube scripts and video ideas."
@@ -234,6 +267,9 @@ youtube: [
   },
   {
     name: "ElevenLabs",
+  score: "9.1",
+  pricing: "Freemium",
+  beginner: true,
     description: {
       de: "Erstellt realistische KI-Stimmen für Videos.",
       en: "Creates realistic AI voices for videos."
@@ -242,7 +278,10 @@ youtube: [
     image: "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64"
   },
   {
-    name: "Canva",
+   name: "Canva",
+  score: "9.3",
+  pricing: "Free",
+  beginner: true,
     description: {
       de: "Erstellt Thumbnails und Grafiken für YouTube.",
       en: "Creates thumbnails and graphics for YouTube."
@@ -252,6 +291,9 @@ youtube: [
   },
   {
     name: "CapCut",
+  score: "9.0",
+  pricing: "Free",
+  beginner: true,
     description: {
       de: "Schneidet und bearbeitet Videos einfach und schnell.",
       en: "Edits videos quickly and easily."
@@ -264,6 +306,9 @@ youtube: [
 instagram: [
   {
     name: "ChatGPT",
+  score: "9.8",
+  pricing: "Freemium",
+  beginner: true,
     description: {
       de: "Schreibt Captions, Hashtags und Content-Ideen für Instagram.",
       en: "Writes captions, hashtags and content ideas for Instagram."
@@ -273,6 +318,9 @@ instagram: [
   },
   {
     name: "Canva",
+  score: "9.3",
+  pricing: "Free",
+  beginner: true,
     description: {
       de: "Erstellt Instagram Posts, Stories und Designs.",
       en: "Creates Instagram posts, stories and designs."
@@ -282,6 +330,9 @@ instagram: [
   },
   {
     name: "Remove.bg",
+  score: "8.7",
+  pricing: "Freemium",
+  beginner: true,
     description: {
       de: "Entfernt Hintergründe automatisch aus Bildern.",
       en: "Automatically removes backgrounds from images."
