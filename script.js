@@ -224,6 +224,7 @@ function searchTools() {
   results.innerHTML = "";
 
   let matchedTools = [];
+  let workflowKey = "";
 
 if (
   input.includes("lebenslauf") ||
@@ -231,6 +232,8 @@ if (
   input.includes("resume")
 ) {
   matchedTools = tools.lebenslauf;
+   workflowKey = "bewerbung";
+   
 
 } else if (
   input.includes("bewerbung") ||
@@ -255,7 +258,7 @@ if (
   input.includes("求职")
 ) {
   matchedTools = tools.bewerbung;
-
+workflowKey = "bewerbung";
 
 } else if (
   input.includes("logo") ||
@@ -263,6 +266,7 @@ if (
   input.includes("branding")
 ) {
   matchedTools = tools.logo;
+workflowKey = "logo";
 
 } else if (
   input.includes("text") ||
@@ -272,7 +276,13 @@ if (
   input.includes("artikel")
 ) {
   matchedTools = tools.texte;
+workflowKey = "instagram";
 }
+
+if (input.includes("youtube") || input.includes("video")) {
+  workflowKey = "youtube";
+}
+
     if (matchedTools.length === 0) {
   results.innerHTML = `
  <div class="card">
@@ -294,7 +304,7 @@ matchedTools.forEach(tool => {
     </div>
   `;
 });
-showWorkflow(input);
+showWorkflow(workflowKey);
 }
 function quickSearch(keyword) {
   document.getElementById("searchInput").value = keyword;
