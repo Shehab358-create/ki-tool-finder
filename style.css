@@ -524,3 +524,39 @@ h1 {
     color: #475569;
     font-size: 17px;
 }
+.workflow-card {
+    background: white !important;
+    border-radius: 28px !important;
+    padding: 45px !important;
+    border: 2px solid #e5e7eb !important;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08) !important;
+    transition: all 0.3s ease !important;
+}
+
+.workflow-card:hover {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 22px 50px rgba(0,0,0,0.16) !important;
+}
+
+.workflow-card h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.workflow-step {
+    background: #f8fafc;
+    padding: 14px 18px;
+    border-radius: 16px;
+    margin-bottom: 18px;
+}
+
+.workflow-step span {
+    min-width: 42px;
+    height: 42px;
+}
+
+.workflow-step p {
+    margin: 0;
+    font-size: 16px;
+}
