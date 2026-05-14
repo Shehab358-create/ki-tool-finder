@@ -218,105 +218,111 @@ const tools = {
 };
 
 function searchTools() {
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const results = document.getElementById("results");
+    const input = document.getElementById("searchInput").value.toLowerCase();
+    const results = document.getElementById("results");
 
-  results.innerHTML = "";
+    results.innerHTML = "";
 
-  let matchedTools = [];
-  let workflowKey = "";
+    let matchedTools = [];
+    let workflowKey = "";
 
-if (
-  input.includes("lebenslauf") ||
-  input.includes("cv") ||
-  input.includes("resume")
-) {
-  matchedTools = tools.lebenslauf;
-   workflowKey = "bewerbung";
-   
+    if (
+        input.includes("youtube") ||
+        input.includes("video")
+    ) {
+        workflowKey = "youtube";
+    }
 
-} else if (
-  input.includes("bewerbung") ||
-  input.includes("anschreiben") ||
-  input.includes("job") ||
-  input.includes("interview") ||
-  input.includes("application") ||
-  input.includes("cover letter") ||
-  input.includes("cv") ||
-  input.includes("candidature") ||
-  input.includes("سيرة") ||
-  input.includes("وظيفة") ||
+    else if (
+        input.includes("instagram") ||
+        input.includes("insta") ||
+        input.includes("social media")
+    ) {
+        workflowKey = "instagram";
+    }
 
-   // Spanisch
-  input.includes("currículum") ||
-  input.includes("empleo") ||
-  input.includes("trabajo") ||
+    else if (
+        input.includes("lebenslauf") ||
+        input.includes("cv") ||
+        input.includes("resume") ||
+        input.includes("curriculum") ||
+        input.includes("简历") ||
+        input.includes("السيرة")
+    ) {
+        matchedTools = tools.lebenslauf;
+        workflowKey = "lebenslauf";
+    }
 
-  // Chinesisch
-  input.includes("简历") ||
-  input.includes("工作") ||
-  input.includes("求职")
-) {
-  matchedTools = tools.bewerbung;
-workflowKey = "bewerbung";
+    else if (
+        input.includes("bewerbung") ||
+        input.includes("anschreiben") ||
+        input.includes("job") ||
+        input.includes("interview") ||
+        input.includes("application") ||
+        input.includes("cover letter") ||
+        input.includes("solicitud") ||
+        input.includes("trabajo") ||
+        input.includes("empleo") ||
+        input.includes("candidature") ||
+        input.includes("التقديم") ||
+        input.includes("وظيفة") ||
+        input.includes("求职") ||
+        input.includes("工作")
+    ) {
+        matchedTools = tools.bewerbung;
+        workflowKey = "bewerbung";
+    }
 
-} else if (
-  input.includes("logo") ||
-  input.includes("design") ||
-  input.includes("branding")
-) {
-  matchedTools = tools.logo;
-workflowKey = "logo";
+    else if (
+        input.includes("logo") ||
+        input.includes("design") ||
+        input.includes("branding") ||
+        input.includes("شعار") ||
+        input.includes("标志")
+    ) {
+        matchedTools = tools.logo;
+        workflowKey = "logo";
+    }
 
-} else if (
-  input.includes("text") ||
-  input.includes("schreiben") ||
-  input.includes("content") ||
-  input.includes("blog") ||
-  input.includes("artikel")
-) {
-  matchedTools = tools.texte;
-workflowKey = "instagram";
-}
-
-if (
-    input.includes("youtube") ||
-    input.includes("video")
-) {
-    workflowKey = "youtube";
-}
-
-if (
-    input.includes("instagram") ||
-    input.includes("insta") ||
-    input.includes("social media")
-) {
-    workflowKey = "instagram";
-}
+    else if (
+        input.includes("text") ||
+        input.includes("texte") ||
+        input.includes("schreiben") ||
+        input.includes("content") ||
+        input.includes("blog") ||
+        input.includes("artikel")
+    ) {
+        matchedTools = tools.texte;
+        workflowKey = "instagram";
+    }
 
     if (matchedTools.length === 0 && workflowKey === "") {
-  results.innerHTML = `
- <div class="card">
-      <h2>${noResultsText[currentLang][0]}</h2>
-      <p>${noResultsText[currentLang][1]}</p>
-    </div>
-  `;
-  return;
+        results.innerHTML = `
+            <div class="card">
+                <h2>${noResultsText[currentLang][0]}</h2>
+                <p>${noResultsText[currentLang][1]}</p>
+            </div>
+        `;
+        return;
+    }
+
+    matchedTools.forEach(tool => {
+        results.innerHTML += `
+            <div class="card">
+                <div class="card-header">
+                    <img src="${tool.image}" alt="${tool.name} Logo">
+                    <h2>${tool.name}</h2>
+                </div>
+                <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
+                <a href="${tool.link}" target="_blank">${toolButtonText[currentLang]}</a>
+            </div>
+        `;
+    });
+
+    showWorkflow(workflowKey);
 }
-matchedTools.forEach(tool => {
-  results.innerHTML += `
-    <div class="card">
-      <div class="card-header">
-        <img src="${tool.image}" alt="${tool.name} Logo">
-        <h2>${tool.name}</h2>
-      </div>
-      <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
-      <a href="${tool.link}" target="_blank">${toolButtonText[currentLang]}</a>
-    </div>
-  `;
-});
-showWorkflow(workflowKey);
-}
+
+
 function quickSearch(keyword) {
   document.getElementById("searchInput").value = keyword;
   searchTools();
