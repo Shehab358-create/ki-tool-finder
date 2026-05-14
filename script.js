@@ -62,6 +62,7 @@ const tools = {
   lebenslauf: [
     {
       name: "Resume.io",
+      page: "resumeio.html",
   score: "8.9",
   pricing: "Freemium",
   beginner: true,
@@ -78,6 +79,7 @@ const tools = {
     },
     {
        name: "Kickresume",
+       page: "kickresume.html",
   score: "8.9",
   pricing: "Freemium",
   beginner: true,
@@ -94,6 +96,7 @@ const tools = {
     },
     {
      name: "Canva",
+     page: "canva.html",
   score: "9.3",
   pricing: "Free",
   beginner: true,
@@ -113,6 +116,7 @@ const tools = {
   bewerbung: [
     {
       name: "Grammarly",
+      page: "grammarly.html",
   score: "9.0",
   pricing: "Freemium",
   beginner: true,
@@ -146,6 +150,7 @@ const tools = {
     },
     {
       name: "Rezi",
+      page: "rezi.html",
   score: "8.8",
   pricing: "Freemium",
   beginner: false,
@@ -165,6 +170,7 @@ const tools = {
   logo: [
     {
       name: "Looka",
+      page: "looka.html",
   score: "8.6",
   pricing: "Paid",
   beginner: true,
@@ -181,6 +187,7 @@ const tools = {
     },
    {
  name: "Canva",
+ page: "canva.html",
   score: "9.3",
   pricing: "Free",
   beginner: true,
@@ -220,6 +227,7 @@ const tools = {
     },
     {
       name: "Jasper",
+      page: "jasper.html",
   score: "8.7",
   pricing: "Paid",
   beginner: false,
@@ -237,6 +245,7 @@ const tools = {
     },
     {
        name: "Copy.ai",
+       page: "copyai.html",
   score: "8.5",
   pricing: "Freemium",
   beginner: true,
@@ -270,6 +279,7 @@ youtube: [
   },
   {
     name: "ElevenLabs",
+    page: "elevenlabs.html",
   score: "9.1",
   pricing: "Freemium",
   beginner: true,
@@ -282,6 +292,7 @@ youtube: [
   },
   {
    name: "Canva",
+   page: "canva.html",
   score: "9.3",
   pricing: "Free",
   beginner: true,
@@ -294,6 +305,7 @@ youtube: [
   },
   {
     name: "CapCut",
+    page: "capcut.html",
   score: "9.0",
   pricing: "Free",
   beginner: true,
@@ -322,6 +334,7 @@ instagram: [
   },
   {
     name: "Canva",
+    page: "canva.html",
   score: "9.3",
   pricing: "Free",
   beginner: true,
@@ -334,6 +347,7 @@ instagram: [
   },
   {
     name: "Remove.bg",
+    page: "removebg.html",
   score: "8.7",
   pricing: "Freemium",
   beginner: true,
