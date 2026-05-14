@@ -674,6 +674,7 @@ h1 {
 .tool-link{
   color:#0f172a;
   text-decoration:none;
+  font-weight:800;
   transition:0.3s;
 }
 
