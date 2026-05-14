@@ -707,19 +707,26 @@ setInterval(typeEffect, 120);
 const revealElements = document.querySelectorAll(".reveal");
 
 function revealOnScroll() {
+
   revealElements.forEach((element) => {
+
     const windowHeight = window.innerHeight;
     const elementTop = element.getBoundingClientRect().top;
+    const elementBottom = element.getBoundingClientRect().bottom;
 
-    if (elementTop < windowHeight - 100) {
+    if (
+      elementTop < windowHeight - 100 &&
+      elementBottom > 100
+    ) {
       element.classList.add("active");
-    }
-
-    if (elementTop > windowHeight) {
+    } else {
       element.classList.remove("active");
     }
+
   });
+
 }
 
 window.addEventListener("scroll", revealOnScroll);
+
 revealOnScroll();
