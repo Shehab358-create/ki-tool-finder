@@ -655,3 +655,18 @@ h1 {
     color: #334155;
     font-size: 17px;
 }
+.tool-meta {
+    display: flex;
+    gap: 12px;
+    margin: 15px 0 20px;
+    flex-wrap: wrap;
+}
+
+.tool-meta span {
+    background: #eef2ff;
+    color: #33415c;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}

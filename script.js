@@ -115,8 +115,11 @@ const tools = {
       link: "https://www.grammarly.com",
       image: "https://www.google.com/s2/favicons?domain=grammarly.com&sz=64"
     },
-    {
-      name: "ChatGPT",
+   {
+  name: "ChatGPT",
+  score: "9.8",
+  pricing: "Freemium",
+  beginner: true,
       description: {
     de: "Kann Bewerbungsschreiben, Lebensläufe und Interviewantworten formulieren.",
     en: "Can write cover letters, resumes and interview answers.",
@@ -157,8 +160,11 @@ const tools = {
       link: "https://looka.com",
       image: "https://www.google.com/s2/favicons?domain=looka.com&sz=64"
     },
-    {
-      name: "Canva",
+   {
+  name: "Canva",
+  score: "9.3",
+  pricing: "Free",
+  beginner: true,
        description: {
         de: "Sehr gut für schöne Lebenslauf-Designs und Vorlagen.",
         en: "Great for beautiful resume designs and templates.",
@@ -391,6 +397,13 @@ function searchTools() {
                 <div class="card-header">
                     <img src="${tool.image}" alt="${tool.name} Logo">
                     <h2>${tool.name}</h2>
+                    <div class="tool-meta">
+  <span>⭐ ${tool.score}</span>
+  <span>${tool.pricing}</span>
+  <span>
+    ${tool.beginner ? "👶 Anfängerfreundlich" : "🚀 Profi"}
+  </span>
+</div>
                 </div>
                 <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
                 <a href="${tool.link}" target="_blank">${toolButtonText[currentLang]}</a>
