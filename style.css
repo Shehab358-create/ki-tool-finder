@@ -962,3 +962,38 @@ body.dark-mode .trending-card img {
   opacity: 1;
   transform: translateY(0);
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #000;
+    display: none !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+  }
+
+  .nav-links.active {
+    display: flex !important;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+}

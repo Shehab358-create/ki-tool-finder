@@ -730,3 +730,7 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
+
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("active");
+}
