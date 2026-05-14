@@ -1003,3 +1003,29 @@ body.dark-mode .trending-card img {
     font-size: 20px;
   }
 }
+
+.navbar .menu-toggle {
+  display: block !important;
+  color: white !important;
+  font-size: 36px !important;
+  cursor: pointer;
+  z-index: 99999;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background: #000;
+  padding: 25px;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 9999;
+}
+
+.nav-links.active {
+  display: flex;
+}
