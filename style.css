@@ -560,3 +560,38 @@ h1 {
     margin: 0;
     font-size: 16px;
 }
+#workflow-results {
+    margin-top: 60px;
+}
+
+.workflow-card {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.workflow-card h2 {
+    margin-bottom: 30px;
+}
+
+.workflow-step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.workflow-step span {
+    width: 40px;
+    height: 40px;
+    background: #2f3e5c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

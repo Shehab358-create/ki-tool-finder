@@ -10,6 +10,7 @@ const noResultsText = {
 };
 
 const toolButtonText = {
+  
   de: "Zum Tool",
   en: "Open Tool",
   fr: "Ouvrir l’outil",
@@ -17,6 +18,46 @@ const toolButtonText = {
   es: "Abrir herramienta",
   zh: "打开工具"
 };
+
+const workflows = {
+    bewerbung: {
+        title: "📄 Bewerbung erstellen",
+        steps: [
+            "Resume.io → Lebenslauf erstellen",
+            "ChatGPT → Bewerbung schreiben",
+            "Grammarly → Fehler korrigieren"
+        ]
+    },
+
+    youtube: {
+        title: "🎥 YouTube Content",
+        steps: [
+            "ChatGPT → Skript schreiben",
+            "ElevenLabs → KI Stimme erzeugen",
+            "Canva → Thumbnail erstellen",
+            "CapCut → Video schneiden"
+        ]
+    },
+
+    instagram: {
+        title: "📸 Instagram Posts",
+        steps: [
+            "ChatGPT → Caption schreiben",
+            "Canva → Design erstellen",
+            "Remove.bg → Hintergrund entfernen"
+        ]
+    },
+
+    logo: {
+        title: "🎨 Logo Design",
+        steps: [
+            "Looka → Logo erstellen",
+            "Canva → Branding verbessern",
+            "ChatGPT → Slogan schreiben"
+        ]
+    }
+};
+
 const tools = {
   lebenslauf: [
     {
@@ -253,8 +294,39 @@ matchedTools.forEach(tool => {
     </div>
   `;
 });
+showWorkflow(input);
 }
 function quickSearch(keyword) {
   document.getElementById("searchInput").value = keyword;
   searchTools();
+}
+function showWorkflow(keyword) {
+
+    const workflowBox = document.getElementById("workflow-results");
+
+    workflowBox.innerHTML = "";
+
+    if (workflows[keyword]) {
+
+        const workflow = workflows[keyword];
+
+        let html = `
+            <div class="workflow-card">
+                <h2>${workflow.title}</h2>
+        `;
+
+        workflow.steps.forEach((step, index) => {
+
+            html += `
+                <div class="workflow-step">
+                    <span>${index + 1}</span>
+                    <p>${step}</p>
+                </div>
+            `;
+        });
+
+        html += `</div>`;
+
+        workflowBox.innerHTML = html;
+    }
 }
