@@ -214,7 +214,76 @@ const tools = {
       link: "https://www.copy.ai",
       image: "https://www.google.com/s2/favicons?domain=copy.ai&sz=64"
     }
-  ]
+  ],
+
+youtube: [
+  {
+    name: "ChatGPT",
+    description: {
+      de: "Hilft beim Schreiben von YouTube-Skripten und Videoideen.",
+      en: "Helps write YouTube scripts and video ideas."
+    },
+    link: "https://chatgpt.com",
+    image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64"
+  },
+  {
+    name: "ElevenLabs",
+    description: {
+      de: "Erstellt realistische KI-Stimmen für Videos.",
+      en: "Creates realistic AI voices for videos."
+    },
+    link: "https://elevenlabs.io",
+    image: "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64"
+  },
+  {
+    name: "Canva",
+    description: {
+      de: "Erstellt Thumbnails und Grafiken für YouTube.",
+      en: "Creates thumbnails and graphics for YouTube."
+    },
+    link: "https://www.canva.com",
+    image: "https://www.google.com/s2/favicons?domain=canva.com&sz=64"
+  },
+  {
+    name: "CapCut",
+    description: {
+      de: "Schneidet und bearbeitet Videos einfach und schnell.",
+      en: "Edits videos quickly and easily."
+    },
+    link: "https://www.capcut.com",
+    image: "https://www.google.com/s2/favicons?domain=capcut.com&sz=64"
+  }
+],
+
+instagram: [
+  {
+    name: "ChatGPT",
+    description: {
+      de: "Schreibt Captions, Hashtags und Content-Ideen für Instagram.",
+      en: "Writes captions, hashtags and content ideas for Instagram."
+    },
+    link: "https://chatgpt.com",
+    image: "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64"
+  },
+  {
+    name: "Canva",
+    description: {
+      de: "Erstellt Instagram Posts, Stories und Designs.",
+      en: "Creates Instagram posts, stories and designs."
+    },
+    link: "https://www.canva.com",
+    image: "https://www.google.com/s2/favicons?domain=canva.com&sz=64"
+  },
+  {
+    name: "Remove.bg",
+    description: {
+      de: "Entfernt Hintergründe automatisch aus Bildern.",
+      en: "Automatically removes backgrounds from images."
+    },
+    link: "https://www.remove.bg",
+    image: "https://www.google.com/s2/favicons?domain=remove.bg&sz=64"
+  }
+]
 };
 
 function searchTools() {
@@ -231,7 +300,7 @@ function searchTools() {
     input.includes("video")
 ) {
     workflowKey = "youtube";
-    matchedTools = tools.texte;
+    matchedTools = tools.youtube;
 }
 
    else if (
@@ -240,7 +309,7 @@ function searchTools() {
     input.includes("social media")
 ) {
     workflowKey = "instagram";
-    matchedTools = tools.texte;
+    matchedTools = tools.instagram;
 }
 
     else if (
