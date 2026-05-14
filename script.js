@@ -279,11 +279,22 @@ workflowKey = "logo";
 workflowKey = "instagram";
 }
 
-if (input.includes("youtube") || input.includes("video")) {
-  workflowKey = "youtube";
+if (
+    input.includes("youtube") ||
+    input.includes("video")
+) {
+    workflowKey = "youtube";
 }
 
-    if (matchedTools.length === 0) {
+if (
+    input.includes("instagram") ||
+    input.includes("insta") ||
+    input.includes("social media")
+) {
+    workflowKey = "instagram";
+}
+
+    if (matchedTools.length === 0 && workflowKey === "") {
   results.innerHTML = `
  <div class="card">
       <h2>${noResultsText[currentLang][0]}</h2>
