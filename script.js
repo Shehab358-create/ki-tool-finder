@@ -642,5 +642,5 @@ setTimeout(() => {
     }
 
     result.innerHTML = workflowHTML;
-}, 6000);
+}, 9000);
 }
