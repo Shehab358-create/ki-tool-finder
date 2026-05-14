@@ -681,3 +681,16 @@ h1 {
 .tool-link:hover{
   color:#33415c;
 }
+
+.card h2 .tool-link {
+  background: transparent !important;
+  color: #0f172a !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+}
+
+.card h2 .tool-link:hover {
+  color: #33415c !important;
+}
