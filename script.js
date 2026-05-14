@@ -731,6 +731,8 @@ window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
 
+
 function toggleMenu() {
-  document.querySelector(".nav-links").classList.toggle("active");
+  const navLinks = document.querySelector(".nav-links");
+  navLinks.classList.toggle("active");
 }
