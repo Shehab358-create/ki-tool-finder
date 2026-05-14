@@ -1046,3 +1046,19 @@ body.dark-mode .trending-card img {
 .navbar .nav-links.active {
   display: flex !important;
 }
+
+.language-switcher{
+  position:absolute;
+  top:18px;
+  left:95px;
+  z-index:9999;
+}
+
+.language-switcher select{
+  background:#2f405e;
+  color:white;
+  border:none;
+  padding:10px 14px;
+  border-radius:12px;
+  font-weight:700;
+}
