@@ -820,21 +820,21 @@ h1 {
 }
 .theme-toggle{
     position:fixed;
-    top:20px;
-    right:20px;
+    top:90px;
+    right:25px;
     background:#0f172a;
     color:white;
-    width:55px;
-    height:55px;
+    width:60px;
+    height:60px;
     border-radius:50%;
     display:flex;
     justify-content:center;
     align-items:center;
     cursor:pointer;
-    font-size:24px;
+    font-size:26px;
     z-index:9999;
     transition:0.3s;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    box-shadow:0 5px 15px rgba(0,0,0,0.25);
 }
 
 .theme-toggle:hover{
@@ -879,4 +879,23 @@ body.dark-mode .generator-box button{
 body.dark-mode .search-btn:hover,
 body.dark-mode .generator-box button:hover{
     background:#3b82f6;
+}
+
+body.dark-mode .ai-generator h2,
+body.dark-mode .ai-generator p,
+body.dark-mode .workflow-card h3,
+body.dark-mode .workflow-step,
+body.dark-mode .feature-card h3,
+body.dark-mode .feature-card p,
+body.dark-mode .trending-section h2,
+body.dark-mode .card p,
+body.dark-mode .card h2,
+body.dark-mode .card h3{
+    color:white !important;
+}
+
+body.dark-mode .feature-card,
+body.dark-mode .trend-card{
+    background:#0f172a;
+    border:1px solid #1e293b;
 }
