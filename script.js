@@ -129,6 +129,7 @@ const tools = {
     },
    {
   name: "ChatGPT",
+  page: "tools/chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -202,6 +203,7 @@ const tools = {
   texte: [
     {
        name: "ChatGPT",
+       page: "tools/chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -255,6 +257,7 @@ const tools = {
 youtube: [
   {
      name: "ChatGPT",
+     page: "tools/chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -306,6 +309,7 @@ youtube: [
 instagram: [
   {
     name: "ChatGPT",
+    page: "tools/chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -447,7 +451,11 @@ function searchTools() {
             <div class="card">
                 <div class="card-header">
                     <img src="${tool.image}" alt="${tool.name} Logo">
-                    <h2>${tool.name}</h2>
+                    <h2>
+  <a href="${tool.page || '#'}" class="tool-link">
+    ${tool.name}
+  </a>
+</h2>
                     <div class="tool-meta">
   <span>⭐ ${tool.score}</span>
   <span>${tool.pricing}</span>

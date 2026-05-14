@@ -670,3 +670,13 @@ h1 {
     font-size: 14px;
     font-weight: 600;
 }
+
+.tool-link{
+  color:#0f172a;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.tool-link:hover{
+  color:#33415c;
+}
