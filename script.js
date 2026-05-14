@@ -129,7 +129,7 @@ const tools = {
     },
    {
   name: "ChatGPT",
-  page: "tools/chatgpt.html",
+ page: "chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -203,7 +203,7 @@ const tools = {
   texte: [
     {
        name: "ChatGPT",
-       page: "tools/chatgpt.html",
+       page: "chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -257,7 +257,7 @@ const tools = {
 youtube: [
   {
      name: "ChatGPT",
-     page: "tools/chatgpt.html",
+     page: "chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
@@ -309,7 +309,7 @@ youtube: [
 instagram: [
   {
     name: "ChatGPT",
-    page: "tools/chatgpt.html",
+    page: "chatgpt.html",
   score: "9.8",
   pricing: "Freemium",
   beginner: true,
