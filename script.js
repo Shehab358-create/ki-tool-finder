@@ -295,21 +295,29 @@ function searchTools() {
     let matchedTools = [];
     let workflowKey = "";
 
-    if (
-    input.includes("youtube") ||
-    input.includes("video")
+   if (
+  input.includes("youtube") ||
+  input.includes("video") ||
+  input.includes("videos") ||
+  input.includes("thumbnail") ||
+  input.includes("content creator") ||
+  input.includes("reels")
 ) {
-    workflowKey = "youtube";
-    matchedTools = tools.youtube;
+  matchedTools = tools.youtube;
+  workflowKey = "youtube";
 }
 
-   else if (
-    input.includes("instagram") ||
-    input.includes("insta") ||
-    input.includes("social media")
+   if (
+  input.includes("instagram") ||
+  input.includes("insta") ||
+  input.includes("social media") ||
+  input.includes("posts") ||
+  input.includes("captions") ||
+  input.includes("hashtags") ||
+  input.includes("reels")
 ) {
-    workflowKey = "instagram";
-    matchedTools = tools.instagram;
+  matchedTools = tools.instagram;
+  workflowKey = "instagram";
 }
 
     else if (
