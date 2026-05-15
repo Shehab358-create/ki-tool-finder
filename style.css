@@ -1442,9 +1442,7 @@ body.dark-mode .trending-card img {
   align-items: center !important;
   gap: 14px !important;
 
-  .language-switcher {
-    margin-left: 70px !important;
-}
+  transform: translateX(90px) !important;
 }
 
 .language-menu {
