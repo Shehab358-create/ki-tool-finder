@@ -16,31 +16,27 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <div class="nav-left">
 
   <div class="menu-toggle" onclick="toggleMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
+    <i class="fa-solid fa-bars"></i>
   </div>
 
   <div class="language-switcher">
-
     <button class="language-btn" onclick="toggleLanguageMenu()">
       <span id="currentLang">DE</span>
-      <span>▼</span>
+      <i class="fa-solid fa-chevron-down"></i>
     </button>
 
-    <div class="theme-toggle" onclick="toggleTheme()">
-      🌙
-    </div>
-
     <div class="language-menu" id="languageMenu">
-      <div onclick="changeLanguage('de', 'DE')">DE</div>
-      <div onclick="changeLanguage('en', 'EN')">EN</div>
-      <div onclick="changeLanguage('fr', 'FR')">FR</div>
-      <div onclick="changeLanguage('ar', 'AR')">AR</div>
-      <div onclick="changeLanguage('es', 'ES')">ES</div>
-      <div onclick="changeLanguage('zh', '中文')">中文</div>
+      <div onclick="changeLanguage('de','DE')">DE</div>
+      <div onclick="changeLanguage('en','EN')">EN</div>
+      <div onclick="changeLanguage('fr','FR')">FR</div>
+      <div onclick="changeLanguage('ar','AR')">AR</div>
+      <div onclick="changeLanguage('es','ES')">ES</div>
+      <div onclick="changeLanguage('zh','中文')">中文</div>
     </div>
+  </div>
 
+  <div class="theme-toggle" onclick="toggleTheme()">
+    <i class="fa-regular fa-moon"></i>
   </div>
 
 </div>

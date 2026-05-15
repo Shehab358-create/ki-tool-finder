@@ -839,31 +839,6 @@ h1 {
         opacity: 1;
     }
 }
-.theme-toggle{
-    position: static !important;
-
-    width:52px;
-    height:52px;
-
-    background:#0f172a;
-    color:white;
-
-    border-radius:16px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    cursor:pointer;
-    font-size:26px;
-
-    transition:0.3s;
-
-    box-shadow:0 5px 15px rgba(0,0,0,0.25);
-
-    margin-left: 14px !important;
-}
-
 
 body.dark-mode{
     background:#020617;
@@ -1134,31 +1109,6 @@ body.dark-mode .trending-card img {
   margin-top: 15px;
 }
 
-.menu-toggle {
-  width: 52px;
-  height: 52px;
-  background: #0f172a;
-  border-radius: 16px;
-
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
-  gap: 7px;
-
-  cursor: pointer;
-  transition: 0.3s;
-
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}
-
-.menu-toggle span {
-  width: 18px;
-  height: 3px;
-  background: white;
-  border-radius: 999px;
-  display: block;
-}
 
 .menu-toggle.active span:nth-child(1) {
   transform: rotate(45deg) translate(7px, 7px);
@@ -1322,29 +1272,6 @@ body.dark-mode .trending-card img {
 .language-switcher select:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 28px rgba(0,0,0,0.28);
-}
-
-.language-btn {
-    background: #0f172a;
-    color: white;
-    border: 1px solid #334155;
-
-    padding: 8px 14px;
-    height: 46px;
-
-    border-radius: 14px;
-    font-size: 18px;
-    font-weight: 800;
-
-    cursor: pointer;
-
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
-    box-shadow: 0 8px 20px rgba(0,0,0,0.22);
-    transition: 0.3s ease;
-    margin-left: -18px;
 }
 
 .language-btn:hover {
@@ -1869,13 +1796,6 @@ justify-content: center;
   animation: logoShakeCenter 0.45s ease-in-out;
 }
 
-.language-btn:hover,
-.menu-toggle:hover,
-.theme-toggle:hover {
-    background: #1a2740;
-    box-shadow: 0 0 20px rgba(56,189,248,0.35);
-    transform: translateY(-2px);
-}
 
 .navbar .menu-toggle:hover {
     background: #1a2740 !important;
@@ -1945,4 +1865,118 @@ justify-content: center;
 .nav-user .user-btn i {
     font-size: 22px;
     margin-bottom: 4px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.menu-toggle,
+.language-btn,
+.theme-toggle {
+    width: 54px;
+    height: 54px;
+
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.12);
+
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    box-shadow:
+        0 0 0 rgba(0,0,0,0),
+        inset 0 0 0 rgba(255,255,255,0);
+}
+
+.language-btn {
+    width: auto;
+    padding: 0 18px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-toggle i,
+.theme-toggle i {
+    font-size: 22px;
+}
+
+.language-btn i {
+    font-size: 14px;
+}
+
+.menu-toggle:hover,
+.language-btn:hover,
+.theme-toggle:hover {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(255,255,255,0.2);
+
+    box-shadow:
+        0 0 20px rgba(56,189,248,0.18);
+
+    transform: translateY(-2px);
+}
+
+.nav-left {
+    position: absolute;
+    left: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.menu-toggle,
+.language-btn,
+.theme-toggle {
+    width: 54px;
+    height: 54px;
+
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.12);
+
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.language-btn {
+    width: auto;
+    padding: 0 18px;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.menu-toggle:hover,
+.language-btn:hover,
+.theme-toggle:hover {
+    background: rgba(255,255,255,0.07);
+
+    border-color: rgba(255,255,255,0.2);
+
+    box-shadow:
+        0 0 20px rgba(56,189,248,0.18);
+
+    transform: translateY(-2px);
 }
