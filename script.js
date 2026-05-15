@@ -705,10 +705,9 @@ let charIndex = 0;
 const searchInput = document.getElementById("searchInput");
 
 function typeEffect() {
-
   if (document.activeElement === searchInput) return;
 
-  let currentText = examples[currentLang][exampleIndex];
+  const currentText = examples[currentLang][exampleIndex];
 
   searchInput.setAttribute(
     "placeholder",
@@ -717,21 +716,16 @@ function typeEffect() {
 
   charIndex++;
 
-  if (exampleIndex >= examples[currentLang].length) {
-
+  if (charIndex > currentText.length) {
     setTimeout(() => {
-
       charIndex = 0;
       exampleIndex++;
 
-      if (exampleIndex >= examples.length) {
+      if (exampleIndex >= examples[currentLang].length) {
         exampleIndex = 0;
       }
-
     }, 2000);
-
   }
-
 }
 
 setInterval(typeEffect, 120);
