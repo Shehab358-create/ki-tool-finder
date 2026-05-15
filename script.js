@@ -747,9 +747,81 @@ function changeLanguage(lang, label) {
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
 
+  applyLanguage();
+
   const searchInput = document.getElementById("searchInput");
 
   if (searchInput && searchInput.value.trim() !== "") {
     searchTools();
   }
+}
+
+const pageText = {
+  de: {
+    title: "Finde das beste KI-Tool für dein Problem",
+    subtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
+    searchBtn: "Suchen",
+    resumeBtn: "Lebenslauf",
+    applicationBtn: "Bewerbung",
+    logoBtn: "Logo",
+    textBtn: "Texte"
+  },
+  en: {
+    title: "Find the best AI tool for your problem",
+    subtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
+    searchBtn: "Search",
+    resumeBtn: "Resume",
+    applicationBtn: "Application",
+    logoBtn: "Logo",
+    textBtn: "Texts"
+  },
+  fr: {
+    title: "Trouvez le meilleur outil IA pour votre problème",
+    subtitle: "Indiquez ce dont vous avez besoin – CV, candidature, logo ou textes.",
+    searchBtn: "Rechercher",
+    resumeBtn: "CV",
+    applicationBtn: "Candidature",
+    logoBtn: "Logo",
+    textBtn: "Textes"
+  },
+  es: {
+    title: "Encuentra la mejor herramienta de IA para tu problema",
+    subtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
+    searchBtn: "Buscar",
+    resumeBtn: "CV",
+    applicationBtn: "Solicitud",
+    logoBtn: "Logo",
+    textBtn: "Textos"
+  },
+  ar: {
+    title: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
+    subtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
+    searchBtn: "بحث",
+    resumeBtn: "السيرة الذاتية",
+    applicationBtn: "طلب وظيفة",
+    logoBtn: "شعار",
+    textBtn: "نصوص"
+  },
+  zh: {
+    title: "为你的问题找到最佳 AI 工具",
+    subtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
+    searchBtn: "搜索",
+    resumeBtn: "简历",
+    applicationBtn: "申请",
+    logoBtn: "Logo",
+    textBtn: "文本"
+  }
+};
+
+function applyLanguage() {
+  const t = pageText[currentLang];
+
+  document.querySelector("h1").textContent = t.title;
+  document.querySelector(".hero p").textContent = t.subtitle;
+  document.getElementById("search-btn").textContent = t.searchBtn;
+
+  document.querySelectorAll(".quick-btn")[0].textContent = t.resumeBtn;
+  document.querySelectorAll(".quick-btn")[1].textContent = t.applicationBtn;
+  document.querySelectorAll(".quick-btn")[2].textContent = t.logoBtn;
+  document.querySelectorAll(".quick-btn")[3].textContent = t.textBtn;
 }
