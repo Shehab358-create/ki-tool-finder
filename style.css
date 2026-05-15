@@ -1192,16 +1192,19 @@ body.dark-mode .trending-card img {
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 7px !important;
+  gap: 6px !important;
 
-  padding: 0 !important;
-  margin-left: 25px !important;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+
   cursor: pointer !important;
 }
 
 .navbar .menu-toggle span {
-  width: 30px !important;
-  height: 4px !important;
+  width: 24px !important;
+  height: 3px !important;
   background: white !important;
   border-radius: 999px !important;
   display: block !important;
@@ -1212,7 +1215,8 @@ body.dark-mode .trending-card img {
 
 .language-switcher {
   position: absolute !important;
-  top: 18px !important;
-  left: 145px !important;
+  top: 50% !important;
+  left: 120px !important;
+  transform: translateY(-50%);
   z-index: 9999 !important;
 }
