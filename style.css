@@ -1806,3 +1806,21 @@ body[dir="rtl"] .workflow-step p {
   background: #1e293b;
   transform: translateY(-2px);
 }
+
+.nav-left {
+  position: absolute;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle {
+  margin: 0 !important;
+}
