@@ -1761,7 +1761,7 @@ body[dir="rtl"] .workflow-step p {
 }
 
 .brand-logo:hover {
-    transform: scale(1.03);
+    animation: logoShake 0.4s ease-in-out;
 }
 
 .logo-circle {
@@ -1847,4 +1847,16 @@ body[dir="rtl"] .workflow-step p {
 
 .language-switcher {
   gap: 16px !important;
+}
+
+@keyframes logoShake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
+.brand-logo:hover {
+    animation: logoShake 0.4s ease-in-out;
 }
