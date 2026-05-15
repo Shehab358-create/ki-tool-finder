@@ -60,28 +60,17 @@
 </p>
 
     <div class="search-box">
-      <input id="searchInput" type="text" placeholder="z.B. Lebenslauf schreiben...">
+      <input id="searchInput" data-i18n-placeholder="searchPlaceholder" type="text" placeholder="z.B. Lebenslauf schreiben...">
       <button id="search-btn" data-i18n="searchBtn" onclick="searchTools()">
   Suchen
 </button>
     </div>
 <div class="category-buttons">
 
-<button class="quick-btn" id="cat-cv" onclick="quickSearch('Lebenslauf')">
-Lebenslauf
-</button>
-
-<button class="quick-btn" id="cat-application" onclick="quickSearch('Bewerbung')">
-Bewerbung
-</button>
-
-<button class="quick-btn" id="cat-logo" onclick="quickSearch('Logo')">
-Logo
-</button>
-
-<button class="quick-btn" id="cat-text" onclick="quickSearch('Texte')">
-Texte
-</button>
+<button class="quick-btn" id="cat-cv" data-i18n="catCv" onclick="quickSearch('Lebenslauf')">Lebenslauf</button>
+<button class="quick-btn" id="cat-application" data-i18n="catApplication" onclick="quickSearch('Bewerbung')">Bewerbung</button>
+<button class="quick-btn" id="cat-logo" data-i18n="catLogo" onclick="quickSearch('Logo')">Logo</button>
+<button class="quick-btn" id="cat-text" data-i18n="catText" onclick="quickSearch('Texte')">Texte</button>
 
 </div>
     <div id="results" class="results"></div>
@@ -96,14 +85,8 @@ Texte
 </p>
 
     <div class="generator-box">
-
-        <input 
-            type="text"
-            id="goalInput"
-            placeholder="z.B. Ich möchte einen YouTube Kanal starten"
-        >
-
-        <button onclick="generateWorkflow()">
+        <input id="goalInput" data-i18n-placeholder="workflowPlaceholder" type="text" placeholder="z.B. Ich möchte einen YouTube Kanal starten">
+        <button data-i18n="workflowBtn" onclick="generateWorkflow()">Workflow erstellen</button>
             Workflow erstellen
         </button>
 
