@@ -645,11 +645,11 @@ setTimeout(() => {
 }, 9000);
 }
 function toggleTheme() {
-  document.body.classList.toggle("light-mode");
+  document.body.classList.toggle("dark-mode");
 
   const icon = document.getElementById("themeIcon");
 
-  if (document.body.classList.contains("light-mode")) {
+  if (document.body.classList.contains("dark-mode")) {
     icon.className = "fa-solid fa-sun";
   } else {
     icon.className = "fa-solid fa-moon";
