@@ -1181,3 +1181,38 @@ body.dark-mode .trending-card img {
   transform: translateX(0) scale(1);
   pointer-events: auto;
 }
+
+.navbar .menu-toggle {
+  width: 64px !important;
+  height: 64px !important;
+  background: #0f172a !important;
+  border-radius: 18px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 7px !important;
+
+  padding: 0 !important;
+  margin-left: 25px !important;
+  cursor: pointer !important;
+}
+
+.navbar .menu-toggle span {
+  width: 30px !important;
+  height: 4px !important;
+  background: white !important;
+  border-radius: 999px !important;
+  display: block !important;
+  position: static !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.language-switcher {
+  position: absolute !important;
+  top: 18px !important;
+  left: 105px !important;
+  z-index: 9999 !important;
+}
