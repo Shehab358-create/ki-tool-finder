@@ -864,9 +864,6 @@ h1 {
     margin-left: 14px !important;
 }
 
-.theme-toggle:hover{
-    transform:scale(1.1);
-}
 
 body.dark-mode{
     background:#020617;
@@ -1175,9 +1172,6 @@ body.dark-mode .trending-card img {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
-.menu-toggle:hover {
-  transform: scale(1.06);
-}
 
 .language-switcher select {
   background: #0f172a;
@@ -1873,4 +1867,12 @@ justify-content: center;
 
 .brand-logo:hover {
   animation: logoShakeCenter 0.45s ease-in-out;
+}
+
+.language-btn:hover,
+.menu-toggle:hover,
+.theme-toggle:hover {
+    background: #1a2740;
+    box-shadow: 0 0 20px rgba(56,189,248,0.35);
+    transform: translateY(-2px);
 }
