@@ -1941,3 +1941,8 @@ justify-content: center;
   box-shadow: 0 0 18px rgba(56,189,248,0.25) !important;
   transform: translateY(-2px);
 }
+
+.nav-user .user-btn i {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
