@@ -645,19 +645,15 @@ setTimeout(() => {
 }, 9000);
 }
 function toggleTheme() {
+  document.body.classList.toggle("light-mode");
 
-    document.body.classList.toggle("light-mode");
+  const icon = document.getElementById("themeIcon");
 
-    const icon = document.getElementById("themeIcon");
-
-    if (document.body.classList.contains("light-mode")) {
-
-        icon.className = "fas fa-sun";
-
-    } else {
-
-        icon.className = "fas fa-moon";
-    }
+  if (document.body.classList.contains("light-mode")) {
+    icon.className = "fa-solid fa-sun";
+  } else {
+    icon.className = "fa-solid fa-moon";
+  }
 }
 
 const examples = {
