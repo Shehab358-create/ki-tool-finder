@@ -775,6 +775,8 @@ function toggleLanguageMenu() {
 
 function changeLanguage(lang, label) {
   currentLang = lang;
+  charIndex = 0;
+exampleIndex = 0;
 
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
