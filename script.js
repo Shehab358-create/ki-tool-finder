@@ -774,6 +774,8 @@ function applyLanguage() {
   });
 }
 
+applyLanguage();
+
 const pageText = {
   de: {
     heroTitle: "Finde das beste KI-Tool für dein Problem",
