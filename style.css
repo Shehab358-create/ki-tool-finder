@@ -840,20 +840,23 @@ h1 {
     }
 }
 .theme-toggle{
-    position:fixed;
-    top:90px;
-    right:25px;
+    position:static !important;
+
+    width:64px;
+    height:64px;
+
     background:#0f172a;
     color:white;
-    width:60px;
-    height:60px;
-    border-radius:50%;
+
+    border-radius:18px;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     cursor:pointer;
     font-size:26px;
-    z-index:9999;
+
     transition:0.3s;
     box-shadow:0 5px 15px rgba(0,0,0,0.25);
 }
