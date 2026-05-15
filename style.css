@@ -1997,3 +1997,30 @@ justify-content: center;
 .theme-toggle {
   transform: translateX(85px) !important;
 }
+
+/* gleiche Button-Farbe wie Navbar */
+#search-btn,
+.category-buttons button,
+.generator-box button {
+    background: rgba(255,255,255,0.03) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    color: white !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.22) !important;
+    transition: 0.3s ease !important;
+}
+
+#search-btn:hover,
+.category-buttons button:hover,
+.generator-box button:hover {
+    background: rgba(255,255,255,0.07) !important;
+    border-color: rgba(255,255,255,0.2) !important;
+    box-shadow: 0 0 20px rgba(56,189,248,0.22) !important;
+    transform: translateY(-2px);
+}
+
+.language-menu {
+    background: rgba(15,23,42,0.95) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    backdrop-filter: blur(12px) !important;
+}
