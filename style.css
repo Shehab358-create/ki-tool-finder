@@ -1757,20 +1757,25 @@ body[dir="rtl"] .workflow-step p {
   align-items: center;
   gap: 16px;
   text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.brand-logo:hover {
+    transform: scale(1.03);
 }
 
 .logo-circle {
   width: 56px;
   height: 56px;
   border-radius: 18px;
-  background: linear-gradient(135deg, #22c55e, #38bdf8);
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 22px;
   font-weight: 900;
   color: white;
-  box-shadow: 0 10px 25px rgba(34,197,94,0.35);
+  box-shadow: 0 0 18px rgba(34,197,94,0.25);
 }
 
 .logo-text-box {
@@ -1782,16 +1787,17 @@ body[dir="rtl"] .workflow-step p {
 .logo-main {
   font-size: 34px;
   font-weight: 900;
-  background: linear-gradient(90deg, #22c55e, #38bdf8);
+  background: linear-gradient(90deg, #38bdf8, #22c55e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
 }
 
 .logo-sub {
   font-size: 22px;
   font-weight: 700;
-  color: #0f172a;
+  color: #94a3b8;
 }
 
 .theme-toggle {
