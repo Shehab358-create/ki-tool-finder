@@ -1741,20 +1741,47 @@ body[dir="rtl"] .workflow-step p {
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   text-decoration: none;
 }
 
-.brand-icon {
-  font-size: 34px;
+.logo-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #22c55e, #38bdf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  box-shadow: 0 10px 25px rgba(34,197,94,0.35);
 }
 
-.brand-text {
-  font-size: 30px;
+.logo-text-box {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.logo-main {
+  font-size: 34px;
   font-weight: 900;
   background: linear-gradient(90deg, #22c55e, #38bdf8);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.logo-sub {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.theme-toggle {
+  margin-left: 10px;
 }
 
 .nav-user {
