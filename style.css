@@ -1667,7 +1667,7 @@ body[dir="rtl"] .workflow-step p {
 
 body[dir="rtl"] .workflow-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, 480px) !important;
+  grid-template-columns: repeat(2, minmax(420px, 480px)) !important;
   justify-content: center !important;
   gap: 60px !important;
   max-width: 1100px !important;
@@ -1683,4 +1683,21 @@ body[dir="rtl"] .workflow-card {
   body[dir="rtl"] .workflow-grid {
     grid-template-columns: 1fr !important;
   }
+}
+
+body[dir="rtl"] .workflow-step {
+  flex-direction: row-reverse !important;
+  text-align: right !important;
+}
+
+body[dir="rtl"] .workflow-step p {
+  text-align: right !important;
+  direction: rtl !important;
+  flex: 1 !important;
+  word-break: break-word;
+}
+
+body[dir="rtl"] .workflow-step span {
+  margin-left: 14px;
+  margin-right: 0;
 }
