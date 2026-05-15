@@ -1758,6 +1758,10 @@ body[dir="rtl"] .workflow-step p {
   gap: 16px;
   text-decoration: none;
   transition: 0.3s ease;
+  transform-origin: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .brand-logo:hover {
