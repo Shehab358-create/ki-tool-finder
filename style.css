@@ -1882,3 +1882,9 @@ justify-content: center;
     box-shadow: 0 0 20px rgba(56,189,248,0.35) !important;
     transform: translateY(-50%) !important;
 }
+
+.navbar .menu-toggle:hover {
+    background: #1a2740 !important;
+    box-shadow: 0 0 20px rgba(56,189,248,0.35) !important;
+    transform: translateY(calc(-50% - 2px)) !important;
+}
