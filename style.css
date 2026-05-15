@@ -1838,3 +1838,7 @@ body[dir="rtl"] .workflow-step p {
 .theme-toggle {
   margin: 0 !important;
 }
+
+.language-switcher {
+  gap: 28px !important;
+}
