@@ -1888,3 +1888,19 @@ justify-content: center;
     box-shadow: 0 0 20px rgba(56,189,248,0.35) !important;
     transform: translateY(calc(-50% - 2px)) !important;
 }
+
+.navbar {
+  direction: ltr !important;
+}
+
+.nav-left {
+  direction: ltr !important;
+}
+
+.brand-logo {
+  direction: ltr !important;
+}
+
+.nav-user {
+  direction: ltr !important;
+}
