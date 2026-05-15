@@ -696,6 +696,30 @@ const examples = {
     "我想制作一个 YouTube 视频",
     "帮我创建一个 Logo",
     "哪个 AI 可以帮助制作 Instagram 帖子？"
+  ],
+
+};
+
+const workflowExamples = {
+  de: [
+    "Ich möchte einen YouTube Kanal starten",
+    "Ich brauche einen Bewerbungs-Workflow",
+    "Wie erstelle ich TikTok Content?",
+    "Ich möchte ein Logo designen"
+  ],
+
+  en: [
+    "I want to start a YouTube channel",
+    "I need a job application workflow",
+    "How can I create TikTok content?",
+    "I want to design a logo"
+  ],
+
+  ar: [
+    "أريد إنشاء قناة يوتيوب",
+    "أحتاج إلى سير عمل للتوظيف",
+    "كيف أنشئ محتوى تيك توك؟",
+    "أريد تصميم شعار"
   ]
 };
 
@@ -729,6 +753,45 @@ function typeEffect() {
 }
 
 setInterval(typeEffect, 120);
+
+const goalInput = document.getElementById("goalInput");
+
+let workflowCharIndex = 0;
+let workflowExampleIndex = 0;
+
+function workflowTypeEffect() {
+
+  if (document.activeElement === goalInput) return;
+
+  const currentText =
+    workflowExamples[currentLang][workflowExampleIndex];
+
+  goalInput.setAttribute(
+    "placeholder",
+    currentText.substring(0, workflowCharIndex)
+  );
+
+  workflowCharIndex++;
+
+  if (workflowCharIndex > currentText.length) {
+
+    setTimeout(() => {
+
+      workflowCharIndex = 0;
+      workflowExampleIndex++;
+
+      if (
+        workflowExampleIndex >=
+        workflowExamples[currentLang].length
+      ) {
+        workflowExampleIndex = 0;
+      }
+
+    }, 2000);
+  }
+}
+
+setInterval(workflowTypeEffect, 120);
 
 const revealElements = document.querySelectorAll(".reveal");
 
