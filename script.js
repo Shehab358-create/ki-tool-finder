@@ -742,9 +742,13 @@ function toggleLanguageMenu() {
 }
 
 function changeLanguage(lang, label) {
+  currentLang = lang;
+
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
 
+  applyLanguage();
+}
   const oldSelect = document.getElementById("languageSelect");
 
   if (oldSelect) {
