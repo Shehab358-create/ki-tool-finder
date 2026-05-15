@@ -1621,3 +1621,46 @@ body[dir="rtl"] .workflow-step {
 body[dir="rtl"] .workflow-step span {
   order: 0 !important;
 }
+
+body[dir="rtl"] .workflow-section {
+  width: 100% !important;
+  margin-left: 0 !important;
+  direction: ltr !important;
+  text-align: center !important;
+  overflow-x: hidden !important;
+}
+
+body[dir="rtl"] .workflow-grid {
+  direction: ltr !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  gap: 60px !important;
+  flex-wrap: wrap !important;
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin: 60px auto 0 auto !important;
+}
+
+body[dir="rtl"] .workflow-card {
+  width: 480px !important;
+  max-width: 480px !important;
+  margin: 0 !important;
+  direction: rtl !important;
+  text-align: center !important;
+}
+
+body[dir="rtl"] .workflow-step {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 18px !important;
+  direction: rtl !important;
+  text-align: center !important;
+}
+
+body[dir="rtl"] .workflow-step p {
+  margin: 0 !important;
+  text-align: right !important;
+}
