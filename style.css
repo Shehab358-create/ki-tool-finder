@@ -1984,3 +1984,9 @@ justify-content: center;
 
     transform: translateY(-2px);
 }
+
+.menu-toggle {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
