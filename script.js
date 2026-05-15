@@ -769,8 +769,15 @@ function toggleLanguageMenu() {
 
 function changeLanguage(lang, label) {
   currentLang = lang;
+
+  if (lang === "ar") {
+    document.body.dir = "rtl";
+  } else {
+    document.body.dir = "ltr";
+  }
+
   charIndex = 0;
-exampleIndex = 0;
+  exampleIndex = 0;
 
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
