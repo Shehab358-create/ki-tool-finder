@@ -1213,6 +1213,6 @@ body.dark-mode .trending-card img {
 .language-switcher {
   position: absolute !important;
   top: 18px !important;
-  left: 105px !important;
+  left: 145px !important;
   z-index: 9999 !important;
 }
