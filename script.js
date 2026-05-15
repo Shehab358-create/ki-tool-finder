@@ -767,6 +767,27 @@ const pageText = {
     trendingTitle: "🔥 Trending AI Tools",
     bestWorkflowsTitle: "🚀 Beste KI Workflows"
   },
+  whyCard1Title: "⚡ Schnelle Empfehlungen",
+whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
+whyCard2Title: "🎯 Klare Auswahl",
+whyCard2Text: "Keine endlosen Listen – wir zeigen dir die Tools, die wirklich passen.",
+whyCard3Title: "🧩 Praktische Workflows",
+whyCard3Text: "Erhalte nicht nur Tools, sondern ganze Schritt-für-Schritt-Lösungen.",
+
+trendChatgptText: "Beste KI für Texte, Ideen und Produktivität.",
+trendCanvaText: "Perfekt für Social Media, Logos und Designs.",
+trendMidjourneyText: "Erstellt hochwertige KI-Bilder und Artworks.",
+trendNotionText: "Organisiert Projekte und schreibt Inhalte automatisch.",
+
+workflowApplicationTitle: "📄 Bewerbung erstellen",
+workflowApplicationStep1: "Resume.io → Lebenslauf erstellen",
+workflowApplicationStep2: "ChatGPT → Bewerbung schreiben",
+workflowApplicationStep3: "Grammarly → Fehler korrigieren",
+
+workflowYoutubeTitle: "🎥 YouTube Content",
+workflowYoutubeStep1: "ChatGPT → Skript schreiben",
+workflowYoutubeStep2: "ElevenLabs → KI Stimme erzeugen",
+workflowYoutubeStep3: "Canva → Thumbnail erstellen",
 
   en: {
     heroTitle: "Find the best AI tool for your problem",
@@ -778,6 +799,27 @@ const pageText = {
     trendingTitle: "🔥 Trending AI Tools",
     bestWorkflowsTitle: "🚀 Best AI Workflows"
   },
+  whyCard1Title: "⚡ Fast Recommendations",
+whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
+whyCard2Title: "🎯 Clear Selection",
+whyCard2Text: "No endless lists — we show you the tools that actually fit.",
+whyCard3Title: "🧩 Practical Workflows",
+whyCard3Text: "Get not only tools, but complete step-by-step solutions.",
+
+trendChatgptText: "Best AI for writing, ideas and productivity.",
+trendCanvaText: "Perfect for social media, logos and designs.",
+trendMidjourneyText: "Creates high-quality AI images and artworks.",
+trendNotionText: "Organizes projects and writes content automatically.",
+
+workflowApplicationTitle: "📄 Create Application",
+workflowApplicationStep1: "Resume.io → Create resume",
+workflowApplicationStep2: "ChatGPT → Write application",
+workflowApplicationStep3: "Grammarly → Correct mistakes",
+
+workflowYoutubeTitle: "🎥 YouTube Content",
+workflowYoutubeStep1: "ChatGPT → Write script",
+workflowYoutubeStep2: "ElevenLabs → Generate AI voice",
+workflowYoutubeStep3: "Canva → Create thumbnail",
 
   fr: {
     heroTitle: "Trouvez le meilleur outil IA pour votre problème",
@@ -789,6 +831,28 @@ const pageText = {
     trendingTitle: "🔥 Outils IA populaires",
     bestWorkflowsTitle: "🚀 Meilleurs workflows IA"
   },
+  // FR
+whyCard1Title: "⚡ Recommandations rapides",
+whyCard1Text: "Trouvez en quelques secondes les outils IA adaptés à votre problème.",
+whyCard2Title: "🎯 Sélection claire",
+whyCard2Text: "Pas de listes infinies — nous montrons les outils qui correspondent vraiment.",
+whyCard3Title: "🧩 Workflows pratiques",
+whyCard3Text: "Obtenez non seulement des outils, mais aussi des solutions étape par étape.",
+
+trendChatgptText: "Meilleur outil IA pour les textes, les idées et la productivité.",
+trendCanvaText: "Parfait pour les réseaux sociaux, les logos et les designs.",
+trendMidjourneyText: "Crée des images IA et des artworks de haute qualité.",
+trendNotionText: "Organise les projets et rédige du contenu automatiquement.",
+
+workflowApplicationTitle: "📄 Créer une candidature",
+workflowApplicationStep1: "Resume.io → Créer un CV",
+workflowApplicationStep2: "ChatGPT → Rédiger une candidature",
+workflowApplicationStep3: "Grammarly → Corriger les erreurs",
+
+workflowYoutubeTitle: "🎥 Contenu YouTube",
+workflowYoutubeStep1: "ChatGPT → Rédiger un script",
+workflowYoutubeStep2: "ElevenLabs → Générer une voix IA",
+workflowYoutubeStep3: "Canva → Créer une miniature",
 
   es: {
     heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
@@ -800,6 +864,28 @@ const pageText = {
     trendingTitle: "🔥 Herramientas IA populares",
     bestWorkflowsTitle: "🚀 Mejores workflows IA"
   },
+  // ES
+whyCard1Title: "⚡ Recomendaciones rápidas",
+whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
+whyCard2Title: "🎯 Selección clara",
+whyCard2Text: "Sin listas interminables — te mostramos las herramientas que realmente encajan.",
+whyCard3Title: "🧩 Workflows prácticos",
+whyCard3Text: "Obtén no solo herramientas, sino soluciones completas paso a paso.",
+
+trendChatgptText: "La mejor IA para textos, ideas y productividad.",
+trendCanvaText: "Perfecto para redes sociales, logos y diseños.",
+trendMidjourneyText: "Crea imágenes y artworks de IA de alta calidad.",
+trendNotionText: "Organiza proyectos y escribe contenido automáticamente.",
+
+workflowApplicationTitle: "📄 Crear solicitud",
+workflowApplicationStep1: "Resume.io → Crear CV",
+workflowApplicationStep2: "ChatGPT → Escribir solicitud",
+workflowApplicationStep3: "Grammarly → Corregir errores",
+
+workflowYoutubeTitle: "🎥 Contenido de YouTube",
+workflowYoutubeStep1: "ChatGPT → Escribir guion",
+workflowYoutubeStep2: "ElevenLabs → Generar voz IA",
+workflowYoutubeStep3: "Canva → Crear miniatura",
 
   ar: {
     heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
@@ -811,6 +897,28 @@ const pageText = {
     trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
     bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي"
   },
+  // AR
+whyCard1Title: "⚡ توصيات سريعة",
+whyCard1Text: "اعثر خلال ثوانٍ على أدوات ذكاء اصطناعي مناسبة لمشكلتك.",
+whyCard2Title: "🎯 اختيار واضح",
+whyCard2Text: "بدون قوائم طويلة — نعرض لك الأدوات المناسبة فعلاً.",
+whyCard3Title: "🧩 سير عمل عملي",
+whyCard3Text: "احصل ليس فقط على أدوات، بل على حلول كاملة خطوة بخطوة.",
+
+trendChatgptText: "أفضل أداة للكتابة والأفكار والإنتاجية.",
+trendCanvaText: "مثالي لوسائل التواصل الاجتماعي والشعارات والتصاميم.",
+trendMidjourneyText: "ينشئ صوراً وأعمالاً فنية عالية الجودة بالذكاء الاصطناعي.",
+trendNotionText: "ينظم المشاريع ويكتب المحتوى تلقائياً.",
+
+workflowApplicationTitle: "📄 إنشاء طلب وظيفة",
+workflowApplicationStep1: "Resume.io → إنشاء سيرة ذاتية",
+workflowApplicationStep2: "ChatGPT → كتابة طلب وظيفة",
+workflowApplicationStep3: "Grammarly → تصحيح الأخطاء",
+
+workflowYoutubeTitle: "🎥 محتوى يوتيوب",
+workflowYoutubeStep1: "ChatGPT → كتابة سكريبت",
+workflowYoutubeStep2: "ElevenLabs → إنشاء صوت بالذكاء الاصطناعي",
+workflowYoutubeStep3: "Canva → إنشاء صورة مصغرة",
 
   zh: {
     heroTitle: "为你的问题找到最佳 AI 工具",
@@ -821,7 +929,29 @@ const pageText = {
     whyTitle: "为什么选择 MyAIFinder？",
     trendingTitle: "🔥 热门 AI 工具",
     bestWorkflowsTitle: "🚀 最佳 AI 工作流"
-  }
+  },
+  // ZH
+whyCard1Title: "⚡ 快速推荐",
+whyCard1Text: "几秒钟内找到适合你具体问题的 AI 工具。",
+whyCard2Title: "🎯 清晰选择",
+whyCard2Text: "没有无尽列表——我们只展示真正适合你的工具。",
+whyCard3Title: "🧩 实用工作流",
+whyCard3Text: "不仅获得工具，还能获得完整的分步解决方案。",
+
+trendChatgptText: "最适合写作、创意和效率提升的 AI 工具。",
+trendCanvaText: "非常适合社交媒体、Logo 和设计。",
+trendMidjourneyText: "生成高质量 AI 图片和艺术作品。",
+trendNotionText: "自动组织项目并撰写内容。",
+
+workflowApplicationTitle: "📄 创建申请材料",
+workflowApplicationStep1: "Resume.io → 创建简历",
+workflowApplicationStep2: "ChatGPT → 撰写申请信",
+workflowApplicationStep3: "Grammarly → 修改错误",
+
+workflowYoutubeTitle: "🎥 YouTube 内容",
+workflowYoutubeStep1: "ChatGPT → 撰写脚本",
+workflowYoutubeStep2: "ElevenLabs → 生成 AI 语音",
+workflowYoutubeStep3: "Canva → 创建缩略图",
 };
 
 function applyLanguage() {
