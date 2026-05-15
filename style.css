@@ -2023,3 +2023,41 @@ justify-content: center;
     border: 1px solid rgba(255,255,255,0.12) !important;
     backdrop-filter: blur(12px) !important;
 }
+
+/* Sidebar */
+.sidebar,
+.mobile-menu,
+.nav-links {
+    background: rgba(15,23,42,0.96) !important;
+
+    border: 1px solid rgba(255,255,255,0.08) !important;
+
+    backdrop-filter: blur(18px) !important;
+
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.45),
+        0 0 20px rgba(56,189,248,0.08) !important;
+}
+
+/* Sprachmenü */
+.language-menu {
+    background: rgba(15,23,42,0.96) !important;
+
+    border: 1px solid rgba(255,255,255,0.08) !important;
+
+    backdrop-filter: blur(18px) !important;
+
+    box-shadow:
+        0 10px 35px rgba(0,0,0,0.4),
+        0 0 18px rgba(56,189,248,0.08) !important;
+}
+
+/* Hover Effekte */
+.language-menu div:hover,
+.nav-links a:hover {
+    background: rgba(255,255,255,0.05) !important;
+
+    color: #38bdf8 !important;
+
+    transform: translateX(4px);
+}
