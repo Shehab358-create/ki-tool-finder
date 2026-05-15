@@ -1240,3 +1240,33 @@ body.dark-mode .trending-card img {
   left: 100px !important;
   transform: translateY(-50%) !important;
 }
+
+.navbar .nav-links {
+  position: fixed !important;
+  top: 82px !important;
+  left: -320px !important;
+  width: 280px !important;
+  height: calc(100vh - 82px) !important;
+
+  background: #07152d !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 25px !important;
+
+  padding: 35px 30px !important;
+  list-style: none !important;
+
+  z-index: 999999 !important;
+  transition: left 0.35s ease !important;
+}
+
+.navbar .nav-links.active {
+  left: 0 !important;
+}
+
+.navbar .nav-links a {
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
