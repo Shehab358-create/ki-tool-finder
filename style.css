@@ -1703,14 +1703,14 @@ body[dir="rtl"] .workflow-step span {
 }
 
 body[dir="rtl"] .workflow-grid {
-  grid-template-columns: repeat(2, 430px) !important;
+  grid-template-columns: repeat(2, 400px) !important;
   gap: 35px !important;
   max-width: 950px !important;
 }
 
 body[dir="rtl"] .workflow-card {
-  width: 430px !important;
-  max-width: 430px !important;
+  width: 400px !important;
+  max-width: 400px !important;
   padding: 35px !important;
   overflow: hidden !important;
 }
