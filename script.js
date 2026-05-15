@@ -765,9 +765,9 @@ const pageText = {
     workflowGeneratorSubtitle: "Beschreibe dein Ziel und erhalte automatisch den besten KI-Workflow.",
     whyTitle: "Warum MyAIFinder?",
     trendingTitle: "🔥 Trending AI Tools",
-    bestWorkflowsTitle: "🚀 Beste KI Workflows"
-  },
-  whyCard1Title: "⚡ Schnelle Empfehlungen",
+    bestWorkflowsTitle: "🚀 Beste KI Workflows",
+
+     whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
 whyCard2Title: "🎯 Klare Auswahl",
 whyCard2Text: "Keine endlosen Listen – wir zeigen dir die Tools, die wirklich passen.",
@@ -788,6 +788,8 @@ workflowYoutubeTitle: "🎥 YouTube Content",
 workflowYoutubeStep1: "ChatGPT → Skript schreiben",
 workflowYoutubeStep2: "ElevenLabs → KI Stimme erzeugen",
 workflowYoutubeStep3: "Canva → Thumbnail erstellen",
+  },
+ 
 
   en: {
     heroTitle: "Find the best AI tool for your problem",
@@ -797,9 +799,9 @@ workflowYoutubeStep3: "Canva → Thumbnail erstellen",
     workflowGeneratorSubtitle: "Describe your goal and automatically get the best AI workflow.",
     whyTitle: "Why MyAIFinder?",
     trendingTitle: "🔥 Trending AI Tools",
-    bestWorkflowsTitle: "🚀 Best AI Workflows"
-  },
-  whyCard1Title: "⚡ Fast Recommendations",
+    bestWorkflowsTitle: "🚀 Best AI Workflows",
+
+    whyCard1Title: "⚡ Fast Recommendations",
 whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
 whyCard2Title: "🎯 Clear Selection",
 whyCard2Text: "No endless lists — we show you the tools that actually fit.",
@@ -820,6 +822,8 @@ workflowYoutubeTitle: "🎥 YouTube Content",
 workflowYoutubeStep1: "ChatGPT → Write script",
 workflowYoutubeStep2: "ElevenLabs → Generate AI voice",
 workflowYoutubeStep3: "Canva → Create thumbnail",
+  },
+  
 
   fr: {
     heroTitle: "Trouvez le meilleur outil IA pour votre problème",
@@ -829,10 +833,10 @@ workflowYoutubeStep3: "Canva → Create thumbnail",
     workflowGeneratorSubtitle: "Décrivez votre objectif et obtenez automatiquement le meilleur workflow IA.",
     whyTitle: "Pourquoi MyAIFinder ?",
     trendingTitle: "🔥 Outils IA populaires",
-    bestWorkflowsTitle: "🚀 Meilleurs workflows IA"
-  },
-  // FR
-whyCard1Title: "⚡ Recommandations rapides",
+    bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
+    
+// FR
+    whyCard1Title: "⚡ Recommandations rapides",
 whyCard1Text: "Trouvez en quelques secondes les outils IA adaptés à votre problème.",
 whyCard2Title: "🎯 Sélection claire",
 whyCard2Text: "Pas de listes infinies — nous montrons les outils qui correspondent vraiment.",
@@ -853,6 +857,9 @@ workflowYoutubeTitle: "🎥 Contenu YouTube",
 workflowYoutubeStep1: "ChatGPT → Rédiger un script",
 workflowYoutubeStep2: "ElevenLabs → Générer une voix IA",
 workflowYoutubeStep3: "Canva → Créer une miniature",
+  },
+  
+
 
   es: {
     heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
@@ -862,10 +869,10 @@ workflowYoutubeStep3: "Canva → Créer une miniature",
     workflowGeneratorSubtitle: "Describe tu objetivo y recibe automáticamente el mejor workflow de IA.",
     whyTitle: "¿Por qué MyAIFinder?",
     trendingTitle: "🔥 Herramientas IA populares",
-    bestWorkflowsTitle: "🚀 Mejores workflows IA"
-  },
-  // ES
-whyCard1Title: "⚡ Recomendaciones rápidas",
+    bestWorkflowsTitle: "🚀 Mejores workflows IA",
+
+// ES
+    whyCard1Title: "⚡ Recomendaciones rápidas",
 whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
 whyCard2Title: "🎯 Selección clara",
 whyCard2Text: "Sin listas interminables — te mostramos las herramientas que realmente encajan.",
@@ -886,6 +893,9 @@ workflowYoutubeTitle: "🎥 Contenido de YouTube",
 workflowYoutubeStep1: "ChatGPT → Escribir guion",
 workflowYoutubeStep2: "ElevenLabs → Generar voz IA",
 workflowYoutubeStep3: "Canva → Crear miniatura",
+  },
+  
+
 
   ar: {
     heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
@@ -895,9 +905,9 @@ workflowYoutubeStep3: "Canva → Crear miniatura",
     workflowGeneratorSubtitle: "اكتب هدفك واحصل تلقائياً على أفضل سير عمل بالذكاء الاصطناعي.",
     whyTitle: "لماذا MyAIFinder؟",
     trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
-    bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي"
-  },
-  // AR
+    bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي",
+
+    // AR
 whyCard1Title: "⚡ توصيات سريعة",
 whyCard1Text: "اعثر خلال ثوانٍ على أدوات ذكاء اصطناعي مناسبة لمشكلتك.",
 whyCard2Title: "🎯 اختيار واضح",
@@ -920,6 +930,8 @@ workflowYoutubeStep1: "ChatGPT → كتابة سكريبت",
 workflowYoutubeStep2: "ElevenLabs → إنشاء صوت بالذكاء الاصطناعي",
 workflowYoutubeStep3: "Canva → إنشاء صورة مصغرة",
 
+  },
+  
   zh: {
     heroTitle: "为你的问题找到最佳 AI 工具",
     heroSubtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
@@ -928,9 +940,9 @@ workflowYoutubeStep3: "Canva → إنشاء صورة مصغرة",
     workflowGeneratorSubtitle: "描述你的目标，并自动获得最佳 AI 工作流。",
     whyTitle: "为什么选择 MyAIFinder？",
     trendingTitle: "🔥 热门 AI 工具",
-    bestWorkflowsTitle: "🚀 最佳 AI 工作流"
-  },
-  // ZH
+    bestWorkflowsTitle: "🚀 最佳 AI 工作流",
+
+     // ZH
 whyCard1Title: "⚡ 快速推荐",
 whyCard1Text: "几秒钟内找到适合你具体问题的 AI 工具。",
 whyCard2Title: "🎯 清晰选择",
@@ -952,6 +964,8 @@ workflowYoutubeTitle: "🎥 YouTube 内容",
 workflowYoutubeStep1: "ChatGPT → 撰写脚本",
 workflowYoutubeStep2: "ElevenLabs → 生成 AI 语音",
 workflowYoutubeStep3: "Canva → 创建缩略图",
+  },
+ 
 };
 
 function applyLanguage() {
