@@ -1559,3 +1559,16 @@ body[dir="rtl"] .search-box,
 body[dir="rtl"] .generator-box {
   direction: rtl;
 }
+
+body[dir="rtl"] .workflow-grid {
+  direction: ltr;
+}
+
+body[dir="rtl"] .workflow-card {
+  direction: rtl;
+  text-align: center;
+}
+
+body[dir="rtl"] .workflow-step {
+  direction: rtl;
+}
