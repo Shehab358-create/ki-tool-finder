@@ -720,7 +720,29 @@ const workflowExamples = {
     "أحتاج إلى سير عمل للتوظيف",
     "كيف أنشئ محتوى تيك توك؟",
     "أريد تصميم شعار"
-  ]
+  ],
+
+fr: [
+  "Je veux lancer une chaîne YouTube",
+  "J’ai besoin d’un workflow de candidature",
+  "Comment créer du contenu TikTok ?",
+  "Je veux créer un logo"
+],
+
+es: [
+  "Quiero iniciar un canal de YouTube",
+  "Necesito un workflow para una solicitud",
+  "¿Cómo creo contenido para TikTok?",
+  "Quiero diseñar un logo"
+],
+
+zh: [
+  "我想开设一个 YouTube 频道",
+  "我需要一个求职申请工作流",
+  "如何制作 TikTok 内容？",
+  "我想设计一个 Logo"
+]
+
 };
 
 let exampleIndex = 0;
