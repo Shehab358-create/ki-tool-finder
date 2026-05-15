@@ -1764,10 +1764,6 @@ align-items: center;
 justify-content: center;
 }
 
-.brand-logo:hover {
-    animation: logoShake 0.4s ease-in-out;
-    transform: translateX(0) !important;
-}
 
 .logo-circle {
   width: 56px;
@@ -1854,16 +1850,27 @@ justify-content: center;
   gap: 16px !important;
 }
 
-@keyframes logoShake {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-2px); }
-    40% { transform: translateX(2px); }
-    60% { transform: translateX(-2px); }
-    80% { transform: translateX(2px); }
-    100% { transform: translateX(0); }
+@keyframes logoShakeCenter {
+  0% {
+    transform: translateX(-50%) translateX(0);
+  }
+  20% {
+    transform: translateX(-50%) translateX(-2px);
+  }
+  40% {
+    transform: translateX(-50%) translateX(2px);
+  }
+  60% {
+    transform: translateX(-50%) translateX(-2px);
+  }
+  80% {
+    transform: translateX(-50%) translateX(2px);
+  }
+  100% {
+    transform: translateX(-50%) translateX(0);
+  }
 }
 
 .brand-logo:hover {
-    animation: logoShake 0.4s ease-in-out;
-    transform: translateX(0) !important;
+  animation: logoShakeCenter 0.45s ease-in-out;
 }
