@@ -1701,3 +1701,28 @@ body[dir="rtl"] .workflow-step span {
   margin-left: 14px;
   margin-right: 0;
 }
+
+body[dir="rtl"] .workflow-grid {
+  grid-template-columns: repeat(2, 430px) !important;
+  gap: 35px !important;
+  max-width: 950px !important;
+}
+
+body[dir="rtl"] .workflow-card {
+  width: 430px !important;
+  max-width: 430px !important;
+  padding: 35px !important;
+  overflow: hidden !important;
+}
+
+body[dir="rtl"] .workflow-step {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  justify-content: space-between !important;
+}
+
+body[dir="rtl"] .workflow-step p {
+  max-width: 300px !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
