@@ -660,12 +660,44 @@ function toggleTheme(){
     }
 }
 
-const examples = [
-  "Ich brauche ein Bewerbungsschreiben",
-  "Ich möchte ein YouTube Video erstellen",
-  "Erstelle mir ein Logo",
-  "Welche KI hilft bei Instagram Posts?"
-];
+const examples = {
+  de: [
+    "Ich brauche ein Bewerbungsschreiben",
+    "Ich möchte ein YouTube Video erstellen",
+    "Erstelle mir ein Logo",
+    "Welche KI hilft bei Instagram Posts?"
+  ],
+  en: [
+    "I need a cover letter",
+    "I want to create a YouTube video",
+    "Create a logo for me",
+    "Which AI helps with Instagram posts?"
+  ],
+  fr: [
+    "J’ai besoin d’une lettre de motivation",
+    "Je veux créer une vidéo YouTube",
+    "Crée-moi un logo",
+    "Quel outil IA aide avec les posts Instagram ?"
+  ],
+  es: [
+    "Necesito una carta de presentación",
+    "Quiero crear un video de YouTube",
+    "Créame un logo",
+    "¿Qué IA ayuda con publicaciones de Instagram?"
+  ],
+  ar: [
+    "أحتاج إلى خطاب تقديم",
+    "أريد إنشاء فيديو يوتيوب",
+    "أنشئ لي شعاراً",
+    "ما أداة الذكاء الاصطناعي المناسبة لمنشورات إنستغرام؟"
+  ],
+  zh: [
+    "我需要一封求职信",
+    "我想制作一个 YouTube 视频",
+    "帮我创建一个 Logo",
+    "哪个 AI 可以帮助制作 Instagram 帖子？"
+  ]
+};
 
 let exampleIndex = 0;
 let charIndex = 0;
@@ -676,7 +708,7 @@ function typeEffect() {
 
   if (document.activeElement === searchInput) return;
 
-  let currentText = examples[exampleIndex];
+  let currentText = examples[currentLang][exampleIndex];
 
   searchInput.setAttribute(
     "placeholder",
@@ -685,7 +717,7 @@ function typeEffect() {
 
   charIndex++;
 
-  if (charIndex > currentText.length) {
+  if (exampleIndex >= examples[currentLang].length) {
 
     setTimeout(() => {
 
