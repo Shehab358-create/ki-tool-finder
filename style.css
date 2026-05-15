@@ -842,13 +842,13 @@ h1 {
 .theme-toggle{
     position:static !important;
 
-    width:64px;
-    height:64px;
+    width:52px;
+    height:52px;
 
     background:#0f172a;
     color:white;
 
-    border-radius:18px;
+    border-radius:16px;
 
     display:flex;
     justify-content:center;
@@ -1135,10 +1135,10 @@ body.dark-mode .trending-card img {
 }
 
 .menu-toggle {
-  width: 70px;
-  height: 70px;
+  width: 52px;
+  height: 52px;
   background: #0f172a;
-  border-radius: 20px;
+  border-radius: 16px;
 
   display: flex !important;
   flex-direction: column;
@@ -1207,10 +1207,10 @@ body.dark-mode .trending-card img {
 }
 
 .navbar .menu-toggle {
-  width: 64px !important;
-  height: 64px !important;
+  width:52px !important;
+  height: 52px !important;
   background: #0f172a !important;
-  border-radius: 18px !important;
+  border-radius: 16px !important;
 
   display: flex !important;
   flex-direction: column !important;
@@ -1331,7 +1331,7 @@ body.dark-mode .trending-card img {
   background: #0f172a;
   color: white;
   border: 1px solid #334155;
-  padding: 16px 22px;
+  padding: 16px 18px;
   border-radius: 16px;
   font-weight: 800;
   cursor: pointer;
