@@ -187,11 +187,13 @@ html {
   background: #475569;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    background: #07152d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #07152d;
+  position: relative;
+  height: 82px;
 }
 
 .logo {
@@ -1194,7 +1196,7 @@ body.dark-mode .trending-card img {
   align-items: center !important;
   gap: 6px !important;
 
-  position: absolute;
+ position: absolute !important;
   top: 50%;
   left: 25px;
   transform: translateY(-50%);
@@ -1216,7 +1218,6 @@ body.dark-mode .trending-card img {
 .language-switcher {
   position: absolute !important;
   top: 50% !important;
-  left: 120px !important;
-  transform: translateY(-50%);
-  z-index: 9999 !important;
+  left: 100px !important;
+  transform: translateY(-50%) !important;
 }
