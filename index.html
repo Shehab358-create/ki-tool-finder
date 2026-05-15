@@ -15,15 +15,20 @@
   <span></span>
   <span></span>
 </div>
- <div class="language-switcher">
-    <select id="languageSelect">
-        <option value="de">DE</option>
-        <option value="en">EN</option>
-        <option value="fr">FR</option>
-        <option value="ar">AR</option>
-        <option value="es">ES</option>
-        <option value="zh">中文</option>
-    </select>
+<div class="language-switcher">
+  <button class="language-btn" onclick="toggleLanguageMenu()">
+    <span id="currentLang">DE</span>
+    <span>⌄</span>
+  </button>
+
+  <div class="language-menu" id="languageMenu">
+    <div onclick="changeLanguage('de', 'DE')">DE</div>
+    <div onclick="changeLanguage('en', 'EN')">EN</div>
+    <div onclick="changeLanguage('fr', 'FR')">FR</div>
+    <div onclick="changeLanguage('ar', 'AR')">AR</div>
+    <div onclick="changeLanguage('es', 'ES')">ES</div>
+    <div onclick="changeLanguage('zh', '中文')">中文</div>
+  </div>
 </div>
   <div class="theme-toggle" onclick="toggleTheme()">
     🌙

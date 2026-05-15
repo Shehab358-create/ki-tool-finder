@@ -736,3 +736,19 @@ function toggleMenu() {
   document.querySelector(".nav-links").classList.toggle("active");
   document.querySelector(".menu-toggle").classList.toggle("active");
 }
+
+function toggleLanguageMenu() {
+  document.getElementById("languageMenu").classList.toggle("active");
+}
+
+function changeLanguage(lang, label) {
+  document.getElementById("currentLang").textContent = label;
+  document.getElementById("languageMenu").classList.remove("active");
+
+  const oldSelect = document.getElementById("languageSelect");
+
+  if (oldSelect) {
+    oldSelect.value = lang;
+    oldSelect.dispatchEvent(new Event("change"));
+  }
+}
