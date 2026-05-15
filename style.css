@@ -2126,7 +2126,7 @@ button:hover,
 
     display:flex;
     align-items:center;
-    gap:18px;
+    gap: 26px;
 
     text-decoration:none;
     z-index:20;
@@ -2139,8 +2139,8 @@ button:hover,
 .logo-mark{
     position:relative;
 
-    width:82px;
-    height:58px;
+     width: 92px;
+    height: 64px;
 
     filter:
         drop-shadow(0 0 16px rgba(34,255,148,0.45))
@@ -2242,18 +2242,17 @@ button:hover,
 /* MyAI */
 
 .logo-my{
-    font-size:52px;
+    font-size: 46px;
     font-weight:900;
 
     color:#ffffff;
 
     letter-spacing:-2px;
 
-    text-shadow:
-        0 2px 0 #dbeafe,
-        0 4px 0 #93c5fd,
-        0 0 10px rgba(255,255,255,0.9),
-        0 0 18px rgba(59,130,246,0.55);
+     text-shadow:
+        0 2px 0 #bfdbfe,
+        0 0 12px rgba(255,255,255,0.95),
+        0 0 24px rgba(59,130,246,0.55);
 }
 
 /* Finder */
@@ -2264,22 +2263,15 @@ button:hover,
 
     letter-spacing:-2px;
 
-    background:linear-gradient(
-        90deg,
-        #22c55e,
-        #22d3ee,
-        #3b82f6
-    );
-
-    background-clip:text;
-    -webkit-background-clip:text;
-
-    color:transparent;
-    -webkit-text-fill-color:transparent;
+    background: linear-gradient(90deg, #22c55e, #22d3ee, #0ea5e9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 
     text-shadow:
-        0 0 12px rgba(34,211,238,0.65),
-        0 0 24px rgba(59,130,246,0.45);
+        0 0 14px rgba(34,211,238,0.75),
+        0 0 30px rgba(14,165,233,0.55);
 }
 
 /* Glow hinter Logo */
@@ -2289,18 +2281,17 @@ button:hover,
 
     position:absolute;
 
-    width:340px;
-    height:120px;
-
-    background:
-        radial-gradient(
-            circle,
-            rgba(34,255,148,0.16),
-            rgba(0,212,255,0.12),
-            transparent 72%
-        );
-
-    filter:blur(30px);
+    .brand-logo::before {
+    width: 430px;
+    height: 140px;
+    background: radial-gradient(
+        circle,
+        rgba(34,255,148,0.22),
+        rgba(0,212,255,0.18),
+        transparent 72%
+    );
+    filter: blur(38px);
 
     z-index:-1;
+}
 }
