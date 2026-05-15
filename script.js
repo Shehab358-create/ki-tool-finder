@@ -738,7 +738,6 @@ function toggleMenu() {
 }
 
 function toggleLanguageMenu() {
-  alert("Sprache geklickt");
   document.getElementById("languageMenu").classList.toggle("active");
 }
 

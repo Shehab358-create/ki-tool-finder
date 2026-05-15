@@ -1463,3 +1463,31 @@ body.dark-mode .trending-card img {
 .language-menu div:hover {
   background: #1e293b !important;
 }
+
+.language-switcher {
+  overflow: visible !important;
+}
+
+.language-menu {
+  display: none !important;
+}
+
+.language-menu.active {
+  display: flex !important;
+  position: absolute !important;
+  top: 80px !important;
+  left: 0 !important;
+  background: #07152d !important;
+  border-radius: 18px !important;
+  padding: 12px !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  z-index: 9999999 !important;
+}
+
+.language-menu.active div {
+  color: white !important;
+  padding: 12px 18px !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+}
