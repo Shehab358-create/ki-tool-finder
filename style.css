@@ -2119,99 +2119,188 @@ button:hover,
     transform: scale(1.05);
 }
 
-.brand-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  text-decoration: none;
-  z-index: 20;
+.brand-logo{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    text-decoration:none;
+    z-index:20;
 }
 
-.logo-mark {
-  position: relative;
-  width: 120px;
-  height: 76px;
-  filter:
-    drop-shadow(0 0 14px rgba(34,255,148,0.75))
-    drop-shadow(0 0 22px rgba(0,212,255,0.65));
+/* =========================
+   SYMBOL
+========================= */
+
+.logo-mark{
+    position:relative;
+
+    width:82px;
+    height:58px;
+
+    filter:
+        drop-shadow(0 0 16px rgba(34,255,148,0.45))
+        drop-shadow(0 0 24px rgba(0,212,255,0.35));
 }
 
-.mark-a {
-  position: absolute;
-  bottom: 0;
-  width: 28px;
-  height: 78px;
-  border-radius: 18px;
-  transform-origin: bottom center;
+/* linker Balken */
+
+.mark-left{
+    position:absolute;
+
+    left:6px;
+    bottom:0;
+
+    width:22px;
+    height:58px;
+
+    border-radius:16px;
+
+    background:linear-gradient(
+        180deg,
+        #86ff8c,
+        #22c55e
+    );
+
+    transform:rotate(33deg);
+
+    box-shadow:
+        6px 6px 0 rgba(0,70,40,0.55);
 }
 
-.mark-left {
-  left: 18px;
-  transform: rotate(28deg);
-  background: linear-gradient(180deg, #7cff7a, #22c55e);
-  box-shadow: 6px 8px 0 rgba(6,95,70,0.75);
+/* rechter Balken */
+
+.mark-right{
+    position:absolute;
+
+    right:10px;
+    bottom:0;
+
+    width:22px;
+    height:58px;
+
+    border-radius:16px;
+
+    background:linear-gradient(
+        180deg,
+        #52f7ff,
+        #2563eb
+    );
+
+    transform:rotate(-33deg);
+
+    box-shadow:
+        6px 6px 0 rgba(25,50,160,0.55);
 }
 
-.mark-right {
-  left: 58px;
-  transform: rotate(-28deg);
-  background: linear-gradient(180deg, #22f5ff, #2563eb);
-  box-shadow: 6px 8px 0 rgba(30,64,175,0.75);
+/* Mitte */
+
+.mark-cut{
+    position:absolute;
+
+    left:31px;
+    bottom:9px;
+
+    width:22px;
+    height:20px;
+
+    background:#050816;
+
+    clip-path:polygon(50% 0%,0% 100%,100% 100%);
 }
 
-.mark-cut {
-  position: absolute;
-  left: 44px;
-  bottom: 13px;
-  width: 28px;
-  height: 30px;
-  background: rgba(2,6,23,0.9);
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+/* Stern */
+
+.mark-star{
+    position:absolute;
+
+    top:-10px;
+    right:-2px;
+
+    color:white;
+    font-size:26px;
+
+    text-shadow:
+        0 0 10px #38bdf8,
+        0 0 20px #22d3ee;
 }
 
-.mark-star {
-  position: absolute;
-  right: 6px;
-  top: -5px;
-  color: #e0f2fe;
-  font-size: 32px;
-  text-shadow:
-    0 0 10px #38bdf8,
-    0 0 24px #22d3ee;
+/* =========================
+   TEXT
+========================= */
+
+.logo-title{
+    display:flex;
+    align-items:baseline;
+    line-height:1;
 }
 
-.logo-title {
-  display: flex;
-  align-items: baseline;
-  gap: 0;
-  font-weight: 900;
-  line-height: 1;
+/* MyAI */
+
+.logo-my{
+    font-size:52px;
+    font-weight:900;
+
+    color:#ffffff;
+
+    letter-spacing:-2px;
+
+    text-shadow:
+        0 2px 0 #dbeafe,
+        0 4px 0 #93c5fd,
+        0 0 10px rgba(255,255,255,0.9),
+        0 0 18px rgba(59,130,246,0.55);
 }
 
-.logo-my,
-.logo-finder {
-  font-size: 48px;
-  letter-spacing: -2px;
+/* Finder */
+
+.logo-finder{
+    font-size:52px;
+    font-weight:900;
+
+    letter-spacing:-2px;
+
+    background:linear-gradient(
+        90deg,
+        #22c55e,
+        #22d3ee,
+        #3b82f6
+    );
+
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 12px rgba(34,211,238,0.65),
+        0 0 24px rgba(59,130,246,0.45);
 }
 
-.logo-my {
-  color: white;
-  text-shadow:
-    3px 4px 0 #1e3a8a,
-    0 0 12px rgba(255,255,255,0.9),
-    0 0 28px rgba(56,189,248,0.65);
-}
+/* Glow hinter Logo */
 
-.logo-finder {
-  background: linear-gradient(90deg, #22c55e, #22d3ee, #2563eb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  filter:
-    drop-shadow(3px 4px 0 #1e3a8a)
-    drop-shadow(0 0 14px rgba(34,211,238,0.8));
+.brand-logo::before{
+    content:"";
+
+    position:absolute;
+
+    width:340px;
+    height:120px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(34,255,148,0.16),
+            rgba(0,212,255,0.12),
+            transparent 72%
+        );
+
+    filter:blur(30px);
+
+    z-index:-1;
 }
