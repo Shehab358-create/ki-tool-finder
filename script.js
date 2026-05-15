@@ -758,70 +758,78 @@ function changeLanguage(lang, label) {
 
 const pageText = {
   de: {
-    title: "Finde das beste KI-Tool für dein Problem",
-    subtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
+    heroTitle: "Finde das beste KI-Tool für dein Problem",
+    heroSubtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
     searchBtn: "Suchen",
-    resumeBtn: "Lebenslauf",
-    applicationBtn: "Bewerbung",
-    logoBtn: "Logo",
-    textBtn: "Texte"
+    workflowGeneratorTitle: "🤖 AI Workflow Generator",
+    workflowGeneratorSubtitle: "Beschreibe dein Ziel und erhalte automatisch den besten KI-Workflow.",
+    whyTitle: "Warum MyAIFinder?",
+    trendingTitle: "🔥 Trending AI Tools",
+    bestWorkflowsTitle: "🚀 Beste KI Workflows"
   },
+
   en: {
-    title: "Find the best AI tool for your problem",
-    subtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
+    heroTitle: "Find the best AI tool for your problem",
+    heroSubtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
     searchBtn: "Search",
-    resumeBtn: "Resume",
-    applicationBtn: "Application",
-    logoBtn: "Logo",
-    textBtn: "Texts"
+    workflowGeneratorTitle: "🤖 AI Workflow Generator",
+    workflowGeneratorSubtitle: "Describe your goal and automatically get the best AI workflow.",
+    whyTitle: "Why MyAIFinder?",
+    trendingTitle: "🔥 Trending AI Tools",
+    bestWorkflowsTitle: "🚀 Best AI Workflows"
   },
+
   fr: {
-    title: "Trouvez le meilleur outil IA pour votre problème",
-    subtitle: "Indiquez ce dont vous avez besoin – CV, candidature, logo ou textes.",
+    heroTitle: "Trouvez le meilleur outil IA pour votre problème",
+    heroSubtitle: "Indiquez ce dont vous avez besoin – CV, candidature, logo ou textes.",
     searchBtn: "Rechercher",
-    resumeBtn: "CV",
-    applicationBtn: "Candidature",
-    logoBtn: "Logo",
-    textBtn: "Textes"
+    workflowGeneratorTitle: "🤖 Générateur de workflow IA",
+    workflowGeneratorSubtitle: "Décrivez votre objectif et obtenez automatiquement le meilleur workflow IA.",
+    whyTitle: "Pourquoi MyAIFinder ?",
+    trendingTitle: "🔥 Outils IA populaires",
+    bestWorkflowsTitle: "🚀 Meilleurs workflows IA"
   },
+
   es: {
-    title: "Encuentra la mejor herramienta de IA para tu problema",
-    subtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
+    heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
+    heroSubtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
     searchBtn: "Buscar",
-    resumeBtn: "CV",
-    applicationBtn: "Solicitud",
-    logoBtn: "Logo",
-    textBtn: "Textos"
+    workflowGeneratorTitle: "🤖 Generador de workflows IA",
+    workflowGeneratorSubtitle: "Describe tu objetivo y recibe automáticamente el mejor workflow de IA.",
+    whyTitle: "¿Por qué MyAIFinder?",
+    trendingTitle: "🔥 Herramientas IA populares",
+    bestWorkflowsTitle: "🚀 Mejores workflows IA"
   },
+
   ar: {
-    title: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
-    subtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
+    heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
+    heroSubtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
     searchBtn: "بحث",
-    resumeBtn: "السيرة الذاتية",
-    applicationBtn: "طلب وظيفة",
-    logoBtn: "شعار",
-    textBtn: "نصوص"
+    workflowGeneratorTitle: "🤖 مولد سير عمل الذكاء الاصطناعي",
+    workflowGeneratorSubtitle: "اكتب هدفك واحصل تلقائياً على أفضل سير عمل بالذكاء الاصطناعي.",
+    whyTitle: "لماذا MyAIFinder؟",
+    trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
+    bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي"
   },
+
   zh: {
-    title: "为你的问题找到最佳 AI 工具",
-    subtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
+    heroTitle: "为你的问题找到最佳 AI 工具",
+    heroSubtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
     searchBtn: "搜索",
-    resumeBtn: "简历",
-    applicationBtn: "申请",
-    logoBtn: "Logo",
-    textBtn: "文本"
+    workflowGeneratorTitle: "🤖 AI 工作流生成器",
+    workflowGeneratorSubtitle: "描述你的目标，并自动获得最佳 AI 工作流。",
+    whyTitle: "为什么选择 MyAIFinder？",
+    trendingTitle: "🔥 热门 AI 工具",
+    bestWorkflowsTitle: "🚀 最佳 AI 工作流"
   }
 };
 
 function applyLanguage() {
-  const t = pageText[currentLang];
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
 
-  document.querySelector("h1").textContent = t.title;
-  document.querySelector(".hero p").textContent = t.subtitle;
-  document.getElementById("search-btn").textContent = t.searchBtn;
-
-  document.querySelectorAll(".quick-btn")[0].textContent = t.resumeBtn;
-  document.querySelectorAll(".quick-btn")[1].textContent = t.applicationBtn;
-  document.querySelectorAll(".quick-btn")[2].textContent = t.logoBtn;
-  document.querySelectorAll(".quick-btn")[3].textContent = t.textBtn;
+    if (pageText[currentLang] && pageText[currentLang][key]) {
+      element.textContent = pageText[currentLang][key];
+    }
+  });
 }
