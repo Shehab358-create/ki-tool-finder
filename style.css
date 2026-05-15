@@ -840,7 +840,7 @@ h1 {
     }
 }
 .theme-toggle{
-    position:static !important;
+    position: static !important;
 
     width:52px;
     height:52px;
@@ -858,8 +858,10 @@ h1 {
     font-size:26px;
 
     transition:0.3s;
+
     box-shadow:0 5px 15px rgba(0,0,0,0.25);
-    margin-left: 20px;
+
+    margin-left: 14px !important;
 }
 
 .theme-toggle:hover{
