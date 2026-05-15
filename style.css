@@ -2098,3 +2098,23 @@ justify-content: center;
   background: rgba(255,255,255,0.07) !important;
   color: #38bdf8 !important;
 }
+
+.navbar ul.nav-links.glass-menu,
+.navbar ul.nav-links.glass-menu.active {
+  background: rgba(8, 18, 36, 0.78) !important;
+  border: 1px solid rgba(255,255,255,0.14) !important;
+  backdrop-filter: blur(22px) !important;
+  -webkit-backdrop-filter: blur(22px) !important;
+  box-shadow: 0 12px 45px rgba(0,0,0,0.55),
+              inset 0 1px 0 rgba(255,255,255,0.08) !important;
+}
+
+.navbar .language-menu.glass-language,
+.navbar .language-menu.glass-language.active {
+  background: rgba(8, 18, 36, 0.78) !important;
+  border: 1px solid rgba(255,255,255,0.14) !important;
+  backdrop-filter: blur(22px) !important;
+  -webkit-backdrop-filter: blur(22px) !important;
+  box-shadow: 0 12px 45px rgba(0,0,0,0.55),
+              inset 0 1px 0 rgba(255,255,255,0.08) !important;
+}
