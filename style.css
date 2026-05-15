@@ -1664,3 +1664,23 @@ body[dir="rtl"] .workflow-step p {
   margin: 0 !important;
   text-align: right !important;
 }
+
+body[dir="rtl"] .workflow-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 480px) !important;
+  justify-content: center !important;
+  gap: 60px !important;
+  max-width: 1100px !important;
+  margin: 60px auto 0 auto !important;
+}
+
+body[dir="rtl"] .workflow-card {
+  width: 480px !important;
+  max-width: 480px !important;
+}
+
+@media (max-width: 1100px) {
+  body[dir="rtl"] .workflow-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
