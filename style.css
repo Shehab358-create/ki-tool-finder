@@ -1572,3 +1572,20 @@ body[dir="rtl"] .workflow-card {
 body[dir="rtl"] .workflow-step {
   direction: rtl;
 }
+
+body[dir="rtl"] .workflow-section,
+body[dir="rtl"] .workflow-container,
+body[dir="rtl"] .workflow-grid {
+  direction: ltr !important;
+  text-align: center !important;
+}
+
+body[dir="rtl"] .workflow-card {
+  direction: rtl !important;
+  text-align: center !important;
+}
+
+body[dir="rtl"] .workflow-step {
+  direction: rtl !important;
+  text-align: center !important;
+}
