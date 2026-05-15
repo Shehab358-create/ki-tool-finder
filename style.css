@@ -1755,9 +1755,9 @@ body[dir="rtl"] .workflow-step p {
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
   text-decoration: none;
-  transition: 0.3s ease;
+  transition:  none;
   transform-origin: center;
 display: flex;
 align-items: center;
@@ -1766,6 +1766,7 @@ justify-content: center;
 
 .brand-logo:hover {
     animation: logoShake 0.4s ease-in-out;
+    transform: translateX(0) !important;
 }
 
 .logo-circle {
@@ -1855,12 +1856,14 @@ justify-content: center;
 
 @keyframes logoShake {
     0% { transform: translateX(0); }
-    25% { transform: translateX(-3px); }
-    50% { transform: translateX(3px); }
-    75% { transform: translateX(-3px); }
+    20% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    60% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
     100% { transform: translateX(0); }
 }
 
 .brand-logo:hover {
     animation: logoShake 0.4s ease-in-out;
+    transform: translateX(0) !important;
 }
