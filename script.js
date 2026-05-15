@@ -742,25 +742,14 @@ function toggleLanguageMenu() {
 }
 
 function changeLanguage(lang, label) {
+  currentLang = lang;
+
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
 
-  const fakeSelect = document.getElementById("languageSelect");
+  const searchInput = document.getElementById("searchInput");
 
-  if (fakeSelect) {
-    fakeSelect.value = lang;
-    fakeSelect.dispatchEvent(new Event("change"));
-  }
-
-  if (typeof applyLanguage === "function") {
-    currentLang = lang;
-    applyLanguage();
-  }
-}
-  const oldSelect = document.getElementById("languageSelect");
-
-  if (oldSelect) {
-    oldSelect.value = lang;
-    oldSelect.dispatchEvent(new Event("change"));
+  if (searchInput && searchInput.value.trim() !== "") {
+    searchTools();
   }
 }
