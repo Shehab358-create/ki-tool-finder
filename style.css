@@ -1397,3 +1397,69 @@ body.dark-mode .trending-card img {
 .language-menu div:hover {
   background: #1e293b;
 }
+
+.language-switcher {
+  position: absolute !important;
+  top: 50% !important;
+  left: 100px !important;
+  transform: translateY(-50%) !important;
+  z-index: 999999 !important;
+}
+
+.language-menu {
+  position: absolute !important;
+  top: 75px !important;
+  left: 0 !important;
+  width: 130px !important;
+  background: #07152d !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 18px !important;
+  padding: 12px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+
+  opacity: 0 !important;
+  transform: translateY(-20px) scale(0.95) !important;
+  filter: blur(6px) !important;
+  pointer-events: none !important;
+
+  transition: 0.35s ease !important;
+  z-index: 999999 !important;
+}
+
+.language-menu.active {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  filter: blur(0) !important;
+  pointer-events: auto !important;
+}
+
+.language-menu div {
+  color: white !important;
+  padding: 12px 14px !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  font-weight: 700 !important;
+
+  opacity: 0;
+  transform: translateY(-12px);
+  transition: 0.3s ease;
+}
+
+.language-menu.active div {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.language-menu.active div:nth-child(1) { transition-delay: 0.05s; }
+.language-menu.active div:nth-child(2) { transition-delay: 0.10s; }
+.language-menu.active div:nth-child(3) { transition-delay: 0.15s; }
+.language-menu.active div:nth-child(4) { transition-delay: 0.20s; }
+.language-menu.active div:nth-child(5) { transition-delay: 0.25s; }
+.language-menu.active div:nth-child(6) { transition-delay: 0.30s; }
+
+.language-menu div:hover {
+  background: #1e293b !important;
+}
