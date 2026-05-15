@@ -756,6 +756,24 @@ function changeLanguage(lang, label) {
   }
 }
 
+function applyLanguage() {
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+
+    if (pageText[currentLang] && pageText[currentLang][key]) {
+      element.textContent = pageText[currentLang][key];
+    }
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    const key = element.getAttribute("data-i18n-placeholder");
+
+    if (pageText[currentLang] && pageText[currentLang][key]) {
+      element.placeholder = pageText[currentLang][key];
+    }
+  });
+}
+
 const pageText = {
   de: {
     heroTitle: "Finde das beste KI-Tool für dein Problem",
@@ -788,9 +806,17 @@ workflowYoutubeTitle: "🎥 YouTube Content",
 workflowYoutubeStep1: "ChatGPT → Skript schreiben",
 workflowYoutubeStep2: "ElevenLabs → KI Stimme erzeugen",
 workflowYoutubeStep3: "Canva → Thumbnail erstellen",
+
+// DE
+catCv: "Lebenslauf",
+catApplication: "Bewerbung",
+catLogo: "Logo",
+catText: "Texte",
+searchPlaceholder: "z.B. Lebenslauf schreiben...",
+workflowPlaceholder: "z.B. Ich möchte einen YouTube Kanal starten",
+workflowBtn: "Workflow erstellen",
   },
  
-
   en: {
     heroTitle: "Find the best AI tool for your problem",
     heroSubtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
@@ -822,8 +848,16 @@ workflowYoutubeTitle: "🎥 YouTube Content",
 workflowYoutubeStep1: "ChatGPT → Write script",
 workflowYoutubeStep2: "ElevenLabs → Generate AI voice",
 workflowYoutubeStep3: "Canva → Create thumbnail",
+
+// EN
+catCv: "Resume",
+catApplication: "Application",
+catLogo: "Logo",
+catText: "Texts",
+searchPlaceholder: "e.g. Write a resume...",
+workflowPlaceholder: "e.g. I want to start a YouTube channel",
+workflowBtn: "Create workflow",
   },
-  
 
   fr: {
     heroTitle: "Trouvez le meilleur outil IA pour votre problème",
@@ -834,7 +868,7 @@ workflowYoutubeStep3: "Canva → Create thumbnail",
     whyTitle: "Pourquoi MyAIFinder ?",
     trendingTitle: "🔥 Outils IA populaires",
     bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
-    
+
 // FR
     whyCard1Title: "⚡ Recommandations rapides",
 whyCard1Text: "Trouvez en quelques secondes les outils IA adaptés à votre problème.",
@@ -857,10 +891,17 @@ workflowYoutubeTitle: "🎥 Contenu YouTube",
 workflowYoutubeStep1: "ChatGPT → Rédiger un script",
 workflowYoutubeStep2: "ElevenLabs → Générer une voix IA",
 workflowYoutubeStep3: "Canva → Créer une miniature",
+
+// FR
+catCv: "CV",
+catApplication: "Candidature",
+catLogo: "Logo",
+catText: "Textes",
+searchPlaceholder: "ex. Rédiger un CV...",
+workflowPlaceholder: "ex. Je veux lancer une chaîne YouTube",
+workflowBtn: "Créer un workflow",
   },
   
-
-
   es: {
     heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
     heroSubtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
@@ -893,10 +934,17 @@ workflowYoutubeTitle: "🎥 Contenido de YouTube",
 workflowYoutubeStep1: "ChatGPT → Escribir guion",
 workflowYoutubeStep2: "ElevenLabs → Generar voz IA",
 workflowYoutubeStep3: "Canva → Crear miniatura",
+
+// ES
+catCv: "CV",
+catApplication: "Solicitud",
+catLogo: "Logo",
+catText: "Textos",
+searchPlaceholder: "ej. Escribir un CV...",
+workflowPlaceholder: "ej. Quiero iniciar un canal de YouTube",
+workflowBtn: "Crear workflow",
   },
   
-
-
   ar: {
     heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
     heroSubtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
@@ -930,6 +978,14 @@ workflowYoutubeStep1: "ChatGPT → كتابة سكريبت",
 workflowYoutubeStep2: "ElevenLabs → إنشاء صوت بالذكاء الاصطناعي",
 workflowYoutubeStep3: "Canva → إنشاء صورة مصغرة",
 
+// AR
+catCv: "السيرة الذاتية",
+catApplication: "طلب وظيفة",
+catLogo: "شعار",
+catText: "نصوص",
+searchPlaceholder: "مثال: كتابة سيرة ذاتية...",
+workflowPlaceholder: "مثال: أريد بدء قناة يوتيوب",
+workflowBtn: "إنشاء سير عمل",
   },
   
   zh: {
@@ -964,6 +1020,15 @@ workflowYoutubeTitle: "🎥 YouTube 内容",
 workflowYoutubeStep1: "ChatGPT → 撰写脚本",
 workflowYoutubeStep2: "ElevenLabs → 生成 AI 语音",
 workflowYoutubeStep3: "Canva → 创建缩略图",
+
+// ZH
+catCv: "简历",
+catApplication: "申请",
+catLogo: "Logo",
+catText: "文本",
+searchPlaceholder: "例如：写一份简历...",
+workflowPlaceholder: "例如：我想开设一个 YouTube 频道",
+workflowBtn: "创建工作流",
   },
  
 };
