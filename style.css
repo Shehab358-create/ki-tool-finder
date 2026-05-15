@@ -1441,6 +1441,10 @@ body.dark-mode .trending-card img {
   display: flex !important;
   align-items: center !important;
   gap: 14px !important;
+
+  .language-switcher {
+    margin-left: 70px !important;
+}
 }
 
 .language-menu {
@@ -1931,14 +1935,15 @@ justify-content: center;
 }
 
 .nav-left {
-  position: absolute !important;
-  left: 20px !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
+    position: absolute !important;
+    left: 20px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
 
-  display: flex !important;
-  align-items: center !important;
-  gap: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+
+    gap: 18px !important;
 }
 
 .menu-toggle,
