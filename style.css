@@ -1993,3 +1993,7 @@ justify-content: center;
   visibility: visible !important;
   opacity: 1 !important;
 }
+
+.theme-toggle {
+  transform: translateX(95px) !important;
+}
