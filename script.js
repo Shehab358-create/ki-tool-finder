@@ -742,12 +742,20 @@ function toggleLanguageMenu() {
 }
 
 function changeLanguage(lang, label) {
-  currentLang = lang;
-
   document.getElementById("currentLang").textContent = label;
   document.getElementById("languageMenu").classList.remove("active");
 
-  applyLanguage();
+  const fakeSelect = document.getElementById("languageSelect");
+
+  if (fakeSelect) {
+    fakeSelect.value = lang;
+    fakeSelect.dispatchEvent(new Event("change"));
+  }
+
+  if (typeof applyLanguage === "function") {
+    currentLang = lang;
+    applyLanguage();
+  }
 }
   const oldSelect = document.getElementById("languageSelect");
 
