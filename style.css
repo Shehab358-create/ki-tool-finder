@@ -902,43 +902,73 @@ body[dir="rtl"] .workflow-step p{
   }
 }
 
-/* FIX: Navbar immer oben */
+/* HARD FIX: Navbar bleibt oben */
+
+body{
+    animation: none !important;
+    transform: none !important;
+}
 
 .navbar{
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
+    right: 0 !important;
 
-    width: 100% !important;
+    width: 100vw !important;
     height: 96px !important;
 
     background: #000 !important;
 
-    z-index: 999999 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    z-index: 99999999 !important;
 }
 
 .nav-left{
-    position: absolute !important;
+    position: fixed !important;
+    top: 18px !important;
     left: 32px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+
+    z-index: 100000000 !important;
 }
 
 .nav-user{
-    position: absolute !important;
+    position: fixed !important;
+    top: 14px !important;
     right: 32px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+
+    z-index: 100000000 !important;
 }
 
 .brand-logo{
-    position: absolute !important;
+    position: fixed !important;
+    top: 18px !important;
     left: 50% !important;
-    top: 42% !important;
-    transform: translate(-50%, -50%) !important;
+
+    transform: translateX(-50%) !important;
+
+    z-index: 100000000 !important;
 }
 
-/* FIX: Navbar bleibt auch bei Arabisch LTR */
+.page-container,
+.container{
+    padding-top: 160px !important;
+}
 
 body[dir="rtl"] .navbar,
 body[dir="rtl"] .nav-left,
@@ -955,8 +985,4 @@ body[dir="rtl"] .nav-left{
 body[dir="rtl"] .nav-user{
     right: 32px !important;
     left: auto !important;
-}
-
-body[dir="rtl"] .brand-logo{
-    left: 50% !important;
 }
