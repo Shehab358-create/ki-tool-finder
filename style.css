@@ -3156,3 +3156,11 @@ body.login-page .navbar,
 .login-page .navbar {
     background: #000000 !important;
 }
+/* FINAL: schwarzer Navbar Hintergrund */
+
+body.login-page .navbar,
+body .navbar,
+.navbar {
+    background: #000000 !important;
+    background-color: #000000 !important;
+}
