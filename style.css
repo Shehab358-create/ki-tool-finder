@@ -2898,3 +2898,12 @@ body {
 .login-card .social-btn{
     width: 100% !important;
 }
+
+.menu-toggle span{
+    display:block;
+    width:24px;
+    height:3px;
+    background:white;
+    border-radius:10px;
+    margin:4px 0;
+}
