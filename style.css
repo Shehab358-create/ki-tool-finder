@@ -1167,3 +1167,217 @@ body.login-page::before{
 body.login-page .navbar{
     z-index:999999 !important;
 }
+
+/* =========================
+   MODERN UI IMPROVEMENTS
+========================= */
+
+/* Smooth */
+*{
+    transition:all 0.25s ease;
+}
+
+/* Headlines */
+
+.hero h1,
+.login-card h1,
+.workflow-title{
+    font-size:clamp(42px, 6vw, 78px);
+    font-weight:800;
+    letter-spacing:-2px;
+    line-height:1.05;
+
+    background:linear-gradient(
+        90deg,
+        #ffffff,
+        #dbeafe,
+        #38bdf8
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 20px rgba(59,130,246,.35),
+        0 0 50px rgba(56,189,248,.18);
+}
+
+/* Paragraphs */
+
+.hero p,
+.login-subtitle,
+.workflow-subtitle{
+    font-size:18px;
+    color:#94a3b8;
+    line-height:1.7;
+    font-weight:500;
+}
+
+/* Inputs */
+
+input{
+    height:68px;
+    padding:0 24px;
+
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,.08);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(10,20,45,.95),
+            rgba(5,10,30,.95)
+        );
+
+    color:white;
+    font-size:18px;
+    font-weight:500;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.03),
+        0 10px 30px rgba(0,0,0,.35);
+
+    outline:none;
+}
+
+/* Placeholder */
+
+input::placeholder{
+    color:#64748b;
+}
+
+/* Input Focus */
+
+input:focus{
+    border:1px solid rgba(56,189,248,.5);
+
+    box-shadow:
+        0 0 0 4px rgba(56,189,248,.12),
+        0 15px 40px rgba(37,99,235,.2);
+}
+
+/* Main Buttons */
+
+button,
+.login-btn,
+.search-btn,
+.workflow-btn{
+    height:64px;
+    padding:0 34px;
+
+    border:none;
+    border-radius:22px;
+
+    font-size:18px;
+    font-weight:700;
+    color:white;
+
+    cursor:pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f172a,
+            #1e293b,
+            #334155
+        );
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.35),
+        inset 0 1px 0 rgba(255,255,255,.05);
+}
+
+/* Hover */
+
+button:hover,
+.login-btn:hover,
+.search-btn:hover,
+.workflow-btn:hover{
+    transform:translateY(-3px) scale(1.02);
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #0891b2
+        );
+
+    box-shadow:
+        0 20px 45px rgba(37,99,235,.35),
+        0 0 25px rgba(56,189,248,.3);
+}
+
+/* Click */
+
+button:active{
+    transform:scale(.98);
+}
+
+/* Social Buttons */
+
+.social-btn{
+    background:
+        linear-gradient(
+            145deg,
+            rgba(10,20,45,.95),
+            rgba(5,10,30,.95)
+        );
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+/* Cards */
+
+.login-card,
+.workflow-card{
+    backdrop-filter:blur(18px);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(8,15,40,.92),
+            rgba(2,8,25,.92)
+        );
+
+    border:1px solid rgba(255,255,255,.05);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.45),
+        inset 0 1px 0 rgba(255,255,255,.03);
+}
+
+/* Navbar Buttons */
+
+.nav-user-btn,
+.language-btn,
+.theme-toggle,
+.menu-toggle{
+    backdrop-filter:blur(12px);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(8,15,40,.95),
+            rgba(2,8,25,.95)
+        );
+
+    border:1px solid rgba(255,255,255,.06);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.35);
+}
+
+/* Navbar Hover */
+
+.nav-user-btn:hover,
+.language-btn:hover,
+.theme-toggle:hover,
+.menu-toggle:hover{
+    transform:translateY(-2px);
+
+    border-color:rgba(56,189,248,.35);
+
+    box-shadow:
+        0 15px 35px rgba(37,99,235,.28),
+        0 0 20px rgba(56,189,248,.2);
+}
