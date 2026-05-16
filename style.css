@@ -2441,6 +2441,8 @@ button:hover,
 
 .brand-logo:hover .logo-finder {
     filter:
-        drop-shadow(0 0 6px rgba(34,211,238,0.28))
-        drop-shadow(0 0 12px rgba(37,99,235,0.18));
+    drop-shadow(0 0 4px rgba(34,211,238,0.18))
+    drop-shadow(0 0 8px rgba(37,99,235,0.10));
+
+    opacity: 0.92;
 }
