@@ -3108,3 +3108,29 @@ body {
     gap: 5px !important;
     margin: 0 !important;
 }
+
+/* FIX: kein Hochspringen beim Hover */
+
+.menu-toggle:hover {
+    transform: none !important;
+}
+
+.brand-logo:hover {
+    transform: translateX(-50%) scale(1.015) !important;
+}
+
+/* FIX: Navbar Hintergrund auf allen Seiten */
+
+.navbar {
+    background: #000 !important;
+    height: 96px !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 999999 !important;
+}
+
+.page-container {
+    padding-top: 150px !important;
+}
