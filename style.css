@@ -2176,40 +2176,72 @@ button:hover,
         drop-shadow(0 0 24px rgba(0,212,255,0.45));
 }
 
-/* LEFT */
+//* LEFT BAR */
 
-.mark-left {
-    width: 24px;
-    height: 64px;
-    border-radius: 18px;
-    left: 10px;
-    background: linear-gradient(180deg, #8bff95, #22c55e);
+.mark-left{
+    position:absolute;
+
+    left:6px;
+    top:4px;
+
+    width:26px;
+    height:72px;
+
+    border-radius:20px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #7dff95,
+            #22c55e
+        );
+
+    transform:
+        rotate(34deg);
+
     box-shadow:
-        5px 7px 0 rgba(0,80,50,0.45),
-        0 0 18px rgba(34,255,148,0.45);
+        0 0 18px rgba(34,255,148,0.45),
+        0 8px 18px rgba(0,0,0,0.35);
 }
 
-.mark-right {
-    width: 24px;
-    height: 64px;
-    border-radius: 18px;
-    right: 12px;
-    background: linear-gradient(180deg, #55f6ff, #2563eb);
+/* RIGHT BAR */
+
+.mark-right{
+    position:absolute;
+
+    right:10px;
+    top:4px;
+
+    width:26px;
+    height:72px;
+
+    border-radius:20px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #67e8ff,
+            #2563eb
+        );
+
+    transform:
+        rotate(-34deg);
+
     box-shadow:
-        5px 7px 0 rgba(30,64,175,0.45),
-        0 0 18px rgba(0,212,255,0.45);
+        0 0 18px rgba(0,212,255,0.4),
+        0 8px 18px rgba(0,0,0,0.35);
 }
 
-/* CENTER CUT */
+/* TRIANGLE CENTER */
 
 .mark-cut{
     position:absolute;
 
-    left:33px;
-    bottom:11px;
+    left:34px;
+    bottom:12px;
 
-    width:18px;
-    height:18px;
+    width:24px;
+    height:22px;
 
     background:#020617;
 
@@ -2251,37 +2283,45 @@ button:hover,
 /* MYAI */
 
 .logo-my{
-    font-size:42px;
+    font-size:54px;
     font-weight:900;
 
-    color:#ffffff;
+    color:white;
 
-    letter-spacing:-2px;
+    letter-spacing:-3px;
 
     text-shadow:
-        0 2px 0 #c7d2fe,
-        0 4px 0 #1e3a8a,
-        0 0 12px rgba(255,255,255,0.95),
-        0 0 26px rgba(59,130,246,0.55);
+        0 2px 0 #dbeafe,
+        0 4px 0 #2563eb,
+        0 0 12px rgba(255,255,255,0.9),
+        0 0 24px rgba(59,130,246,0.45);
 }
 
 /* FINDER */
 
 .logo-finder{
-    font-size: 52px;
-    font-weight: 900;
-    letter-spacing: -2px;
+    font-size:54px;
+    font-weight:900;
 
-     background: linear-gradient(90deg, #22c55e 0%, #22d3ee 55%, #2563eb 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+    letter-spacing:-3px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #22c55e,
+            #22d3ee,
+            #3b82f6
+        );
+
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
 
     filter:
-        drop-shadow(0 3px 0 rgba(30,64,175,0.75))
-        drop-shadow(0 0 14px rgba(34,211,238,0.75))
-        drop-shadow(0 0 28px rgba(37,99,235,0.55));
+        drop-shadow(0 0 12px rgba(34,211,238,0.55))
+        drop-shadow(0 0 22px rgba(37,99,235,0.4));
 }
 
 /* =========================================
@@ -2337,25 +2377,72 @@ button:hover,
     transition:0.35s;
 }
 
-.brand-logo::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -28px;
-    transform: translateX(-50%);
+.brand-logo::after{
+    content:"";
 
-    width: 520px;
-    height: 55px;
+    position:absolute;
 
-    background: radial-gradient(
-        ellipse,
-        rgba(34,197,94,0.22) 0%,
-        rgba(34,211,238,0.18) 35%,
-        rgba(37,99,235,0.12) 60%,
-        transparent 75%
-    );
+    left:50%;
+    bottom:-46px;
 
-    filter: blur(18px);
-    z-index: -1;
-    opacity: 0.9;
+    transform:
+        translateX(-50%)
+        perspective(500px)
+        rotateX(78deg);
+
+    width:560px;
+    height:95px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,0.12),
+            rgba(255,255,255,0.02)
+        );
+
+    border-radius:50%;
+
+    filter:
+        blur(10px);
+
+    opacity:0.9;
+
+    z-index:-1;
+
+    box-shadow:
+        inset 0 1px 1px rgba(255,255,255,0.12),
+        0 0 30px rgba(0,0,0,0.45);
+}
+
+.brand-logo{
+    position:relative;
+}
+
+.brand-logo::before{
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+    bottom:-58px;
+
+    transform:
+        translateX(-50%)
+        scaleY(-1);
+
+    width:420px;
+    height:70px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(34,211,238,0.18),
+            transparent
+        );
+
+    filter:blur(18px);
+
+    opacity:0.55;
+
+    z-index:-1;
 }
