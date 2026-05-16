@@ -2827,3 +2827,55 @@ body {
     box-shadow:
         0 0 18px rgba(34,211,238,0.16);
 }
+
+.social-login{
+    display:flex;
+    gap:14px;
+    margin-top:22px;
+}
+
+.social-btn{
+    flex:1;
+    height:58px;
+
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,0.10);
+
+    background:rgba(8,18,36,0.78);
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    font-size:15px;
+    font-weight:800;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.social-btn i{
+    font-size:20px;
+}
+
+.google-btn i{
+    color:#ffffff;
+}
+
+.github-btn i{
+    color:#ffffff;
+}
+
+.social-btn:hover{
+    transform:translateY(-3px);
+
+    border-color:rgba(34,211,238,0.35);
+
+    box-shadow:
+        0 0 18px rgba(34,211,238,0.18),
+        inset 0 1px 0 rgba(255,255,255,0.06);
+}
