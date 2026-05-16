@@ -986,3 +986,34 @@ body[dir="rtl"] .nav-user{
     right: 32px !important;
     left: auto !important;
 }
+
+/* FIX 1: Stern beim Logo entfernen */
+.mark-star{
+    display:none !important;
+}
+
+/* FIX 2: Startseite Abstand unter Navbar */
+.container{
+    padding-top:180px !important;
+}
+
+/* FIX 3: Login-Abstände sauberer */
+.login-card{
+    padding-top:80px !important;
+    padding-bottom:80px !important;
+}
+
+.login-extra,
+.register-text{
+    margin-top:18px !important;
+    margin-bottom:28px !important;
+    display:block !important;
+}
+
+.social-login{
+    margin-top:28px !important;
+}
+
+body[dir="rtl"] .container{
+    padding-top:190px !important;
+}
