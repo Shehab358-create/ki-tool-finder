@@ -1520,3 +1520,133 @@ body:not(.dark-mode) .workflow-step {
 body:not(.dark-mode) .workflow-step p {
     color:#334155 !important;
 }
+
+/* =========================================
+   FINAL TEXT + BUTTON + DARKMODE FIX
+========================================= */
+
+/* bessere Beschreibungstexte */
+.subtitle,
+.ai-generator p,
+.workflow-subtitle,
+.container p,
+.workflow-section p{
+    color:#334155 !important;
+    font-size:20px !important;
+    line-height:1.7 !important;
+    font-weight:500 !important;
+    letter-spacing:-0.2px !important;
+}
+
+/* Card-Texte besser lesbar */
+.card p,
+.why-card p,
+.trending-card p,
+.workflow-step p{
+    color:#475569 !important;
+    font-size:18px !important;
+    line-height:1.55 !important;
+    font-weight:500 !important;
+}
+
+.card h3,
+.why-card h3,
+.trending-card h3,
+.workflow-card h3{
+    color:#0f172a !important;
+    font-size:26px !important;
+    font-weight:900 !important;
+    letter-spacing:-0.5px !important;
+}
+
+/* starke blaue Hover-Farbe wie Login-Button */
+button:hover,
+#search-btn:hover,
+.search-btn:hover,
+.workflow-btn:hover,
+.generator-box button:hover,
+.category-buttons button:hover,
+.login-btn:hover,
+.social-btn:hover,
+.favorite-card button:hover,
+.card a:hover,
+.tool-button:hover{
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb 0%,
+            #0ea5e9 55%,
+            #06b6d4 100%
+        ) !important;
+
+    color:white !important;
+
+    border-color:rgba(125,211,252,0.75) !important;
+
+    transform:translateY(-4px) scale(1.025) !important;
+
+    box-shadow:
+        0 0 28px rgba(37,99,235,0.55),
+        0 0 48px rgba(14,165,233,0.35),
+        0 18px 45px rgba(0,0,0,0.38) !important;
+}
+
+/* Dark Mode Texte wieder sichtbar */
+body.dark-mode,
+body.dark-mode .container,
+body.dark-mode .page-container{
+    background:#020617 !important;
+    color:white !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode .subtitle,
+body.dark-mode .ai-generator p,
+body.dark-mode .workflow-subtitle,
+body.dark-mode .workflow-section p,
+body.dark-mode .card p,
+body.dark-mode .why-card p,
+body.dark-mode .trending-card p,
+body.dark-mode .workflow-step p{
+    color:white !important;
+    opacity:1 !important;
+}
+
+/* Dark Mode Cards cleaner */
+body.dark-mode .card,
+body.dark-mode .why-card,
+body.dark-mode .trending-card,
+body.dark-mode .workflow-card,
+body.dark-mode .favorite-card{
+    background:rgba(15,23,42,0.92) !important;
+    border:1px solid rgba(255,255,255,0.10) !important;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,0.45),
+        inset 0 1px 0 rgba(255,255,255,0.04) !important;
+}
+
+/* Workflow Steps im Dark Mode lesbar */
+body.dark-mode .workflow-step{
+    background:rgba(255,255,255,0.06) !important;
+}
+
+body.dark-mode .workflow-step span{
+    background:#2563eb !important;
+    color:white !important;
+}
+
+/* Inputs im Dark Mode */
+body.dark-mode input{
+    background:rgba(255,255,255,0.06) !important;
+    color:white !important;
+    border:1px solid rgba(255,255,255,0.14) !important;
+}
+
+body.dark-mode input::placeholder{
+    color:#94a3b8 !important;
+}
