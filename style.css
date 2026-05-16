@@ -2425,21 +2425,22 @@ button:hover,
 }
 
 .brand-logo:hover {
-    transform: translate(-50%, -50%) scale(1.025) !important;
+    transform: translate(-50%, -50%) scale(1.01) !important;
+
     filter:
-        drop-shadow(0 0 12px rgba(255,255,255,0.35))
-        drop-shadow(0 0 24px rgba(34,211,238,0.35));
+        drop-shadow(0 0 6px rgba(255,255,255,0.18))
+        drop-shadow(0 0 12px rgba(34,211,238,0.16));
 }
 
 .brand-logo:hover .logo-my {
     text-shadow:
         0 1px 0 #dbeafe,
-        0 0 14px rgba(255,255,255,0.95),
-        0 0 26px rgba(59,130,246,0.55);
+        0 0 8px rgba(255,255,255,0.45),
+        0 0 14px rgba(59,130,246,0.25);
 }
 
 .brand-logo:hover .logo-finder {
     filter:
-        drop-shadow(0 0 12px rgba(34,211,238,0.65))
-        drop-shadow(0 0 26px rgba(37,99,235,0.45));
+        drop-shadow(0 0 6px rgba(34,211,238,0.28))
+        drop-shadow(0 0 12px rgba(37,99,235,0.18));
 }
