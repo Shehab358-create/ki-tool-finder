@@ -1104,3 +1104,35 @@ body[dir="rtl"] .workflow-card{
     max-width:430px !important;
     margin:0 !important;
 }
+
+/* FIX: Arabic workflow cards nebeneinander und zentriert */
+
+body[dir="rtl"] .workflow-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2, 430px) !important;
+    justify-content:center !important;
+    align-items:start !important;
+    gap:40px !important;
+
+    width:100% !important;
+    max-width:1000px !important;
+    margin:80px auto 0 auto !important;
+
+    direction:ltr !important;
+}
+
+body[dir="rtl"] .workflow-card{
+    width:430px !important;
+    max-width:430px !important;
+}
+
+/* FIX: Login Navbar komplett schwarz */
+
+body.login-page .navbar{
+    background:#000 !important;
+}
+
+body.login-page .page-container{
+    padding-top:170px !important;
+    background:#020617 !important;
+}
