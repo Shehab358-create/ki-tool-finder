@@ -2170,8 +2170,8 @@ button:hover,
 .logo-mark{
     position:relative;
 
-    width:88px;
-    height:64px;
+    width:72px;
+    height:54px;
 
     filter:
         drop-shadow(0 0 18px rgba(34,255,148,0.55))
@@ -2281,7 +2281,7 @@ button:hover,
 /* MYAI */
 
 .logo-my{
-    font-size:58px;
+    font-size:42px;
     font-weight:900;
 
     color:#ffffff;
@@ -2289,16 +2289,16 @@ button:hover,
     letter-spacing:-3px;
 
     text-shadow:
-        0 2px 0 #dbeafe,
-        0 4px 0 #93c5fd,
-        0 0 12px rgba(255,255,255,0.95),
-        0 0 26px rgba(59,130,246,0.50);
+    0 1px 0 #dbeafe,
+    0 2px 0 #93c5fd,
+    0 0 8px rgba(255,255,255,0.75),
+    0 0 16px rgba(59,130,246,0.35);
 }
 
 /* FINDER */
 
 .logo-finder{
-    font-size:58px;
+    font-size:42px;
     font-weight:900;
 
     letter-spacing:-3px;
@@ -2318,8 +2318,8 @@ button:hover,
     -webkit-text-fill-color:transparent;
 
     text-shadow:
-        0 0 14px rgba(34,211,238,0.75),
-        0 0 30px rgba(37,99,235,0.55);
+    0 0 8px rgba(34,211,238,0.55),
+    0 0 18px rgba(37,99,235,0.35);
 }
 
 /* =========================================
@@ -2333,5 +2333,42 @@ button:hover,
 }
 
 .brand-logo{
+    transition:0.35s;
+}
+
+
+.brand-logo:hover .logo-my{
+    text-shadow:
+        0 1px 0 #dbeafe,
+        0 2px 0 #93c5fd,
+        0 0 14px rgba(255,255,255,0.95),
+        0 0 28px rgba(59,130,246,0.65);
+}
+
+.brand-logo:hover .logo-finder{
+    text-shadow:
+        0 0 14px rgba(34,211,238,0.85),
+        0 0 32px rgba(37,99,235,0.65);
+}
+
+.brand-logo:hover .logo-mark{
+    filter:
+        drop-shadow(0 0 24px rgba(34,255,148,0.75))
+        drop-shadow(0 0 40px rgba(0,212,255,0.65));
+}
+
+.brand-logo:hover::before{
+    opacity:1;
+    filter:blur(52px);
+}
+
+.brand-logo::before{
+    transition:0.35s;
+    opacity:0.85;
+}
+
+.logo-my,
+.logo-finder,
+.logo-mark{
     transition:0.35s;
 }
