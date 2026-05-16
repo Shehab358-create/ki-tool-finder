@@ -2174,62 +2174,62 @@ button:hover,
     height:54px;
 
     filter:
-        drop-shadow(0 0 18px rgba(34,255,148,0.55))
-        drop-shadow(0 0 28px rgba(0,212,255,0.45));
+    drop-shadow(0 0 10px rgba(34,255,148,0.28))
+    drop-shadow(0 0 18px rgba(0,212,255,0.22));
 
     transform: scale(0.88);
 }
 
-/* LEFT BAR */
+/* LEFT */
 
 .mark-left{
     position:absolute;
 
-    left:8px;
+    left:10px;
     bottom:0;
 
-    width:24px;
-    height:64px;
+    width:20px;
+    height:56px;
 
-    border-radius:18px;
+    border-radius:14px;
 
     background:
         linear-gradient(
             180deg,
-            #86ff8c,
+            #7dff95,
             #22c55e
         );
 
     transform:rotate(33deg);
 
     box-shadow:
-        7px 8px 0 rgba(0,70,40,0.55);
+        3px 4px 0 rgba(0,60,40,0.28);
 }
 
-/* RIGHT BAR */
+/* RIGHT */
 
 .mark-right{
     position:absolute;
 
-    right:10px;
+    right:12px;
     bottom:0;
 
-    width:24px;
-    height:64px;
+    width:20px;
+    height:56px;
 
-    border-radius:18px;
+    border-radius:14px;
 
     background:
         linear-gradient(
             180deg,
-            #52f7ff,
+            #58f3ff,
             #2563eb
         );
 
     transform:rotate(-33deg);
 
     box-shadow:
-        7px 8px 0 rgba(25,50,160,0.55);
+        3px 4px 0 rgba(30,64,175,0.28);
 }
 
 /* CENTER CUT */
@@ -2238,12 +2238,12 @@ button:hover,
     position:absolute;
 
     left:33px;
-    bottom:10px;
+    bottom:11px;
 
-    width:24px;
-    height:24px;
+    width:18px;
+    height:18px;
 
-    background:#030712;
+    background:#020617;
 
     clip-path:
         polygon(
