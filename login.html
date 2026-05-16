@@ -17,11 +17,7 @@
 
     <!-- NAVBAR -->
 
-    <nav class="navbar">
-
-        <!-- LINKS -->
-
-        <div class="nav-left">
+    <div class="nav-left">
 
     <button class="menu-toggle" onclick="toggleMenu()">
         <span></span>
@@ -35,6 +31,15 @@
             <span id="currentLang">DE</span>
             <i class="fa-solid fa-chevron-down"></i>
         </button>
+
+        <div class="language-menu" id="languageMenu">
+            <div onclick="changeLanguage('de', 'DE')">DE</div>
+            <div onclick="changeLanguage('en', 'EN')">EN</div>
+            <div onclick="changeLanguage('fr', 'FR')">FR</div>
+            <div onclick="changeLanguage('ar', 'AR')">AR</div>
+            <div onclick="changeLanguage('es', 'ES')">ES</div>
+            <div onclick="changeLanguage('zh', '中文')">中文</div>
+        </div>
 
     </div>
 
