@@ -2879,3 +2879,22 @@ body {
         );
 }
 
+.login-card .social-login{
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    margin-top: 26px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+
+    width: 100% !important;
+}
+
+.login-card .social-btn{
+    width: 100% !important;
+}
