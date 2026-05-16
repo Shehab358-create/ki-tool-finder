@@ -2816,6 +2816,39 @@ body {
 }
 
 .social-login{
+    margin-top:20px;
+
+    display:flex;
+
+    gap:14px;
+}
+
+.social-login button{
+    flex:1;
+
+    padding:14px;
+
+    border-radius:16px;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    background:rgba(255,255,255,0.03);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.social-login button:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 0 18px rgba(34,211,238,0.16);
+}
+
+.social-login{
     margin-top:22px;
 
     display:flex;
@@ -2876,69 +2909,4 @@ body {
             rgba(34,211,238,0.06),
             rgba(255,255,255,0.02)
         );
-}
-
-.navbar{
-    position:relative;
-    z-index:9999;
-}
-
-.login-container{
-    margin-top:120px;
-}
-
-.logo{
-    position:relative;
-    z-index:1;
-}
-
-.navbar{
-    position:relative;
-    z-index:9999;
-}
-
-.logo,
-.logo *{
-    pointer-events:none;
-}
-
-.navbar,
-.navbar *{
-    pointer-events:auto;
-}
-
-.navbar{
-    position:relative;
-    z-index:99999;
-}
-
-.brand-logo,
-.brand-logo *{
-    pointer-events:none !important;
-}
-
-.nav-left,
-.nav-left *,
-.nav-user,
-.nav-user *{
-    pointer-events:auto !important;
-}
-
-.navbar{
-    position:relative !important;
-    z-index:99999 !important;
-}
-
-.nav-left{
-    z-index:100000 !important;
-}
-
-.nav-user{
-    z-index:100000 !important;
-}
-
-.brand-logo::before,
-.brand-logo::after,
-.logo-text::after{
-    pointer-events:none !important;
 }
