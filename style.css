@@ -2137,6 +2137,7 @@ button:hover,
 ========================= */
 
 .logo-mark{
+   transform: scale(0.9);
     position:relative;
 
      width: 92px;
@@ -2242,36 +2243,31 @@ button:hover,
 /* MyAI */
 
 .logo-my{
-    font-size: 46px;
+    font-size: 42px;
     font-weight:900;
 
     color:#ffffff;
 
     letter-spacing:-2px;
 
-     text-shadow:
+        text-shadow:
         0 2px 0 #bfdbfe,
-        0 0 12px rgba(255,255,255,0.95),
-        0 0 24px rgba(59,130,246,0.55);
+        0 0 10px rgba(255,255,255,0.9),
+        0 0 22px rgba(56,189,248,0.45);
 }
 
 /* Finder */
 
-.logo-finder{
-    font-size:52px;
-    font-weight:900;
-
-    letter-spacing:-2px;
-
-    background: linear-gradient(90deg, #22c55e, #22d3ee, #0ea5e9);
+.logo-finder {
+    background: linear-gradient(90deg, #22d3ee, #06b6d4, #2563eb);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
 
     text-shadow:
-        0 0 14px rgba(34,211,238,0.75),
-        0 0 30px rgba(14,165,233,0.55);
+        0 0 12px rgba(34,211,238,0.75),
+        0 0 26px rgba(37,99,235,0.55);
 }
 
 /* Glow hinter Logo */
