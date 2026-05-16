@@ -2462,3 +2462,19 @@ body {
         transform: translateY(0);
     }
 }
+
+.page-container{
+    width:100%;
+    min-height:100vh;
+
+    padding:
+        140px 40px 60px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(34,211,238,0.06),
+            transparent 35%
+        ),
+        #020617;
+}
