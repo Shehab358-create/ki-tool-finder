@@ -1017,3 +1017,48 @@ body[dir="rtl"] .nav-user{
 body[dir="rtl"] .container{
     padding-top:190px !important;
 }
+
+/* FIX: Arabic page content spacing */
+
+body[dir="rtl"] .container{
+    padding-top: 230px !important;
+}
+
+body[dir="rtl"] .workflow-section{
+    margin-top: 120px !important;
+}
+
+/* FIX: Login card fits screen */
+
+.login-wrapper{
+    min-height: auto !important;
+    padding-top: 40px !important;
+    padding-bottom: 80px !important;
+}
+
+.login-card{
+    padding: 50px 55px !important;
+    margin-top: 20px !important;
+}
+
+.login-card h1{
+    font-size: 38px !important;
+    margin-bottom: 10px !important;
+}
+
+.login-card p{
+    margin-bottom: 22px !important;
+}
+
+.login-card input{
+    height: 56px !important;
+}
+
+.login-btn,
+.social-btn{
+    height: 56px !important;
+}
+
+.social-login{
+    margin-top: 22px !important;
+}
