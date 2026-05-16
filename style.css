@@ -2795,38 +2795,6 @@ body {
 
     text-decoration:none;
 }
-.social-login{
-    margin-top:20px;
-
-    display:flex;
-
-    gap:14px;
-}
-
-.social-login button{
-    flex:1;
-
-    padding:14px;
-
-    border-radius:16px;
-
-    border:1px solid rgba(255,255,255,0.08);
-
-    background:rgba(255,255,255,0.03);
-
-    color:white;
-
-    cursor:pointer;
-
-    transition:0.3s ease;
-}
-
-.social-login button:hover{
-    transform:translateY(-3px);
-
-    box-shadow:
-        0 0 18px rgba(34,211,238,0.16);
-}
 
 .social-login{
     margin-top:22px;
