@@ -2176,6 +2176,8 @@ button:hover,
     filter:
         drop-shadow(0 0 18px rgba(34,255,148,0.55))
         drop-shadow(0 0 28px rgba(0,212,255,0.45));
+
+    transform: scale(0.88);
 }
 
 /* LEFT BAR */
@@ -2286,13 +2288,12 @@ button:hover,
 
     color:#ffffff;
 
-    letter-spacing:-3px;
+    letter-spacing:-2px;
 
     text-shadow:
-    0 1px 0 #dbeafe,
-    0 2px 0 #93c5fd,
-    0 0 8px rgba(255,255,255,0.75),
-    0 0 16px rgba(59,130,246,0.35);
+        0 1px 0 #c7d2fe,
+        0 0 8px rgba(255,255,255,0.75),
+        0 0 16px rgba(56,189,248,0.35);
 }
 
 /* FINDER */
@@ -2301,7 +2302,7 @@ button:hover,
     font-size:42px;
     font-weight:900;
 
-    letter-spacing:-3px;
+    letter-spacing:-2px;
 
     background:
         linear-gradient(
@@ -2318,8 +2319,8 @@ button:hover,
     -webkit-text-fill-color:transparent;
 
     text-shadow:
-    0 0 8px rgba(34,211,238,0.55),
-    0 0 18px rgba(37,99,235,0.35);
+        0 0 8px rgba(34,211,238,0.6),
+        0 0 16px rgba(37,99,235,0.35);
 }
 
 /* =========================================
@@ -2362,9 +2363,11 @@ button:hover,
     filter:blur(52px);
 }
 
-.brand-logo::before{
-    transition:0.35s;
-    opacity:0.85;
+.brand-logo::before {
+    width: 330px;
+    height: 100px;
+    filter: blur(32px);
+    opacity: 0.55;
 }
 
 .logo-my,
