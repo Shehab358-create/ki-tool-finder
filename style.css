@@ -2886,3 +2886,28 @@ body {
 .login-container{
     margin-top:120px;
 }
+
+.logo{
+    position:relative;
+    z-index:1;
+}
+
+.navbar{
+    position:relative;
+    z-index:9999;
+}
+
+.logo,
+.logo *{
+    pointer-events:none;
+}
+
+.navbar,
+.navbar *{
+    pointer-events:auto;
+}
+
+.navbar{
+    position:relative;
+    z-index:99999;
+}
