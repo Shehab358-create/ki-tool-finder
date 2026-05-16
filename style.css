@@ -1062,3 +1062,45 @@ body[dir="rtl"] .workflow-section{
 .social-login{
     margin-top: 22px !important;
 }
+
+/* FIX: Login Navbar wirklich schwarz */
+body.login-page .navbar{
+    background:#000 !important;
+    background-image:none !important;
+}
+
+body.login-page .page-container{
+    background:
+        radial-gradient(circle at top, rgba(34,211,238,.06), transparent 35%),
+        #020617 !important;
+
+    padding-top:160px !important;
+}
+
+/* FIX: Arabisch Workflow zentrieren */
+body[dir="rtl"] .workflow-section{
+    width:100% !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    text-align:center !important;
+}
+
+body[dir="rtl"] .workflow-grid{
+    width:100% !important;
+    max-width:1100px !important;
+
+    margin:80px auto 0 auto !important;
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:stretch !important;
+    gap:40px !important;
+
+    direction:ltr !important;
+}
+
+body[dir="rtl"] .workflow-card{
+    width:430px !important;
+    max-width:430px !important;
+    margin:0 !important;
+}
