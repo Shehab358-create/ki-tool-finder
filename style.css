@@ -2911,3 +2911,34 @@ body {
     position:relative;
     z-index:99999;
 }
+
+.brand-logo,
+.brand-logo *{
+    pointer-events:none !important;
+}
+
+.nav-left,
+.nav-left *,
+.nav-user,
+.nav-user *{
+    pointer-events:auto !important;
+}
+
+.navbar{
+    position:relative !important;
+    z-index:99999 !important;
+}
+
+.nav-left{
+    z-index:100000 !important;
+}
+
+.nav-user{
+    z-index:100000 !important;
+}
+
+.brand-logo::before,
+.brand-logo::after,
+.logo-text::after{
+    pointer-events:none !important;
+}
