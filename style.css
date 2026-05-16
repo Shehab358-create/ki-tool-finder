@@ -2119,61 +2119,92 @@ button:hover,
     transform: scale(1.05);
 }
 
+/* =========================================
+   FINAL PREMIUM LOGO
+========================================= */
+
 .brand-logo{
     position:absolute;
     left:50%;
-    transform:translateX(-50%);
+    top:50%;
+
+    transform:translate(-50%, -50%);
 
     display:flex;
     align-items:center;
-    gap: 26px;
+    gap:22px;
 
     text-decoration:none;
-    z-index:20;
+    z-index:100;
 }
 
-/* =========================
+/* =========================================
+   BACKGROUND GLOW
+========================================= */
+
+.brand-logo::before{
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+    height:140px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(34,255,148,0.20),
+            rgba(0,212,255,0.14),
+            transparent 72%
+        );
+
+    filter:blur(40px);
+
+    z-index:-1;
+}
+
+/* =========================================
    SYMBOL
-========================= */
+========================================= */
 
 .logo-mark{
-   transform: scale(0.9);
     position:relative;
 
-     width: 92px;
-    height: 64px;
+    width:88px;
+    height:64px;
 
     filter:
-        drop-shadow(0 0 16px rgba(34,255,148,0.45))
-        drop-shadow(0 0 24px rgba(0,212,255,0.35));
+        drop-shadow(0 0 18px rgba(34,255,148,0.55))
+        drop-shadow(0 0 28px rgba(0,212,255,0.45));
 }
 
-/* linker Balken */
+/* LEFT BAR */
 
 .mark-left{
     position:absolute;
 
-    left:6px;
+    left:8px;
     bottom:0;
 
-    width:22px;
-    height:58px;
+    width:24px;
+    height:64px;
 
-    border-radius:16px;
+    border-radius:18px;
 
-    background:linear-gradient(
-        180deg,
-        #86ff8c,
-        #22c55e
-    );
+    background:
+        linear-gradient(
+            180deg,
+            #86ff8c,
+            #22c55e
+        );
 
     transform:rotate(33deg);
 
     box-shadow:
-        6px 6px 0 rgba(0,70,40,0.55);
+        7px 8px 0 rgba(0,70,40,0.55);
 }
 
-/* rechter Balken */
+/* RIGHT BAR */
 
 .mark-right{
     position:absolute;
@@ -2181,113 +2212,126 @@ button:hover,
     right:10px;
     bottom:0;
 
-    width:22px;
-    height:58px;
+    width:24px;
+    height:64px;
 
-    border-radius:16px;
+    border-radius:18px;
 
-    background:linear-gradient(
-        180deg,
-        #52f7ff,
-        #2563eb
-    );
+    background:
+        linear-gradient(
+            180deg,
+            #52f7ff,
+            #2563eb
+        );
 
     transform:rotate(-33deg);
 
     box-shadow:
-        6px 6px 0 rgba(25,50,160,0.55);
+        7px 8px 0 rgba(25,50,160,0.55);
 }
 
-/* Mitte */
+/* CENTER CUT */
 
 .mark-cut{
     position:absolute;
 
-    left:31px;
-    bottom:9px;
+    left:33px;
+    bottom:10px;
 
-    width:22px;
-    height:20px;
+    width:24px;
+    height:24px;
 
-    background:#050816;
+    background:#030712;
 
-    clip-path:polygon(50% 0%,0% 100%,100% 100%);
+    clip-path:
+        polygon(
+            50% 0%,
+            0% 100%,
+            100% 100%
+        );
 }
 
-/* Stern */
+/* STAR */
 
 .mark-star{
     position:absolute;
 
-    top:-10px;
+    top:-12px;
     right:-2px;
 
     color:white;
-    font-size:26px;
+
+    font-size:28px;
 
     text-shadow:
-        0 0 10px #38bdf8,
-        0 0 20px #22d3ee;
+        0 0 12px #38bdf8,
+        0 0 22px #22d3ee;
 }
 
-/* =========================
+/* =========================================
    TEXT
-========================= */
+========================================= */
 
-.logo-title{
+.logo-text{
     display:flex;
     align-items:baseline;
     line-height:1;
 }
 
-/* MyAI */
+/* MYAI */
 
 .logo-my{
-    font-size: 42px;
+    font-size:58px;
     font-weight:900;
 
     color:#ffffff;
 
-    letter-spacing:-2px;
-
-        text-shadow:
-        0 2px 0 #bfdbfe,
-        0 0 10px rgba(255,255,255,0.9),
-        0 0 22px rgba(56,189,248,0.45);
-}
-
-/* Finder */
-
-.logo-finder {
-    background: linear-gradient(90deg, #22d3ee, #06b6d4, #2563eb);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+    letter-spacing:-3px;
 
     text-shadow:
-        0 0 12px rgba(34,211,238,0.75),
-        0 0 26px rgba(37,99,235,0.55);
+        0 2px 0 #dbeafe,
+        0 4px 0 #93c5fd,
+        0 0 12px rgba(255,255,255,0.95),
+        0 0 26px rgba(59,130,246,0.50);
 }
 
-/* Glow hinter Logo */
+/* FINDER */
 
-.brand-logo::before{
-    content:"";
+.logo-finder{
+    font-size:58px;
+    font-weight:900;
 
-    position:absolute;
+    letter-spacing:-3px;
 
-    .brand-logo::before {
-    width: 430px;
-    height: 140px;
-    background: radial-gradient(
-        circle,
-        rgba(34,255,148,0.22),
-        rgba(0,212,255,0.18),
-        transparent 72%
-    );
-    filter: blur(38px);
+    background:
+        linear-gradient(
+            90deg,
+            #22c55e,
+            #22d3ee,
+            #2563eb
+        );
 
-    z-index:-1;
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        0 0 14px rgba(34,211,238,0.75),
+        0 0 30px rgba(37,99,235,0.55);
 }
+
+/* =========================================
+   HOVER
+========================================= */
+
+.brand-logo:hover{
+    transform:
+        translate(-50%, -50%)
+        scale(1.02);
+}
+
+.brand-logo{
+    transition:0.35s;
 }
