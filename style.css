@@ -3031,3 +3031,44 @@ body {
 
     z-index: 1000000 !important;
 }
+
+/* FINAL MENU ICON FIX */
+
+.nav-left .menu-toggle {
+    width: 58px !important;
+    height: 58px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 5px !important;
+
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.nav-left .menu-toggle span {
+    position: static !important;
+
+    display: block !important;
+
+    width: 24px !important;
+    height: 3px !important;
+
+    min-width: 24px !important;
+    min-height: 3px !important;
+
+    background: #ffffff !important;
+
+    border-radius: 999px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    transform: none !important;
+}
