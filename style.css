@@ -3134,3 +3134,25 @@ body {
 .page-container {
     padding-top: 150px !important;
 }
+
+/* FINAL FIX: Menu bleibt beim Hover stabil */
+
+.nav-left .menu-toggle:hover,
+.navbar .menu-toggle:hover,
+.menu-toggle:hover {
+    transform: none !important;
+    top: auto !important;
+    margin-top: 0 !important;
+}
+
+/* FINAL FIX: Navbar Hintergrund überall */
+
+body .navbar {
+    background: #000000 !important;
+    background-color: #000000 !important;
+}
+
+body.login-page .navbar,
+.login-page .navbar {
+    background: #000000 !important;
+}
