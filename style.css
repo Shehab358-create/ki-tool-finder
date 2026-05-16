@@ -3072,3 +3072,39 @@ body {
 
     transform: none !important;
 }
+
+/* FINAL FIX: Menu button same on all pages */
+
+.nav-left{
+    position: fixed !important;
+    top: 18px !important;
+    left: 32px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+
+    transform: none !important;
+    z-index: 1000000 !important;
+}
+
+.nav-left .menu-toggle{
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    transform: none !important;
+
+    width: 58px !important;
+    height: 58px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 5px !important;
+    margin: 0 !important;
+}
