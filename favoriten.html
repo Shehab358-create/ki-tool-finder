@@ -1,25 +1,129 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyAIFinder</title>
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Favoriten - MyAIFinder</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-  <!-- HIER DEINE NAVBAR AUS index.html EINFÜGEN -->
+    <!-- NAVBAR -->
 
- <main class="page-content">
-  <h1>Favoriten</h1>
-  <p>Hier kommen später deine gespeicherten Favoriten.</p>
+    <nav class="navbar">
 
-  <script src="script.js"></script>
+        <div class="nav-left">
 
-  <main class="page-container">
-</main>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="language-switcher">
+
+                <button class="language-btn">
+                    DE
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+            </div>
+
+            <button class="theme-toggle">
+                <i class="fa-regular fa-moon"></i>
+            </button>
+
+        </div>
+
+        <a href="index.html" class="brand-logo">
+
+            <div class="logo-text">
+
+                <span class="logo-my">MyAI</span>
+
+                <span class="logo-finder">Finder</span>
+
+            </div>
+
+        </a>
+
+        <div class="nav-user">
+
+            <a href="profil.html" class="nav-user-btn">
+                <i class="fa-regular fa-user"></i>
+                <span>Profil</span>
+            </a>
+
+            <a href="login.html" class="nav-user-btn">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span>Login</span>
+            </a>
+
+            <a href="favoriten.html" class="nav-user-btn">
+                <i class="fa-regular fa-heart"></i>
+                <span>Favoriten</span>
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- CONTENT -->
+
+    <main class="page-container">
+
+        <h1 class="favorites-title">Meine Favoriten</h1>
+
+        <div class="favorites-grid">
+
+            <div class="favorite-card">
+
+                <i class="fa-solid fa-robot"></i>
+
+                <h2>ChatGPT</h2>
+
+                <p>AI Chat Assistant</p>
+
+                <button>Öffnen</button>
+
+            </div>
+
+            <div class="favorite-card">
+
+                <i class="fa-solid fa-image"></i>
+
+                <h2>Midjourney</h2>
+
+                <p>AI Image Generator</p>
+
+                <button>Öffnen</button>
+
+            </div>
+
+            <div class="favorite-card">
+
+                <i class="fa-solid fa-video"></i>
+
+                <h2>Runway</h2>
+
+                <p>AI Video Tool</p>
+
+                <button>Öffnen</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

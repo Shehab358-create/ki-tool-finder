@@ -1,25 +1,150 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyAIFinder</title>
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - MyAIFinder</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
-  <!-- HIER DEINE NAVBAR AUS index.html EINFÜGEN -->
+    <!-- NAVBAR -->
 
-  <main class="page-content">
-    <h1>Login</h1>
-    <p>Hier kommt später deine Login-Seite.</p>
-  </main>
+    <nav class="navbar">
 
-  <main class="page-container">
-  </main>
+        <!-- LINKS -->
+
+        <div class="nav-left">
+
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="language-switcher">
+
+                <button class="language-btn">
+                    DE
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+            </div>
+
+            <button class="theme-toggle">
+                <i class="fa-regular fa-moon"></i>
+            </button>
+
+        </div>
+
+        <!-- LOGO -->
+
+        <a href="index.html" class="brand-logo">
+
+            <div class="logo-text">
+
+                <span class="logo-my">
+                    MyAI
+                </span>
+
+                <span class="logo-finder">
+                    Finder
+                </span>
+
+            </div>
+
+        </a>
+
+        <!-- RECHTS -->
+
+        <div class="nav-user">
+
+            <a href="profil.html" class="nav-user-btn">
+
+                <i class="fa-regular fa-user"></i>
+
+                <span>Profil</span>
+
+            </a>
+
+            <a href="login.html" class="nav-user-btn">
+
+                <i class="fa-solid fa-right-to-bracket"></i>
+
+                <span>Login</span>
+
+            </a>
+
+            <a href="favoriten.html" class="nav-user-btn">
+
+                <i class="fa-regular fa-heart"></i>
+
+                <span>Favoriten</span>
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- LOGIN CONTENT -->
+
+    <main class="page-container">
+
+        <div class="login-wrapper">
+
+            <div class="login-card">
+
+                <h1>
+                    Willkommen zurück
+                </h1>
+
+                <p>
+                    Login bei MyAIFinder
+                </p>
+
+                <form class="login-form">
+
+                    <input
+                    type="email"
+                    placeholder="E-Mail Adresse">
+
+                    <input
+                    type="password"
+                    placeholder="Passwort">
+
+                    <button class="login-btn">
+
+                        Einloggen
+
+                    </button>
+
+                </form>
+
+                <div class="login-extra">
+
+                    Noch kein Konto?
+
+                    <a href="#">
+                        Registrieren
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
 
     <script src="script.js"></script>
+
 </body>
 </html>
