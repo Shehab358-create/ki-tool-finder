@@ -2126,9 +2126,8 @@ button:hover,
 .brand-logo{
     position:absolute;
     left:50%;
-    top:50%;
-
-    transform:translate(-50%, -50%);
+    top:42%;           /* vorher 50% → jetzt höher */
+    transform: translate(-50%, -50%);
 
     display:flex;
     align-items:center;
@@ -2147,26 +2146,35 @@ button:hover,
 
     position:absolute;
 
-    width:430px;
-    height:140px;
+    left:50%;
+    bottom:-70px;      /* weiter nach unten für mehr Abstand */
+
+    transform:
+        translateX(-50%)
+        scaleY(-1);
+
+    width:420px;
+    height:70px;
 
     background:
-        radial-gradient(
-            circle,
-            rgba(34,255,148,0.20),
-            rgba(0,212,255,0.14),
-            transparent 72%
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,0.25),
+            transparent 70%
         );
 
-    filter:blur(40px);
+    filter: blur(18px);
+
+    opacity:0.45;      /* etwas stärker */
 
     z-index:-1;
+
+    pointer-events:none;
 }
 
 /* =========================================
    SYMBOL
-========================================= */
-
+========================================= 
 .logo-mark {
     width: 92px;
     height: 64px;
@@ -2176,8 +2184,7 @@ button:hover,
         drop-shadow(0 0 24px rgba(0,212,255,0.45));
 }
 
-/* LEFT BAR */
-
+/* LEFT BAR 
 .mark-left{
     position:absolute;
 
@@ -2204,7 +2211,7 @@ button:hover,
         0 8px 18px rgba(0,0,0,0.35);
 }
 
-/* RIGHT BAR */
+/* RIGHT BAR 
 
 .mark-right{
     position:absolute;
@@ -2232,7 +2239,7 @@ button:hover,
         0 8px 18px rgba(0,0,0,0.35);
 }
 
-/* TRIANGLE CENTER */
+/* TRIANGLE CENTER 
 
 .mark-cut{
     position:absolute;
@@ -2253,7 +2260,7 @@ button:hover,
         );
 }
 
-/* STAR */
+/* STAR
 
 .mark-star{
     position:absolute;
@@ -2283,7 +2290,7 @@ button:hover,
 /* MYAI */
 
 .logo-my{
-    font-size:54px;
+    font-size:44px;
     font-weight:900;
 
     color:white;
@@ -2300,7 +2307,7 @@ button:hover,
 /* FINDER */
 
 .logo-finder{
-    font-size:54px;
+    font-size:44px;
     font-weight:900;
 
     letter-spacing:-3px;
@@ -2383,77 +2390,28 @@ button:hover,
     position:absolute;
 
     left:50%;
-    bottom:-46px;
+    bottom:-52px;
 
     transform:
         translateX(-50%)
-        perspective(500px)
+        perspective(600px)
         rotateX(78deg);
 
-    width:560px;
-    height:95px;
-
-    background:
-        linear-gradient(
-            180deg,
-            rgba(255,255,255,0.12),
-            rgba(255,255,255,0.02)
-        );
-
-    border-radius:50%;
-
-    filter:
-        blur(10px);
-
-    opacity:0.9;
-
-    z-index:-1;
-
-    box-shadow:
-        inset 0 1px 1px rgba(255,255,255,0.12),
-        0 0 30px rgba(0,0,0,0.45);
-}
-
-
-.brand-logo::before{
-    content:"";
-
-    position:absolute;
-
-    left:50%;
-    bottom:-58px;
-
-    transform:
-        translateX(-50%)
-        scaleY(-1);
-
-    width:420px;
+    width:520px;
     height:70px;
 
     background:
         linear-gradient(
             180deg,
-            rgba(34,211,238,0.18),
-            transparent
+            rgba(255,255,255,0.10),
+            rgba(255,255,255,0.02)
         );
 
-    filter:blur(18px);
+    border-radius:50%;
 
-    opacity:0.55;
+    filter: blur(10px);
 
-    z-index:-1;
-}
+    opacity:0.85;
 
-.brand-logo {
-    position: absolute !important;
-    left: 50% !important;
-    top: 50% !important;
-
-    transform: translate(-50%, -50%) !important;
-
-    display: flex !important;
-    align-items: center !important;
-    gap: 22px !important;
-
-    z-index: 20 !important;
+    z-index:-2;
 }
