@@ -2132,7 +2132,7 @@ button:hover,
 
     display:flex;
     align-items:center;
-    gap:22px;
+    gap: 28px;
 
     text-decoration:none;
     z-index:100;
@@ -2167,69 +2167,37 @@ button:hover,
    SYMBOL
 ========================================= */
 
-.logo-mark{
-    position:relative;
-
-    width:72px;
-    height:54px;
-
+.logo-mark {
+    width: 92px;
+    height: 64px;
+    transform: scale(1);
     filter:
-    drop-shadow(0 0 10px rgba(34,255,148,0.28))
-    drop-shadow(0 0 18px rgba(0,212,255,0.22));
-
-    transform: scale(0.88);
+        drop-shadow(0 0 14px rgba(34,255,148,0.55))
+        drop-shadow(0 0 24px rgba(0,212,255,0.45));
 }
 
 /* LEFT */
 
-.mark-left{
-    position:absolute;
-
-    left:10px;
-    bottom:0;
-
-    width:20px;
-    height:56px;
-
-    border-radius:14px;
-
-    background:
-        linear-gradient(
-            180deg,
-            #7dff95,
-            #22c55e
-        );
-
-    transform:rotate(33deg);
-
+.mark-left {
+    width: 24px;
+    height: 64px;
+    border-radius: 18px;
+    left: 10px;
+    background: linear-gradient(180deg, #8bff95, #22c55e);
     box-shadow:
-        3px 4px 0 rgba(0,60,40,0.28);
+        5px 7px 0 rgba(0,80,50,0.45),
+        0 0 18px rgba(34,255,148,0.45);
 }
 
-/* RIGHT */
-
-.mark-right{
-    position:absolute;
-
-    right:12px;
-    bottom:0;
-
-    width:20px;
-    height:56px;
-
-    border-radius:14px;
-
-    background:
-        linear-gradient(
-            180deg,
-            #58f3ff,
-            #2563eb
-        );
-
-    transform:rotate(-33deg);
-
+.mark-right {
+    width: 24px;
+    height: 64px;
+    border-radius: 18px;
+    right: 12px;
+    background: linear-gradient(180deg, #55f6ff, #2563eb);
     box-shadow:
-        3px 4px 0 rgba(30,64,175,0.28);
+        5px 7px 0 rgba(30,64,175,0.45),
+        0 0 18px rgba(0,212,255,0.45);
 }
 
 /* CENTER CUT */
@@ -2291,36 +2259,29 @@ button:hover,
     letter-spacing:-2px;
 
     text-shadow:
-        0 1px 0 #c7d2fe,
-        0 0 8px rgba(255,255,255,0.75),
-        0 0 16px rgba(56,189,248,0.35);
+        0 2px 0 #c7d2fe,
+        0 4px 0 #1e3a8a,
+        0 0 12px rgba(255,255,255,0.95),
+        0 0 26px rgba(59,130,246,0.55);
 }
 
 /* FINDER */
 
 .logo-finder{
-    font-size:42px;
-    font-weight:900;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: -2px;
 
-    letter-spacing:-2px;
+     background: linear-gradient(90deg, #22c55e 0%, #22d3ee 55%, #2563eb 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 
-    background:
-        linear-gradient(
-            90deg,
-            #22c55e,
-            #22d3ee,
-            #2563eb
-        );
-
-    background-clip:text;
-    -webkit-background-clip:text;
-
-    color:transparent;
-    -webkit-text-fill-color:transparent;
-
-    text-shadow:
-        0 0 8px rgba(34,211,238,0.6),
-        0 0 16px rgba(37,99,235,0.35);
+    filter:
+        drop-shadow(0 3px 0 rgba(30,64,175,0.75))
+        drop-shadow(0 0 14px rgba(34,211,238,0.75))
+        drop-shadow(0 0 28px rgba(37,99,235,0.55));
 }
 
 /* =========================================
@@ -2374,4 +2335,27 @@ button:hover,
 .logo-finder,
 .logo-mark{
     transition:0.35s;
+}
+
+.brand-logo::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    transform: translateX(-50%);
+
+    width: 520px;
+    height: 55px;
+
+    background: radial-gradient(
+        ellipse,
+        rgba(34,197,94,0.22) 0%,
+        rgba(34,211,238,0.18) 35%,
+        rgba(37,99,235,0.12) 60%,
+        transparent 75%
+    );
+
+    filter: blur(18px);
+    z-index: -1;
+    opacity: 0.9;
 }
