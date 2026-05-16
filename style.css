@@ -2176,7 +2176,7 @@ button:hover,
         drop-shadow(0 0 24px rgba(0,212,255,0.45));
 }
 
-//* LEFT BAR */
+/* LEFT BAR */
 
 .mark-left{
     position:absolute;
@@ -2414,9 +2414,6 @@ button:hover,
         0 0 30px rgba(0,0,0,0.45);
 }
 
-.brand-logo{
-    position:relative;
-}
 
 .brand-logo::before{
     content:"";
@@ -2445,4 +2442,18 @@ button:hover,
     opacity:0.55;
 
     z-index:-1;
+}
+
+.brand-logo {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+
+    transform: translate(-50%, -50%) !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 22px !important;
+
+    z-index: 20 !important;
 }
