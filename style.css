@@ -1758,303 +1758,62 @@ body.dark-mode .results .card p{
     color:#cbd5e1 !important;
 }
 
-/* FIX: Search Result Card schöner und kompakter */
+/* RESULT CARDS */
 
-.results{
-    max-width:760px !important;
-    margin:35px auto 0 !important;
-}
-
-.results .card{
-    max-width:760px !important;
-    min-height:auto !important;
-
-    padding:34px 38px !important;
-
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:center !important;
-    justify-content:center !important;
-
-    border-radius:28px !important;
-}
-
-/* Logo/Icon kleiner */
-.results .card img{
-    width:64px !important;
-    height:64px !important;
-    object-fit:contain !important;
-    margin-bottom:18px !important;
-}
-
-/* Titel normal, nicht zu groß */
-.results .card h2,
-.results .card h2 a,
-.results .card .tool-link{
-    font-size:30px !important;
-    margin:8px 0 12px !important;
-}
-
-/* Meta-Zeile */
-.results .card .tool-meta,
-.results .card .meta{
-    display:flex !important;
-    justify-content:center !important;
-    gap:12px !important;
-    flex-wrap:wrap !important;
-    margin:10px 0 !important;
-}
-
-/* Beschreibung */
-.results .card p{
-    max-width:620px !important;
-    font-size:18px !important;
-    line-height:1.5 !important;
-    margin:8px auto 0 !important;
-}
-
-/* Button */
-.results .card .tool-button,
-.results .card a.tool-button{
-    margin-top:22px !important;
-    padding:13px 24px !important;
-    font-size:17px !important;
-}
-
-/* HARD FIX: Ergebnis-Karte kompakt */
-
-#results,
-.results{
-    max-width:760px !important;
-    width:100% !important;
-    margin:35px auto 0 !important;
-}
-
-#results > div,
-.results > div,
-.tool-card,
-.result-card{
-    max-width:760px !important;
-    width:100% !important;
-    min-height:auto !important;
-
-    padding:34px 38px !important;
-
-    border-radius:28px !important;
-
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:center !important;
-    justify-content:center !important;
-
-    text-align:center !important;
-}
-
-#results img,
-.results img,
-.tool-card img,
-.result-card img{
-    width:64px !important;
-    height:64px !important;
-    object-fit:contain !important;
-    margin-bottom:16px !important;
-}
-
-#results h2,
-.results h2,
-.tool-card h2,
-.result-card h2{
-    font-size:30px !important;
-    margin:8px 0 12px !important;
-}
-
-#results p,
-.results p,
-.tool-card p,
-.result-card p{
-    max-width:620px !important;
-    font-size:18px !important;
-    line-height:1.5 !important;
-    margin:8px auto !important;
-}
-
-#results a,
-.results a,
-.tool-card a,
-.result-card a{
-    width:auto !important;
-    margin-top:20px !important;
-    padding:13px 24px !important;
-    font-size:17px !important;
-}
-
-/* BETTER SEARCH RESULT CARD */
-
-#results,
-.results{
-    max-width:900px !important;
-    margin:45px auto 0 !important;
-}
-
-#results .card,
-.results .card,
-.tool-card,
-.result-card{
-    max-width:900px !important;
-    width:100% !important;
-
-    padding:55px 50px !important;
-
-    border-radius:28px !important;
-
-    background:#ffffff !important;
-
-    border:1px solid #e2e8f0 !important;
-
-    box-shadow:
-        0 18px 45px rgba(15,23,42,0.10) !important;
-
-    text-align:center !important;
-}
-
-#results img,
-.results img,
-.tool-card img,
-.result-card img{
-    width:82px !important;
-    height:82px !important;
-    margin-bottom:26px !important;
-}
-
-#results h2,
-.results h2,
-.tool-card h2,
-.result-card h2{
-    font-size:34px !important;
-    font-weight:900 !important;
-    margin:10px 0 18px !important;
-    color:#0f172a !important;
-}
-
-#results p,
-.results p,
-.tool-card p,
-.result-card p{
-    max-width:720px !important;
-    margin:18px auto !important;
-
-    font-size:21px !important;
-    line-height:1.55 !important;
-
-    color:#475569 !important;
-}
-
-#results a.tool-button,
-.results a.tool-button,
-.tool-card .tool-button,
-.result-card .tool-button{
-    margin-top:20px !important;
-    padding:15px 30px !important;
-    font-size:18px !important;
-}
-
-/* ===== SEARCH RESULT CARD ===== */
-
-.search-results,
-.results{
+#results{
     width:100%;
     max-width:1100px;
     margin:50px auto;
 }
 
-/* CARD */
-.result-card,
-.tool-result,
-.results .card{
+/* DIE ECHTEN KARTEN */
+#results > div{
     background:#ffffff;
 
     border:1px solid #dbe2ea;
 
     border-radius:30px;
 
-    padding:42px;
+    padding:45px;
 
     box-shadow:
         0 12px 40px rgba(15,23,42,0.08);
 
+    margin-bottom:30px;
+
     transition:0.3s ease;
 }
 
-.result-card:hover,
-.tool-result:hover,
-.results .card:hover{
+#results > div:hover{
     transform:translateY(-4px);
 
     box-shadow:
         0 20px 55px rgba(15,23,42,0.12);
 }
 
-/* TOP */
-.result-header{
-    display:flex;
-    align-items:center;
-    gap:25px;
-
-    margin-bottom:28px;
-}
-
-.result-header img{
-    width:70px;
-    height:70px;
-    object-fit:contain;
-}
-
-/* TITLE */
-.result-header h2,
-.result-card h2{
-    font-size:46px;
+/* TITEL */
+#results h2{
+    font-size:42px;
     font-weight:900;
 
     color:#0f172a;
 
-    margin-bottom:12px;
+    margin-bottom:18px;
 }
 
-/* TAGS */
-.result-tags{
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
-}
-
-.result-tags span{
-    background:#eef2ff;
-
-    color:#233876;
-
-    padding:10px 18px;
-
-    border-radius:999px;
-
-    font-size:18px;
-    font-weight:700;
-}
-
-/* DESCRIPTION */
-.result-description,
-.result-card p{
-    font-size:31px;
-    line-height:1.7;
+/* BESCHREIBUNG */
+#results p{
+    font-size:22px;
+    line-height:1.6;
 
     color:#475569;
 
-    margin:25px 0 35px;
+    margin:22px 0;
 }
 
-/* BUTTON = NEUER BLAUER STYLE */
-.result-card a,
-.result-card button,
-.tool-button{
+/* BUTTON */
+#results a,
+#results button{
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -2063,7 +1822,7 @@ body.dark-mode .results .card p{
 
     border-radius:18px;
 
-    border:1px solid rgba(56,189,248,0.25);
+    border:none;
 
     background:
         linear-gradient(
@@ -2074,8 +1833,10 @@ body.dark-mode .results .card p{
 
     color:white;
 
-    font-size:20px;
+    font-size:19px;
     font-weight:800;
+
+    text-decoration:none;
 
     box-shadow:
         0 10px 30px rgba(0,0,0,0.18);
@@ -2084,9 +1845,8 @@ body.dark-mode .results .card p{
 }
 
 /* HOVER */
-.result-card a:hover,
-.result-card button:hover,
-.tool-button:hover{
+#results a:hover,
+#results button:hover{
     transform:translateY(-2px) scale(1.03);
 
     background:
@@ -2099,29 +1859,4 @@ body.dark-mode .results .card p{
     box-shadow:
         0 0 22px rgba(59,130,246,0.7),
         0 0 45px rgba(6,182,212,0.5);
-}
-
-/* DARK MODE */
-
-body.dark-mode .result-card,
-body.dark-mode .tool-result,
-body.dark-mode .results .card{
-    background:rgba(15,23,42,0.92);
-
-    border:1px solid rgba(255,255,255,0.08);
-}
-
-body.dark-mode .result-header h2,
-body.dark-mode .result-card h2{
-    color:white;
-}
-
-body.dark-mode .result-description,
-body.dark-mode .result-card p{
-    color:#cbd5e1;
-}
-
-body.dark-mode .result-tags span{
-    background:rgba(59,130,246,0.15);
-    color:#dbeafe;
 }
