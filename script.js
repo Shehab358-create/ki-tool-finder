@@ -903,30 +903,32 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const pageText = {
+  
   de: {
-    heroTitle: "Finde das beste KI-Tool für dein Problem",
-    heroSubtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
-    searchBtn: "Suchen",
-    workflowGeneratorTitle: "🤖 AI Workflow Generator",
-    workflowGeneratorSubtitle: "Beschreibe dein Ziel und erhalte automatisch den besten KI-Workflow.",
-    whyTitle: "Warum MyAIFinder?",
-    trendingTitle: "🔥 Trending AI Tools",
-    bestWorkflowsTitle: "🚀 Beste KI Workflows",
 
-    resumeDescription:
+heroTitle: "Finde das beste KI-Tool für dein Problem",
+heroSubtitle: "Gib ein, wobei du Hilfe brauchst – z.B. Lebenslauf, Bewerbung, Logo oder Texte.",
+searchBtn: "Suchen",
+workflowGeneratorTitle: "🤖 AI Workflow Generator",
+workflowGeneratorSubtitle: "Beschreibe dein Ziel und erhalte automatisch den besten KI-Workflow.",
+whyTitle: "Warum MyAIFinder?",
+trendingTitle: "🔥 Trending AI Tools",
+bestWorkflowsTitle: "🚀 Beste KI Workflows",
+
+resumeDescription:
       "Resume.io hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben schnell und einfach zu erstellen.",
-    resumeUseTitle: "Wofür?",
-    resumeUseText:
+resumeUseTitle: "Wofür?",
+resumeUseText:
       "Lebenslauf, Bewerbungsschreiben und professionelle Vorlagen.",
-    resumeForTitle: "Für wen?",
-    resumeForText:
+resumeForTitle: "Für wen?",
+resumeForText:
       "Perfekt für Schüler, Studenten, Bewerber und Berufseinsteiger.",
-    resumeBenefitTitle: "Vorteil",
-    resumeBenefitText:
+resumeBenefitTitle: "Vorteil",
+resumeBenefitText:
       "Schnelle Erstellung mit modernen Designs und einfacher Bedienung.",
-    visitTool: "Zum Tool →",
-    resumePricing: "Freemium",
-    resumeLevel: "👶 Anfängerfreundlich",
+visitTool: "Zum Tool →",
+resumePricing: "Freemium",
+resumeLevel: "👶 Anfängerfreundlich",
 
     /* CANVA */
 
@@ -1072,7 +1074,7 @@ reziBenefitTitle: "Vorteil",
 reziBenefitText: "Erstellt moderne Bewerbungsunterlagen automatisch und erhöht die Chancen bei Bewerbungen.",
 
 
-     whyCard1Title: "⚡ Schnelle Empfehlungen",
+whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
 whyCard2Title: "🎯 Klare Auswahl",
 whyCard2Text: "Keine endlosen Listen – wir zeigen dir die Tools, die wirklich passen.",
@@ -1115,32 +1117,33 @@ navContact: "Kontakt",
   },
  
   en: {
-    heroTitle: "Find the best AI tool for your problem",
-    heroSubtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
-    searchBtn: "Search",
-    workflowGeneratorTitle: "🤖 AI Workflow Generator",
-    workflowGeneratorSubtitle: "Describe your goal and automatically get the best AI workflow.",
-    whyTitle: "Why MyAIFinder?",
-    trendingTitle: "🔥 Trending AI Tools",
-    bestWorkflowsTitle: "🚀 Best AI Workflows",
 
-    resumePricing: "Freemium",
-    resumeLevel: "👶 Beginner Friendly",
+heroTitle: "Find the best AI tool for your problem",
+heroSubtitle: "Enter what you need help with – e.g. resume, application, logo or texts.",
+searchBtn: "Search",
+workflowGeneratorTitle: "🤖 AI Workflow Generator",
+workflowGeneratorSubtitle: "Describe your goal and automatically get the best AI workflow.",
+whyTitle: "Why MyAIFinder?",
+trendingTitle: "🔥 Trending AI Tools",
+bestWorkflowsTitle: "🚀 Best AI Workflows",
 
-    resumeDescription:
+resumePricing: "Freemium",
+resumeLevel: "👶 Beginner Friendly",
+
+resumeDescription:
       "Resume.io helps you create professional resumes and cover letters quickly and easily.",
-    resumeUseTitle: "What for?",
-    resumeUseText:
+resumeUseTitle: "What for?",
+resumeUseText:
       "Resumes, cover letters and professional templates.",
-    resumeForTitle: "For whom?",
-    resumeForText:
+resumeForTitle: "For whom?",
+resumeForText:
       "Perfect for students, applicants and beginners.",
-    resumeBenefitTitle: "Benefit",
-    resumeBenefitText:
+resumeBenefitTitle: "Benefit",
+resumeBenefitText:
       "Fast creation with modern designs and easy handling.",
-    visitTool: "Go to tool →",
+visitTool: "Go to tool →",
 
-    canvaTitle: "Canva AI",
+canvaTitle: "Canva AI",
 canvaPricing: "Freemium",
 canvaLevel: "👶 Beginner Friendly",
 canvaDescription: "Canva AI helps you quickly create designs, social media graphics, presentations, and logos.",
@@ -1282,7 +1285,7 @@ reziBenefitTitle: "Benefit",
 reziBenefitText: "Automatically creates modern application documents and increases job application success.",
 
 
-    whyCard1Title: "⚡ Fast Recommendations",
+whyCard1Title: "⚡ Fast Recommendations",
 whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
 whyCard2Title: "🎯 Clear Selection",
 whyCard2Text: "No endless lists — we show you the tools that actually fit.",
@@ -1325,32 +1328,33 @@ navContact: "Contact",
   },
 
   fr: {
-    heroTitle: "Trouvez le meilleur outil IA pour votre problème",
-    heroSubtitle: "Indiquez ce dont vous avez besoin – CV, candidature, logo ou textes.",
-    searchBtn: "Rechercher",
-    workflowGeneratorTitle: "🤖 Générateur de workflow IA",
-    workflowGeneratorSubtitle: "Décrivez votre objectif et obtenez automatiquement le meilleur workflow IA.",
-    whyTitle: "Pourquoi MyAIFinder ?",
-    trendingTitle: "🔥 Outils IA populaires",
-    bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
 
-    resumePricing: "Freemium",
-    resumeLevel: "👶 Débutant",
+heroTitle: "Trouvez le meilleur outil IA pour votre problème",
+heroSubtitle: "Indiquez ce dont vous avez besoin – CV, candidature, logo ou textes.",
+searchBtn: "Rechercher",
+workflowGeneratorTitle: "🤖 Générateur de workflow IA",
+workflowGeneratorSubtitle: "Décrivez votre objectif et obtenez automatiquement le meilleur workflow IA.",
+whyTitle: "Pourquoi MyAIFinder ?",
+trendingTitle: "🔥 Outils IA populaires",
+bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
 
-    resumeDescription:
+resumePricing: "Freemium",
+resumeLevel: "👶 Débutant",
+
+resumeDescription:
       "Resume.io t’aide à créer rapidement et facilement des CV et lettres de motivation professionnels.",
-    resumeUseTitle: "Pour quoi ?",
-    resumeUseText:
+resumeUseTitle: "Pour quoi ?",
+resumeUseText:
       "CV, lettres de motivation et modèles professionnels.",
-    resumeForTitle: "Pour qui ?",
-    resumeForText:
+resumeForTitle: "Pour qui ?",
+resumeForText:
       "Parfait pour les élèves, étudiants et débutants.",
-    resumeBenefitTitle: "Avantage",
-    resumeBenefitText:
+resumeBenefitTitle: "Avantage",
+resumeBenefitText:
       "Création rapide avec des designs modernes et une utilisation simple.",
-    visitTool: "Voir l’outil →",
+visitTool: "Voir l’outil →",
 
-    canvaTitle: "Canva AI",
+canvaTitle: "Canva AI",
 canvaPricing: "Freemium",
 canvaLevel: "👶 Débutant",
 canvaDescription: "Canva AI t’aide à créer rapidement des designs, visuels pour réseaux sociaux, présentations et logos.",
@@ -1492,7 +1496,7 @@ reziBenefitTitle: "Avantage",
 reziBenefitText: "Crée automatiquement des documents modernes et améliore les chances d’embauche.",
 
 // FR
-    whyCard1Title: "⚡ Recommandations rapides",
+whyCard1Title: "⚡ Recommandations rapides",
 whyCard1Text: "Trouvez en quelques secondes les outils IA adaptés à votre problème.",
 whyCard2Title: "🎯 Sélection claire",
 whyCard2Text: "Pas de listes infinies — nous montrons les outils qui correspondent vraiment.",
@@ -1535,32 +1539,33 @@ navContact: "Contact",
   },
   
   es: {
-    heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
-    heroSubtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
-    searchBtn: "Buscar",
-    workflowGeneratorTitle: "🤖 Generador de workflows IA",
-    workflowGeneratorSubtitle: "Describe tu objetivo y recibe automáticamente el mejor workflow de IA.",
-    whyTitle: "¿Por qué MyAIFinder?",
-    trendingTitle: "🔥 Herramientas IA populares",
-    bestWorkflowsTitle: "🚀 Mejores workflows IA",
 
-    resumePricing: "Freemium",
-    resumeLevel: "👶 Para principiantes",
+heroTitle: "Encuentra la mejor herramienta de IA para tu problema",
+heroSubtitle: "Escribe en qué necesitas ayuda – CV, solicitud, logo o textos.",
+searchBtn: "Buscar",
+workflowGeneratorTitle: "🤖 Generador de workflows IA",
+workflowGeneratorSubtitle: "Describe tu objetivo y recibe automáticamente el mejor workflow de IA.",
+whyTitle: "¿Por qué MyAIFinder?",
+trendingTitle: "🔥 Herramientas IA populares",
+bestWorkflowsTitle: "🚀 Mejores workflows IA",
 
-    resumeDescription:
+resumePricing: "Freemium",
+resumeLevel: "👶 Para principiantes",
+
+resumeDescription:
       "Resume.io te ayuda a crear currículums y cartas de presentación profesionales de forma rápida y sencilla.",
-    resumeUseTitle: "¿Para qué?",
-    resumeUseText:
+resumeUseTitle: "¿Para qué?",
+resumeUseText:
       "Currículums, cartas de presentación y plantillas profesionales.",
-    resumeForTitle: "¿Para quién?",
-    resumeForText:
+resumeForTitle: "¿Para quién?",
+resumeForText:
       "Perfecto para estudiantes, candidatos y principiantes.",
-    resumeBenefitTitle: "Ventaja",
-    resumeBenefitText:
+resumeBenefitTitle: "Ventaja",
+resumeBenefitText:
       "Creación rápida con diseños modernos y uso sencillo.",
-    visitTool: "Ir a la herramienta →",
+visitTool: "Ir a la herramienta →",
 
-    canvaTitle: "Canva AI",
+canvaTitle: "Canva AI",
 canvaPricing: "Freemium",
 canvaLevel: "👶 Para principiantes",
 canvaDescription: "Canva AI te ayuda a crear rápidamente diseños, gráficos para redes sociales, presentaciones y logos.",
@@ -1703,7 +1708,7 @@ reziBenefitText: "Crea automáticamente documentos modernos y mejora las posibil
 
 
 // ES
-    whyCard1Title: "⚡ Recomendaciones rápidas",
+whyCard1Title: "⚡ Recomendaciones rápidas",
 whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
 whyCard2Title: "🎯 Selección clara",
 whyCard2Text: "Sin listas interminables — te mostramos las herramientas que realmente encajan.",
@@ -1746,32 +1751,33 @@ navContact: "Contacto",
   },
   
   ar: {
-    heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
-    heroSubtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
-    searchBtn: "بحث",
-    workflowGeneratorTitle: "🤖 مولد سير عمل الذكاء الاصطناعي",
-    workflowGeneratorSubtitle: "اكتب هدفك واحصل تلقائياً على أفضل سير عمل بالذكاء الاصطناعي.",
-    whyTitle: "لماذا MyAIFinder؟",
-    trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
-    bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي",
 
-    resumePricing: "مجاني جزئياً",
-    resumeLevel: "👶 مناسب للمبتدئين",
+heroTitle: "اعثر على أفضل أداة ذكاء اصطناعي لمشكلتك",
+heroSubtitle: "اكتب ما تحتاج المساعدة فيه – مثل السيرة الذاتية أو الشعار أو النصوص.",
+searchBtn: "بحث",
+workflowGeneratorTitle: "🤖 مولد سير عمل الذكاء الاصطناعي",
+workflowGeneratorSubtitle: "اكتب هدفك واحصل تلقائياً على أفضل سير عمل بالذكاء الاصطناعي.",
+whyTitle: "لماذا MyAIFinder؟",
+trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
+bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي",
 
-    resumeDescription:
+resumePricing: "مجاني جزئياً",
+resumeLevel: "👶 مناسب للمبتدئين",
+
+resumeDescription:
       "يساعدك Resume.io على إنشاء سير ذاتية وخطابات تقديم احترافية بسرعة وسهولة.",
-    resumeUseTitle: "لأي غرض؟",
-    resumeUseText:
+resumeUseTitle: "لأي غرض؟",
+resumeUseText:
       "السير الذاتية، خطابات التقديم والقوالب الاحترافية.",
-    resumeForTitle: "لمن؟",
-    resumeForText:
+resumeForTitle: "لمن؟",
+resumeForText:
       "مثالي للطلاب والمتقدمين للوظائف والمبتدئين.",
-    resumeBenefitTitle: "الميزة",
-    resumeBenefitText:
+resumeBenefitTitle: "الميزة",
+resumeBenefitText:
       "إنشاء سريع بتصاميم حديثة وسهولة في الاستخدام.",
-    visitTool: "اذهب إلى الأداة →",
+visitTool: "اذهب إلى الأداة →",
 
-    canvaTitle: "Canva AI",
+canvaTitle: "Canva AI",
 canvaPricing: "مجاني جزئياً",
 canvaLevel: "👶 مناسب للمبتدئين",
 canvaDescription: "يساعدك Canva AI على إنشاء التصاميم ومنشورات التواصل الاجتماعي والعروض التقديمية والشعارات بسرعة.",
@@ -1956,30 +1962,31 @@ navContact: "اتصال",
   },
   
   zh: {
-    heroTitle: "为你的问题找到最佳 AI 工具",
-    heroSubtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
-    searchBtn: "搜索",
-    workflowGeneratorTitle: "🤖 AI 工作流生成器",
-    workflowGeneratorSubtitle: "描述你的目标，并自动获得最佳 AI 工作流。",
-    whyTitle: "为什么选择 MyAIFinder？",
-    trendingTitle: "🔥 热门 AI 工具",
-    bestWorkflowsTitle: "🚀 最佳 AI 工作流",
 
-    resumePricing: "免费增值",
-    resumeLevel: "👶 适合初学者",
+heroTitle: "为你的问题找到最佳 AI 工具",
+heroSubtitle: "输入你需要帮助的内容，例如简历、申请、Logo 或文本。",
+searchBtn: "搜索",
+workflowGeneratorTitle: "🤖 AI 工作流生成器",
+workflowGeneratorSubtitle: "描述你的目标，并自动获得最佳 AI 工作流。",
+whyTitle: "为什么选择 MyAIFinder？",
+trendingTitle: "🔥 热门 AI 工具",
+bestWorkflowsTitle: "🚀 最佳 AI 工作流",
 
-     resumeDescription:
+resumePricing: "免费增值",
+resumeLevel: "👶 适合初学者",
+
+resumeDescription:
       "Resume.io 可帮助你快速轻松地创建专业简历和求职信。",
-    resumeUseTitle: "用于什么？",
-    resumeUseText:
+resumeUseTitle: "用于什么？",
+resumeUseText:
       "简历、求职信和专业模板。",
-    resumeForTitle: "适合谁？",
-    resumeForText:
+resumeForTitle: "适合谁？",
+resumeForText:
       "非常适合学生、求职者和职场新人。",
-    resumeBenefitTitle: "优势",
-    resumeBenefitText:
+resumeBenefitTitle: "优势",
+resumeBenefitText:
       "现代设计、快速创建且易于使用。",
-    visitTool: "前往工具 →",
+visitTool: "前往工具 →",
 
     canvaTitle: "Canva AI",
 canvaPricing: "免费增值",
