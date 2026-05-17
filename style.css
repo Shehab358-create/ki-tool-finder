@@ -2264,3 +2264,59 @@ body.dark-mode .tool-info-grid p{
     pointer-events:auto !important;
     z-index:999999 !important;
 }
+
+/* FIX TOOL PAGE LAYOUT */
+
+.tool-info-grid{
+    display:grid !important;
+    grid-template-columns:repeat(3, 1fr) !important;
+    gap:18px !important;
+    margin:35px 0 !important;
+}
+
+.tool-info-grid div{
+    background:#f8fafc !important;
+    border:1px solid #e2e8f0 !important;
+    border-radius:22px !important;
+    padding:24px !important;
+    width:auto !important;
+    min-height:auto !important;
+}
+
+.tool-info-grid h3{
+    color:#0f172a !important;
+    font-size:22px !important;
+    margin-bottom:10px !important;
+}
+
+.tool-info-grid p{
+    color:#475569 !important;
+    font-size:16px !important;
+    line-height:1.5 !important;
+}
+
+.visit-btn{
+    width:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+
+    display:inline-flex !important;
+    margin-top:20px !important;
+
+    padding:15px 32px !important;
+    border-radius:16px !important;
+}
+
+/* Darkmode */
+body.dark-mode .tool-info-grid div{
+    background:rgba(255,255,255,0.04) !important;
+    border-color:rgba(255,255,255,0.08) !important;
+}
+
+body.dark-mode .tool-info-grid h3{
+    color:white !important;
+}
+
+body.dark-mode .tool-info-grid p{
+    color:#cbd5e1 !important;
+}
