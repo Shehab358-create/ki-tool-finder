@@ -2525,7 +2525,6 @@ body.dark-mode .tool-info-grid p{
 /* GLOBAL NAVBAR HOVER FIX */
 
 .navbar button:hover,
-.navbar a:hover,
 .navbar .nav-user-btn:hover,
 .navbar .menu-toggle:hover,
 .navbar .theme-toggle:hover,
@@ -2543,6 +2542,6 @@ body.dark-mode .tool-info-grid p{
 }
 
 .navbar button:hover i,
-.navbar a:hover i{
+.navbar .nav-user-btn:hover i{
     color:white !important;
 }
