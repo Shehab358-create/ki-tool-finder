@@ -2211,11 +2211,34 @@ body.dark-mode .tool-info-grid p{
     z-index:10000000 !important;
 }
 
-.brand-logo,
-.brand-logo *{
-    pointer-events:none !important;
-}
-
 .menu-toggle{
     position:relative !important;
+}
+
+/* FIX: Navbar Buttons klickbar */
+
+.navbar{
+    pointer-events:auto !important;
+    z-index:999999 !important;
+}
+
+.nav-left,
+.nav-user{
+    pointer-events:auto !important;
+    z-index:1000001 !important;
+}
+
+.menu-toggle,
+.language-btn,
+.theme-toggle,
+.nav-user-btn{
+    pointer-events:auto !important;
+    cursor:pointer !important;
+    position:relative !important;
+    z-index:1000002 !important;
+}
+
+.brand-logo{
+    pointer-events:auto !important;
+    z-index:999999 !important;
 }
