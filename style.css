@@ -2320,3 +2320,40 @@ body.dark-mode .tool-info-grid h3{
 body.dark-mode .tool-info-grid p{
     color:#cbd5e1 !important;
 }
+
+/* FIX: Tool Button richtig positionieren */
+
+.tool-info-grid{
+    margin-bottom:35px !important;
+}
+
+.tool-hero .visit-btn{
+    width:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+
+    display:inline-flex !important;
+
+    padding:15px 32px !important;
+
+    margin:10px auto 0 !important;
+
+    border-radius:16px !important;
+
+    background:linear-gradient(135deg,#001b44,#003566) !important;
+
+    color:white !important;
+
+    font-size:18px !important;
+    font-weight:900 !important;
+
+    line-height:1 !important;
+
+    box-shadow:0 12px 30px rgba(0,0,0,0.18) !important;
+}
+
+.tool-hero .visit-btn:hover{
+    background:linear-gradient(135deg,#2563eb,#06b6d4) !important;
+    transform:translateY(-3px) scale(1.03) !important;
+}
