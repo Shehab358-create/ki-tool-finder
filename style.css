@@ -2435,3 +2435,28 @@ body.dark-mode .tool-info-grid p{
 
     border-color:#38bdf8;
 }
+
+/* STRONG GLOW: rechte Navbar Buttons */
+
+.nav-user .nav-user-btn:hover,
+.nav-user-btn:hover{
+    background:linear-gradient(135deg,#2563eb,#06b6d4) !important;
+
+    border-color:#38bdf8 !important;
+
+    transform:translateY(-4px) scale(1.06) !important;
+
+    box-shadow:
+        0 0 18px rgba(37,99,235,0.95),
+        0 0 38px rgba(6,182,212,0.75),
+        0 0 70px rgba(6,182,212,0.45) !important;
+}
+
+.nav-user .nav-user-btn:hover i,
+.nav-user-btn:hover i{
+    background:rgba(255,255,255,0.18) !important;
+    color:white !important;
+
+    box-shadow:
+        0 0 18px rgba(255,255,255,0.35) !important;
+}
