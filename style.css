@@ -2120,20 +2120,11 @@ body.dark-mode .tool-description{
     flex-wrap:wrap;
 }
 
-.tool-info-grid div{
-    background:rgba(255,255,255,0.04);
-    border:1px solid rgba(255,255,255,0.08);
-
+.tool-info-grid > div{
+    background:#f8fafc;
+    border:1px solid #e2e8f0;
     border-radius:22px;
-
-    width:260px;
-    min-height:180px;
-
-    padding:30px 24px;
-
-    text-align:center;
-
-    transition:all 0.3s ease;
+    padding:24px;
 }
 
 .tool-info-grid div:hover{
@@ -2356,4 +2347,38 @@ body.dark-mode .tool-info-grid p{
 .tool-hero .visit-btn:hover{
     background:linear-gradient(135deg,#2563eb,#06b6d4) !important;
     transform:translateY(-3px) scale(1.03) !important;
+}
+
+.tool-hero .visit-btn{
+    display:inline-flex !important;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 34px !important;
+
+    width:auto !important;
+    height:auto !important;
+
+    min-height:auto !important;
+    max-height:none !important;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#001b44,#003566);
+
+    color:white;
+
+    font-size:20px;
+    font-weight:800;
+
+    text-decoration:none;
+
+    margin-top:30px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+.tool-hero .visit-btn:hover{
+    transform:translateY(-4px) scale(1.04);
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
 }
