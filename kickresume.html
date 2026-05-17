@@ -1,51 +1,159 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT – KI Tool Finder</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickresume - MyAIFinder</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
 <nav class="navbar">
-  <div class="logo">
-    <img src="favicon.png" alt="KI Tool Finder Logo">
-  </div>
 
-  <ul class="nav-links">
-    <a href="index.html">Start</a>
-    <a href="lebenslauf.html">Lebenslauf</a>
-    <a href="bewerbung.html">Bewerbung</a>
-    <a href="logo.html">Logo</a>
-    <a href="content.html">Content</a>
-    <a href="blog.html">Blog</a>
-  </ul>
+    <ul class="nav-links">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="lebenslauf.html">Lebenslauf</a></li>
+        <li><a href="bewerbung.html">Bewerbung</a></li>
+        <li><a href="logo.html">Logo</a></li>
+        <li><a href="content.html">Content</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+
+    <div class="nav-left">
+
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="language-switcher">
+
+            <button class="language-btn" onclick="toggleLanguageMenu()">
+                <span id="currentLang">DE</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="language-menu" id="languageMenu">
+                <div onclick="changeLanguage('de','DE')">DE</div>
+                <div onclick="changeLanguage('en','EN')">EN</div>
+                <div onclick="changeLanguage('fr','FR')">FR</div>
+                <div onclick="changeLanguage('ar','AR')">AR</div>
+                <div onclick="changeLanguage('es','ES')">ES</div>
+                <div onclick="changeLanguage('zh','中文')">中文</div>
+            </div>
+
+        </div>
+
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <i id="themeIcon" class="fa-regular fa-moon"></i>
+        </button>
+
+    </div>
+
+    <a href="index.html" class="brand-logo">
+        <div class="logo-text">
+            <span class="logo-my">MyAI</span>
+            <span class="logo-finder">Finder</span>
+        </div>
+    </a>
+
+    <div class="nav-user">
+
+        <a href="profil.html" class="nav-user-btn">
+            <i class="fa-regular fa-user"></i>
+            <span>Profil</span>
+        </a>
+
+        <a href="login.html" class="nav-user-btn">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <span>Login</span>
+        </a>
+
+        <a href="favoriten.html" class="nav-user-btn">
+            <i class="fa-regular fa-heart"></i>
+            <span>Favoriten</span>
+        </a>
+
+    </div>
+
 </nav>
 
-<main class="tool-detail-page">
-  <section class="tool-hero">
-    <img src="https://www.google.com/s2/favicons?domain=kickresume.com&sz=128" alt="Kickresume Logo">
-    <h1>Kickresume</h1>
-    <div class="tool-badges">
-      <span>⭐ 8.9</span>
-      <span>Freemium</span>
-      <span>👶 Anfängerfreundlich</span>
-    </div>
-    <p>Kickresume erstellt moderne Lebensläufe mit KI und bietet professionelle Vorlagen.</p>
-    <a class="tool-button" href="https://www.kickresume.com" target="_blank">Kickresume öffnen</a>
-  </section>
+<main class="tool-page">
 
-  <section class="tool-detail-card">
-    <h2>Wofür ist Kickresume gut?</h2>
-    <ul>
-      <li>KI-Lebensläufe erstellen</li>
-      <li>Lebenslauf-Designs nutzen</li>
-      <li>Bewerbungsunterlagen verbessern</li>
-    </ul>
-  </section>
+    <section class="tool-hero">
+
+        <img src="https://www.google.com/s2/favicons?domain=kickresume.com&sz=128"
+             alt="Kickresume Logo"
+             class="tool-logo-big">
+
+        <h1 data-i18n="kickresumeTitle">Kickresume</h1>
+
+        <div class="tool-badges">
+
+            <span class="badge">⭐ 8.7</span>
+
+            <span class="badge" data-i18n="kickresumePricing">
+                Freemium
+            </span>
+
+            <span class="badge" data-i18n="kickresumeLevel">
+                👶 Anfängerfreundlich
+            </span>
+
+        </div>
+
+        <p class="tool-description" data-i18n="kickresumeDescription">
+            Kickresume hilft dir dabei, Lebensläufe, Anschreiben und Karrieredokumente mit KI schnell und professionell zu erstellen.
+        </p>
+
+        <div class="tool-info-grid">
+
+            <div>
+                <h3 data-i18n="kickresumeUseTitle">Wofür?</h3>
+
+                <p data-i18n="kickresumeUseText">
+                    Lebenslauf, Anschreiben, Bewerbungsvorlagen und Karriereprofile.
+                </p>
+            </div>
+
+            <div>
+                <h3 data-i18n="kickresumeForTitle">Für wen?</h3>
+
+                <p data-i18n="kickresumeForText">
+                    Perfekt für Bewerber, Studenten, Berufseinsteiger und Menschen auf Jobsuche.
+                </p>
+            </div>
+
+            <div>
+                <h3 data-i18n="kickresumeBenefitTitle">Vorteil</h3>
+
+                <p data-i18n="kickresumeBenefitText">
+                    Erstellt moderne Bewerbungsunterlagen schnell, übersichtlich und mit professionellen Vorlagen.
+                </p>
+            </div>
+
+        </div>
+
+        <a href="https://www.kickresume.com"
+           target="_blank"
+           class="visit-btn"
+           data-i18n="visitTool">
+
+            Zum Tool →
+        </a>
+
+    </section>
+
 </main>
+
+<script src="script.js"></script>
 
 </body>
 </html>
