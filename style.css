@@ -1820,3 +1820,71 @@ body.dark-mode .results .card p{
     padding:13px 24px !important;
     font-size:17px !important;
 }
+
+/* HARD FIX: Ergebnis-Karte kompakt */
+
+#results,
+.results{
+    max-width:760px !important;
+    width:100% !important;
+    margin:35px auto 0 !important;
+}
+
+#results > div,
+.results > div,
+.tool-card,
+.result-card{
+    max-width:760px !important;
+    width:100% !important;
+    min-height:auto !important;
+
+    padding:34px 38px !important;
+
+    border-radius:28px !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:center !important;
+
+    text-align:center !important;
+}
+
+#results img,
+.results img,
+.tool-card img,
+.result-card img{
+    width:64px !important;
+    height:64px !important;
+    object-fit:contain !important;
+    margin-bottom:16px !important;
+}
+
+#results h2,
+.results h2,
+.tool-card h2,
+.result-card h2{
+    font-size:30px !important;
+    margin:8px 0 12px !important;
+}
+
+#results p,
+.results p,
+.tool-card p,
+.result-card p{
+    max-width:620px !important;
+    font-size:18px !important;
+    line-height:1.5 !important;
+    margin:8px auto !important;
+}
+
+#results a,
+.results a,
+.tool-card a,
+.result-card a{
+    width:auto !important;
+    margin-top:20px !important;
+    padding:13px 24px !important;
+    font-size:17px !important;
+}
+
