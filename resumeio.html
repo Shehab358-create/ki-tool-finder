@@ -1,32 +1,75 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT – KI Tool Finder</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume.io - MyAIFinder</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
 
 <nav class="navbar">
-  <div class="logo">
-    <img src="favicon.png" alt="KI Tool Finder Logo">
-  </div>
 
-  <ul class="nav-links">
-    <a href="index.html">Start</a>
-    <a href="lebenslauf.html">Lebenslauf</a>
-    <a href="bewerbung.html">Bewerbung</a>
-    <a href="logo.html">Logo</a>
-    <a href="content.html">Content</a>
-    <a href="blog.html">Blog</a>
-  </ul>
+    <div class="nav-left">
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="language-switcher">
+            <button class="language-btn" onclick="toggleLanguageMenu()">
+                <span id="currentLang">DE</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="language-menu" id="languageMenu">
+                <div onclick="changeLanguage('de','DE')">DE</div>
+                <div onclick="changeLanguage('en','EN')">EN</div>
+                <div onclick="changeLanguage('fr','FR')">FR</div>
+                <div onclick="changeLanguage('ar','AR')">AR</div>
+                <div onclick="changeLanguage('es','ES')">ES</div>
+                <div onclick="changeLanguage('zh','中文')">中文</div>
+            </div>
+        </div>
+
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <i id="themeIcon" class="fa-regular fa-moon"></i>
+        </button>
+    </div>
+
+    <a href="index.html" class="brand-logo">
+        <div class="logo-text">
+            <span class="logo-my">MyAI</span>
+            <span class="logo-finder">Finder</span>
+        </div>
+    </a>
+
+    <div class="nav-user">
+        <a href="profil.html" class="nav-user-btn">
+            <i class="fa-regular fa-user"></i>
+            <span>Profil</span>
+        </a>
+
+        <a href="login.html" class="nav-user-btn">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <span>Login</span>
+        </a>
+
+        <a href="favoriten.html" class="nav-user-btn">
+            <i class="fa-regular fa-heart"></i>
+            <span>Favoriten</span>
+        </a>
+    </div>
+
 </nav>
 
 <main class="tool-page">
 
-    <div class="tool-hero">
+    <section class="tool-hero">
 
         <img src="https://www.google.com/s2/favicons?domain=resume.io&sz=128"
              alt="Resume.io Logo"
@@ -41,17 +84,36 @@
         </div>
 
         <p class="tool-description">
-            Resume.io hilft dir dabei, professionelle Lebensläufe und
-            Bewerbungsschreiben in wenigen Minuten zu erstellen.
+            Resume.io hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben
+            schnell und einfach zu erstellen.
         </p>
+
+        <div class="tool-info-grid">
+            <div>
+                <h3>Wofür?</h3>
+                <p>Lebenslauf, Bewerbungsschreiben und professionelle Vorlagen.</p>
+            </div>
+
+            <div>
+                <h3>Für wen?</h3>
+                <p>Perfekt für Schüler, Studenten, Bewerber und Berufseinsteiger.</p>
+            </div>
+
+            <div>
+                <h3>Vorteil</h3>
+                <p>Schnelle Erstellung mit modernen Designs und einfacher Bedienung.</p>
+            </div>
+        </div>
 
         <a href="https://resume.io" target="_blank" class="visit-btn">
             Zum Tool →
         </a>
 
-    </div>
+    </section>
 
 </main>
+
+<script src="script.js"></script>
 
 </body>
 </html>
