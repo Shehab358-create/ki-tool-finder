@@ -926,6 +926,8 @@ const pageText = {
       "Schnelle Erstellung mit modernen Designs und einfacher Bedienung.",
     visitTool: "Zum Tool →",
 
+    resumePricing: "Freemium",
+    resumeLevel: "👶 Anfängerfreundlich",
 
      whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
@@ -978,6 +980,9 @@ navContact: "Kontakt",
     whyTitle: "Why MyAIFinder?",
     trendingTitle: "🔥 Trending AI Tools",
     bestWorkflowsTitle: "🚀 Best AI Workflows",
+
+    resumePricing: "Freemium",
+    resumeLevel: "👶 Beginner Friendly",
 
     resumeDescription:
       "Resume.io helps you create professional resumes and cover letters quickly and easily.",
@@ -1043,6 +1048,9 @@ navContact: "Contact",
     whyTitle: "Pourquoi MyAIFinder ?",
     trendingTitle: "🔥 Outils IA populaires",
     bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
+
+    resumePricing: "Freemium",
+    resumeLevel: "👶 Débutant",
 
     resumeDescription:
       "Resume.io t’aide à créer rapidement et facilement des CV et lettres de motivation professionnels.",
@@ -1110,6 +1118,9 @@ navContact: "Contact",
     trendingTitle: "🔥 Herramientas IA populares",
     bestWorkflowsTitle: "🚀 Mejores workflows IA",
 
+    resumePricing: "Freemium",
+    resumeLevel: "👶 Para principiantes",
+
     resumeDescription:
       "Resume.io te ayuda a crear currículums y cartas de presentación profesionales de forma rápida y sencilla.",
     resumeUseTitle: "¿Para qué?",
@@ -1176,6 +1187,9 @@ navContact: "Contacto",
     trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
     bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي",
 
+    resumePricing: "مجاني جزئياً",
+    resumeLevel: "👶 مناسب للمبتدئين",
+
     resumeDescription:
       "يساعدك Resume.io على إنشاء سير ذاتية وخطابات تقديم احترافية بسرعة وسهولة.",
     resumeUseTitle: "لأي غرض؟",
@@ -1241,6 +1255,9 @@ navContact: "اتصال",
     whyTitle: "为什么选择 MyAIFinder？",
     trendingTitle: "🔥 热门 AI 工具",
     bestWorkflowsTitle: "🚀 最佳 AI 工作流",
+
+    resumePricing: "免费增值",
+    resumeLevel: "👶 适合初学者",
 
      resumeDescription:
       "Resume.io 可帮助你快速轻松地创建专业简历和求职信。",
