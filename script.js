@@ -913,6 +913,20 @@ const pageText = {
     trendingTitle: "🔥 Trending AI Tools",
     bestWorkflowsTitle: "🚀 Beste KI Workflows",
 
+    resumeDescription:
+      "Resume.io hilft dir dabei, professionelle Lebensläufe und Bewerbungsschreiben schnell und einfach zu erstellen.",
+    resumeUseTitle: "Wofür?",
+    resumeUseText:
+      "Lebenslauf, Bewerbungsschreiben und professionelle Vorlagen.",
+    resumeForTitle: "Für wen?",
+    resumeForText:
+      "Perfekt für Schüler, Studenten, Bewerber und Berufseinsteiger.",
+    resumeBenefitTitle: "Vorteil",
+    resumeBenefitText:
+      "Schnelle Erstellung mit modernen Designs und einfacher Bedienung.",
+    visitTool: "Zum Tool →",
+
+
      whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
 whyCard2Title: "🎯 Klare Auswahl",
@@ -965,6 +979,19 @@ navContact: "Kontakt",
     trendingTitle: "🔥 Trending AI Tools",
     bestWorkflowsTitle: "🚀 Best AI Workflows",
 
+    resumeDescription:
+      "Resume.io helps you create professional resumes and cover letters quickly and easily.",
+    resumeUseTitle: "What for?",
+    resumeUseText:
+      "Resumes, cover letters and professional templates.",
+    resumeForTitle: "For whom?",
+    resumeForText:
+      "Perfect for students, applicants and beginners.",
+    resumeBenefitTitle: "Benefit",
+    resumeBenefitText:
+      "Fast creation with modern designs and easy handling.",
+    visitTool: "Go to tool →",
+
     whyCard1Title: "⚡ Fast Recommendations",
 whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
 whyCard2Title: "🎯 Clear Selection",
@@ -1016,6 +1043,19 @@ navContact: "Contact",
     whyTitle: "Pourquoi MyAIFinder ?",
     trendingTitle: "🔥 Outils IA populaires",
     bestWorkflowsTitle: "🚀 Meilleurs workflows IA",
+
+    resumeDescription:
+      "Resume.io t’aide à créer rapidement et facilement des CV et lettres de motivation professionnels.",
+    resumeUseTitle: "Pour quoi ?",
+    resumeUseText:
+      "CV, lettres de motivation et modèles professionnels.",
+    resumeForTitle: "Pour qui ?",
+    resumeForText:
+      "Parfait pour les élèves, étudiants et débutants.",
+    resumeBenefitTitle: "Avantage",
+    resumeBenefitText:
+      "Création rapide avec des designs modernes et une utilisation simple.",
+    visitTool: "Voir l’outil →",
 
 // FR
     whyCard1Title: "⚡ Recommandations rapides",
@@ -1070,6 +1110,19 @@ navContact: "Contact",
     trendingTitle: "🔥 Herramientas IA populares",
     bestWorkflowsTitle: "🚀 Mejores workflows IA",
 
+    resumeDescription:
+      "Resume.io te ayuda a crear currículums y cartas de presentación profesionales de forma rápida y sencilla.",
+    resumeUseTitle: "¿Para qué?",
+    resumeUseText:
+      "Currículums, cartas de presentación y plantillas profesionales.",
+    resumeForTitle: "¿Para quién?",
+    resumeForText:
+      "Perfecto para estudiantes, candidatos y principiantes.",
+    resumeBenefitTitle: "Ventaja",
+    resumeBenefitText:
+      "Creación rápida con diseños modernos y uso sencillo.",
+    visitTool: "Ir a la herramienta →",
+
 // ES
     whyCard1Title: "⚡ Recomendaciones rápidas",
 whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
@@ -1123,6 +1176,19 @@ navContact: "Contacto",
     trendingTitle: "🔥 أدوات الذكاء الاصطناعي الرائجة",
     bestWorkflowsTitle: "🚀 أفضل سير عمل للذكاء الاصطناعي",
 
+    resumeDescription:
+      "يساعدك Resume.io على إنشاء سير ذاتية وخطابات تقديم احترافية بسرعة وسهولة.",
+    resumeUseTitle: "لأي غرض؟",
+    resumeUseText:
+      "السير الذاتية، خطابات التقديم والقوالب الاحترافية.",
+    resumeForTitle: "لمن؟",
+    resumeForText:
+      "مثالي للطلاب والمتقدمين للوظائف والمبتدئين.",
+    resumeBenefitTitle: "الميزة",
+    resumeBenefitText:
+      "إنشاء سريع بتصاميم حديثة وسهولة في الاستخدام.",
+    visitTool: "اذهب إلى الأداة →",
+
     // AR
 whyCard1Title: "⚡ توصيات سريعة",
 whyCard1Text: "اعثر خلال ثوانٍ على أدوات ذكاء اصطناعي مناسبة لمشكلتك.",
@@ -1175,6 +1241,19 @@ navContact: "اتصال",
     whyTitle: "为什么选择 MyAIFinder？",
     trendingTitle: "🔥 热门 AI 工具",
     bestWorkflowsTitle: "🚀 最佳 AI 工作流",
+
+     resumeDescription:
+      "Resume.io 可帮助你快速轻松地创建专业简历和求职信。",
+    resumeUseTitle: "用于什么？",
+    resumeUseText:
+      "简历、求职信和专业模板。",
+    resumeForTitle: "适合谁？",
+    resumeForText:
+      "非常适合学生、求职者和职场新人。",
+    resumeBenefitTitle: "优势",
+    resumeBenefitText:
+      "现代设计、快速创建且易于使用。",
+    visitTool: "前往工具 →",
 
      // ZH
 whyCard1Title: "⚡ 快速推荐",
