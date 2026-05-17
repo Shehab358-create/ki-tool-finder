@@ -462,27 +462,35 @@ function searchTools() {
 
     matchedTools.forEach(tool => {
         results.innerHTML += `
-            <div class="card">
-                <div class="card-header">
-                    <img src="${tool.image}" alt="${tool.name} Logo">
-                    <h2>
-  <a href="${tool.page || '#'}" class="tool-link">
-    ${tool.name}
-  </a>
-</h2>
-                    <div class="tool-meta">
-  <span>⭐ ${tool.score}</span>
-  <span>${tool.pricing}</span>
-  <span>
-    ${tool.beginner ? "👶 Anfängerfreundlich" : "🚀 Profi"}
-  </span>
-</div>
+    <div class="result-card">
+        <div class="result-top">
+            <img src="${tool.image}" alt="${tool.name} Logo" class="result-logo">
+
+            <div class="result-info">
+                <h2>
+                    <a href="${tool.page || '#'}" class="tool-link">
+                        ${tool.name}
+                    </a>
+                </h2>
+
+                <div class="tool-meta">
+                    <span>⭐ ${tool.score}</span>
+                    <span>${tool.pricing}</span>
+                    <span>${tool.beginner ? "👶 Anfängerfreundlich" : "🚀 Profi"}</span>
                 </div>
-                <p>${typeof tool.description === "object" ? tool.description[currentLang] : tool.description}</p>
-                <a href="${tool.link}" target="_blank">${toolButtonText[currentLang]}</a>
             </div>
-        `;
-    });
+        </div>
+
+        <p class="result-description">
+            ${tool.description[currentLang]}
+        </p>
+
+        <a href="${tool.page || '#'}" class="tool-button">
+            Zum Tool
+        </a>
+    </div>
+     `;
+  });
 
     showWorkflow(workflowKey);
 }
