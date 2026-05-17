@@ -2382,3 +2382,38 @@ body.dark-mode .tool-info-grid p{
     transform:translateY(-4px) scale(1.04);
     background:linear-gradient(135deg,#2563eb,#06b6d4);
 }
+
+/* FINAL FIX TOOL PAGE */
+
+.tool-info-grid{
+    display:grid !important;
+    grid-template-columns:repeat(3, 1fr) !important;
+    gap:18px !important;
+}
+
+.tool-info-grid > div{
+    width:auto !important;
+    min-height:170px !important;
+}
+
+.tool-info-grid > div > div{
+    background:none !important;
+    border:none !important;
+    padding:0 !important;
+    width:auto !important;
+    min-height:0 !important;
+}
+
+/* Button darf NIE wie Karte aussehen */
+.tool-hero > .visit-btn{
+    width:fit-content !important;
+    height:auto !important;
+    min-height:0 !important;
+
+    display:inline-flex !important;
+
+    margin:35px auto 0 !important;
+    padding:15px 32px !important;
+
+    border-radius:16px !important;
+}
