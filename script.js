@@ -925,9 +925,22 @@ const pageText = {
     resumeBenefitText:
       "Schnelle Erstellung mit modernen Designs und einfacher Bedienung.",
     visitTool: "Zum Tool →",
-
     resumePricing: "Freemium",
     resumeLevel: "👶 Anfängerfreundlich",
+
+    /* CANVA */
+
+canvaTitle: "Canva AI",
+canvaPricing: "Freemium",
+canvaLevel: "👶 Anfängerfreundlich",
+canvaDescription: "Canva AI hilft dir dabei, schnell Designs, Social-Media-Grafiken, Präsentationen und Logos zu erstellen.",
+canvaUseTitle: "Wofür?",
+canvaUseText: "Social Media, Logos, Präsentationen, Flyer und schnelle Designs.",
+canvaForTitle: "Für wen?",
+canvaForText: "Perfekt für Creator, Schüler, Gründer, Bewerber und kleine Unternehmen.",
+canvaBenefitTitle: "Vorteil",
+canvaBenefitText: "Einfache Bedienung, viele Vorlagen und schnelle Ergebnisse ohne Design-Erfahrung.",
+
 
      whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
@@ -997,6 +1010,17 @@ navContact: "Kontakt",
       "Fast creation with modern designs and easy handling.",
     visitTool: "Go to tool →",
 
+    canvaTitle: "Canva AI",
+canvaPricing: "Freemium",
+canvaLevel: "👶 Beginner Friendly",
+canvaDescription: "Canva AI helps you quickly create designs, social media graphics, presentations, and logos.",
+canvaUseTitle: "What for?",
+canvaUseText: "Social media, logos, presentations, flyers, and quick designs.",
+canvaForTitle: "For whom?",
+canvaForText: "Perfect for creators, students, founders, applicants, and small businesses.",
+canvaBenefitTitle: "Benefit",
+canvaBenefitText: "Easy to use, many templates, and fast results without design experience.",
+
     whyCard1Title: "⚡ Fast Recommendations",
 whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
 whyCard2Title: "🎯 Clear Selection",
@@ -1064,6 +1088,17 @@ navContact: "Contact",
     resumeBenefitText:
       "Création rapide avec des designs modernes et une utilisation simple.",
     visitTool: "Voir l’outil →",
+
+    canvaTitle: "Canva AI",
+canvaPricing: "Freemium",
+canvaLevel: "👶 Débutant",
+canvaDescription: "Canva AI t’aide à créer rapidement des designs, visuels pour réseaux sociaux, présentations et logos.",
+canvaUseTitle: "Pour quoi ?",
+canvaUseText: "Réseaux sociaux, logos, présentations, flyers et designs rapides.",
+canvaForTitle: "Pour qui ?",
+canvaForText: "Parfait pour les créateurs, étudiants, fondateurs, candidats et petites entreprises.",
+canvaBenefitTitle: "Avantage",
+canvaBenefitText: "Facile à utiliser, beaucoup de modèles et des résultats rapides sans expérience en design.",
 
 // FR
     whyCard1Title: "⚡ Recommandations rapides",
@@ -1134,6 +1169,17 @@ navContact: "Contact",
       "Creación rápida con diseños modernos y uso sencillo.",
     visitTool: "Ir a la herramienta →",
 
+    canvaTitle: "Canva AI",
+canvaPricing: "Freemium",
+canvaLevel: "👶 Para principiantes",
+canvaDescription: "Canva AI te ayuda a crear rápidamente diseños, gráficos para redes sociales, presentaciones y logos.",
+canvaUseTitle: "¿Para qué?",
+canvaUseText: "Redes sociales, logos, presentaciones, flyers y diseños rápidos.",
+canvaForTitle: "¿Para quién?",
+canvaForText: "Perfecto para creadores, estudiantes, fundadores, candidatos y pequeñas empresas.",
+canvaBenefitTitle: "Ventaja",
+canvaBenefitText: "Fácil de usar, muchas plantillas y resultados rápidos sin experiencia en diseño.",
+
 // ES
     whyCard1Title: "⚡ Recomendaciones rápidas",
 whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
@@ -1203,6 +1249,17 @@ navContact: "Contacto",
       "إنشاء سريع بتصاميم حديثة وسهولة في الاستخدام.",
     visitTool: "اذهب إلى الأداة →",
 
+    canvaTitle: "Canva AI",
+canvaPricing: "مجاني جزئياً",
+canvaLevel: "👶 مناسب للمبتدئين",
+canvaDescription: "يساعدك Canva AI على إنشاء التصاميم ومنشورات التواصل الاجتماعي والعروض التقديمية والشعارات بسرعة.",
+canvaUseTitle: "لأي غرض؟",
+canvaUseText: "وسائل التواصل الاجتماعي، الشعارات، العروض التقديمية، المنشورات والتصاميم السريعة.",
+canvaForTitle: "لمن؟",
+canvaForText: "مثالي لصناع المحتوى، الطلاب، المؤسسين، المتقدمين للوظائف والشركات الصغيرة.",
+canvaBenefitTitle: "الميزة",
+canvaBenefitText: "سهل الاستخدام، يحتوي على قوالب كثيرة ويعطي نتائج سريعة بدون خبرة في التصميم.",
+
     // AR
 whyCard1Title: "⚡ توصيات سريعة",
 whyCard1Text: "اعثر خلال ثوانٍ على أدوات ذكاء اصطناعي مناسبة لمشكلتك.",
@@ -1271,6 +1328,17 @@ navContact: "اتصال",
     resumeBenefitText:
       "现代设计、快速创建且易于使用。",
     visitTool: "前往工具 →",
+
+    canvaTitle: "Canva AI",
+canvaPricing: "免费增值",
+canvaLevel: "👶 适合初学者",
+canvaDescription: "Canva AI 可帮助你快速创建设计、社交媒体图片、演示文稿和 logo。",
+canvaUseTitle: "用于什么？",
+canvaUseText: "社交媒体、logo、演示文稿、传单和快速设计。",
+canvaForTitle: "适合谁？",
+canvaForText: "非常适合创作者、学生、创业者、求职者和小型企业。",
+canvaBenefitTitle: "优势",
+canvaBenefitText: "操作简单，模板丰富，即使没有设计经验也能快速完成。",
 
      // ZH
 whyCard1Title: "⚡ 快速推荐",
