@@ -2182,3 +2182,40 @@ body.dark-mode .tool-info-grid div{
         grid-template-columns:1fr;
     }
 }
+
+/* FIX: Tool Page Darkmode Badges lesbar */
+
+body.dark-mode .tool-badges span{
+    background:rgba(59,130,246,0.18) !important;
+    color:#ffffff !important;
+    border:1px solid rgba(56,189,248,0.25) !important;
+}
+
+body.dark-mode .tool-description{
+    color:#f8fafc !important;
+}
+
+body.dark-mode .tool-info-grid h3{
+    color:#ffffff !important;
+}
+
+body.dark-mode .tool-info-grid p{
+    color:#e2e8f0 !important;
+}
+
+/* FIX: Menu Button klickbar */
+
+.nav-left,
+.menu-toggle{
+    pointer-events:auto !important;
+    z-index:10000000 !important;
+}
+
+.brand-logo,
+.brand-logo *{
+    pointer-events:none !important;
+}
+
+.menu-toggle{
+    position:relative !important;
+}
