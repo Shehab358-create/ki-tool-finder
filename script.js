@@ -941,6 +941,136 @@ canvaForText: "Perfekt für Creator, Schüler, Gründer, Bewerber und kleine Unt
 canvaBenefitTitle: "Vorteil",
 canvaBenefitText: "Einfache Bedienung, viele Vorlagen und schnelle Ergebnisse ohne Design-Erfahrung.",
 
+/* CAPCUT */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "Freemium",
+capcutLevel: "👶 Anfängerfreundlich",
+capcutDescription: "CapCut AI hilft dir dabei, professionelle Videos, Reels und TikToks schnell und einfach zu bearbeiten.",
+capcutUseTitle: "Wofür?",
+capcutUseText: "TikTok, Reels, YouTube Shorts, Video-Editing und AI-Effekte.",
+capcutForTitle: "Für wen?",
+capcutForText: "Perfekt für Content Creator, TikToker, YouTuber und Social-Media-Anfänger.",
+capcutBenefitTitle: "Vorteil",
+capcutBenefitText: "Schnelle AI-Videoerstellung mit Effekten, Untertiteln und moderner Bearbeitung.",
+
+/* CHATGPT */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "Freemium",
+chatgptLevel: "👶 Anfängerfreundlich",
+chatgptDescription: "ChatGPT hilft dir beim Schreiben, Lernen, Planen, Programmieren und beim Finden schneller Antworten.",
+chatgptUseTitle: "Wofür?",
+chatgptUseText: "Texte, Ideen, Programmierung, Lernen, Zusammenfassungen und Problemlösungen.",
+chatgptForTitle: "Für wen?",
+chatgptForText: "Perfekt für Schüler, Studenten, Creator, Entwickler, Bewerber und Unternehmen.",
+chatgptBenefitTitle: "Vorteil",
+chatgptBenefitText: "Sehr vielseitig, einfach zu bedienen und hilfreich für fast jede Aufgabe.",
+
+/* COPY.AI */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "Freemium",
+copyaiLevel: "👶 Anfängerfreundlich",
+copyaiDescription: "Copy.ai hilft dir dabei, Marketingtexte, Social-Media-Posts, Produktbeschreibungen und E-Mails schneller zu schreiben.",
+copyaiUseTitle: "Wofür?",
+copyaiUseText: "Werbetexte, Blog-Ideen, E-Mails, Produkttexte und Social-Media-Inhalte.",
+copyaiForTitle: "Für wen?",
+copyaiForText: "Perfekt für Marketer, Creator, Selbstständige, Shops und kleine Unternehmen.",
+copyaiBenefitTitle: "Vorteil",
+copyaiBenefitText: "Spart Zeit beim Schreiben und liefert schnell kreative Textideen für viele Einsatzzwecke.",
+
+/* ELEVENLABS */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "Freemium",
+elevenlabsLevel: "🚀 Profi",
+elevenlabsDescription: "ElevenLabs erstellt realistische KI-Stimmen, Sprachaufnahmen und Voiceovers mit moderner AI-Technologie.",
+elevenlabsUseTitle: "Wofür?",
+elevenlabsUseText: "Voiceovers, Podcasts, Videos, Hörbücher, TikToks und AI-Sprachgeneratoren.",
+elevenlabsForTitle: "Für wen?",
+elevenlabsForText: "Perfekt für Creator, YouTuber, Streamer, Unternehmen und Content-Produzenten.",
+elevenlabsBenefitTitle: "Vorteil",
+elevenlabsBenefitText: "Extrem realistische Stimmen mit vielen Sprachen, Emotionen und professioneller Qualität.",
+
+/* GRAMMARLY */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "Freemium",
+grammarlyLevel: "👶 Anfängerfreundlich",
+grammarlyDescription: "Grammarly hilft dir dabei, Texte grammatikalisch korrekt, professionell und verständlich zu schreiben.",
+grammarlyUseTitle: "Wofür?",
+grammarlyUseText: "Grammatikprüfung, Rechtschreibung, E-Mails, Bewerbungen und professionelle Texte.",
+grammarlyForTitle: "Für wen?",
+grammarlyForText: "Perfekt für Schüler, Studenten, Bewerber, Unternehmen und Content Creator.",
+grammarlyBenefitTitle: "Vorteil",
+grammarlyBenefitText: "Verbessert Texte automatisch und macht Schreiben schneller und professioneller.",
+
+/* JASPER AI */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "Paid",
+jasperLevel: "🚀 Profi",
+jasperDescription: "Jasper AI hilft dir dabei, professionelle Marketingtexte, Blogs und Social-Media-Inhalte mit KI zu erstellen.",
+jasperUseTitle: "Wofür?",
+jasperUseText: "Marketingtexte, Blogs, Werbeanzeigen, SEO und Social-Media-Content.",
+jasperForTitle: "Für wen?",
+jasperForText: "Perfekt für Unternehmen, Marketer, Agenturen und professionelle Content Creator.",
+jasperBenefitTitle: "Vorteil",
+jasperBenefitText: "Erstellt hochwertige Texte schnell und spart viel Zeit bei Content-Erstellung und Marketing.",
+
+/* KICKRESUME */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "Freemium",
+kickresumeLevel: "👶 Anfängerfreundlich",
+kickresumeDescription: "Kickresume hilft dir dabei, Lebensläufe, Anschreiben und Karrieredokumente mit KI schnell und professionell zu erstellen.",
+kickresumeUseTitle: "Wofür?",
+kickresumeUseText: "Lebenslauf, Anschreiben, Bewerbungsvorlagen und Karriereprofile.",
+kickresumeForTitle: "Für wen?",
+kickresumeForText: "Perfekt für Bewerber, Studenten, Berufseinsteiger und Menschen auf Jobsuche.",
+kickresumeBenefitTitle: "Vorteil",
+kickresumeBenefitText: "Erstellt moderne Bewerbungsunterlagen schnell, übersichtlich und mit professionellen Vorlagen.",
+
+/* LOOKA */
+
+lookaTitle: "Looka",
+lookaPricing: "Paid",
+lookaLevel: "👶 Anfängerfreundlich",
+lookaDescription: "Looka hilft dir dabei, professionelle Logos und Marken-Designs mit KI in wenigen Minuten zu erstellen.",
+lookaUseTitle: "Wofür?",
+lookaUseText: "Logos, Branding, Social-Media-Designs und professionelle Markenidentität.",
+lookaForTitle: "Für wen?",
+lookaForText: "Perfekt für Startups, Creator, kleine Unternehmen und Selbstständige.",
+lookaBenefitTitle: "Vorteil",
+lookaBenefitText: "Erstellt moderne Logos automatisch und spart Zeit sowie Designkosten.",
+
+/* REMOVEBG */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "Freemium",
+removebgLevel: "👶 Anfängerfreundlich",
+removebgDescription: "Remove.bg entfernt automatisch Hintergründe von Bildern mit moderner KI-Technologie in wenigen Sekunden.",
+removebgUseTitle: "Wofür?",
+removebgUseText: "Hintergrund entfernen, Produktbilder, Profilbilder, Logos und Social-Media-Grafiken.",
+removebgForTitle: "Für wen?",
+removebgForText: "Perfekt für Designer, Creator, Online-Shops, Fotografen und Social-Media-Nutzer.",
+removebgBenefitTitle: "Vorteil",
+removebgBenefitText: "Spart viel Zeit bei Bildbearbeitung und liefert schnelle professionelle Ergebnisse.",
+
+/* REZI AI */
+
+reziTitle: "Rezi AI",
+reziPricing: "Freemium",
+reziLevel: "👶 Anfängerfreundlich",
+reziDescription: "Rezi AI hilft dir dabei, professionelle Lebensläufe und Bewerbungen mit KI schnell und modern zu erstellen.",
+reziUseTitle: "Wofür?",
+reziUseText: "Lebensläufe, Anschreiben, Bewerbungen und ATS-optimierte Karriereprofile.",
+reziForTitle: "Für wen?",
+reziForText: "Perfekt für Bewerber, Studenten, Berufseinsteiger und Jobsuchende.",
+reziBenefitTitle: "Vorteil",
+reziBenefitText: "Erstellt moderne Bewerbungsunterlagen automatisch und erhöht die Chancen bei Bewerbungen.",
+
 
      whyCard1Title: "⚡ Schnelle Empfehlungen",
 whyCard1Text: "Finde in Sekunden passende KI-Tools für dein konkretes Problem.",
@@ -1021,6 +1151,137 @@ canvaForText: "Perfect for creators, students, founders, applicants, and small b
 canvaBenefitTitle: "Benefit",
 canvaBenefitText: "Easy to use, many templates, and fast results without design experience.",
 
+/* EN */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "Freemium",
+capcutLevel: "👶 Beginner Friendly",
+capcutDescription: "CapCut AI helps you quickly and easily edit professional videos, reels, and TikToks.",
+capcutUseTitle: "What for?",
+capcutUseText: "TikTok, reels, YouTube Shorts, video editing, and AI effects.",
+capcutForTitle: "For whom?",
+capcutForText: "Perfect for content creators, TikTokers, YouTubers, and social media beginners.",
+capcutBenefitTitle: "Benefit",
+capcutBenefitText: "Fast AI video creation with effects, subtitles, and modern editing tools.",
+
+/* EN */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "Freemium",
+chatgptLevel: "👶 Beginner Friendly",
+chatgptDescription: "ChatGPT helps you with writing, learning, planning, programming, and finding quick answers.",
+chatgptUseTitle: "What for?",
+chatgptUseText: "Writing, ideas, programming, learning, summaries, and problem solving.",
+chatgptForTitle: "For whom?",
+chatgptForText: "Perfect for students, creators, developers, applicants, and businesses.",
+chatgptBenefitTitle: "Benefit",
+chatgptBenefitText: "Very versatile, easy to use, and useful for almost every task.",
+
+/* EN */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "Freemium",
+copyaiLevel: "👶 Beginner Friendly",
+copyaiDescription: "Copy.ai helps you write marketing texts, social media posts, product descriptions, and emails faster.",
+copyaiUseTitle: "What for?",
+copyaiUseText: "Advertising texts, blog ideas, emails, product texts, and social media content.",
+copyaiForTitle: "For whom?",
+copyaiForText: "Perfect for marketers, creators, freelancers, shops, and small businesses.",
+copyaiBenefitTitle: "Benefit",
+copyaiBenefitText: "Saves time writing and quickly generates creative text ideas for many purposes.",
+
+/* EN */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "Freemium",
+elevenlabsLevel: "🚀 Professional",
+elevenlabsDescription: "ElevenLabs creates realistic AI voices, voice recordings, and voiceovers using modern AI technology.",
+elevenlabsUseTitle: "What for?",
+elevenlabsUseText: "Voiceovers, podcasts, videos, audiobooks, TikToks, and AI voice generators.",
+elevenlabsForTitle: "For whom?",
+elevenlabsForText: "Perfect for creators, YouTubers, streamers, businesses, and content producers.",
+elevenlabsBenefitTitle: "Benefit",
+elevenlabsBenefitText: "Extremely realistic voices with many languages, emotions, and professional quality.",
+
+/* EN */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "Freemium",
+grammarlyLevel: "👶 Beginner Friendly",
+grammarlyDescription: "Grammarly helps you write grammatically correct, professional, and clear texts.",
+grammarlyUseTitle: "What for?",
+grammarlyUseText: "Grammar checking, spelling, emails, applications, and professional writing.",
+grammarlyForTitle: "For whom?",
+grammarlyForText: "Perfect for students, applicants, businesses, and content creators.",
+grammarlyBenefitTitle: "Benefit",
+grammarlyBenefitText: "Automatically improves texts and makes writing faster and more professional.",
+
+/* EN */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "Paid",
+jasperLevel: "🚀 Professional",
+jasperDescription: "Jasper AI helps you create professional marketing texts, blogs, and social media content with AI.",
+jasperUseTitle: "What for?",
+jasperUseText: "Marketing texts, blogs, ads, SEO, and social media content.",
+jasperForTitle: "For whom?",
+jasperForText: "Perfect for businesses, marketers, agencies, and professional content creators.",
+jasperBenefitTitle: "Benefit",
+jasperBenefitText: "Creates high-quality texts quickly and saves a lot of time in marketing and content creation.",
+
+/* EN */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "Freemium",
+kickresumeLevel: "👶 Beginner Friendly",
+kickresumeDescription: "Kickresume helps you quickly and professionally create resumes, cover letters, and career documents with AI.",
+kickresumeUseTitle: "What for?",
+kickresumeUseText: "Resumes, cover letters, job application templates, and career profiles.",
+kickresumeForTitle: "For whom?",
+kickresumeForText: "Perfect for applicants, students, beginners, and job seekers.",
+kickresumeBenefitTitle: "Benefit",
+kickresumeBenefitText: "Creates modern application documents quickly, clearly, and professionally.",
+
+/* EN */
+
+lookaTitle: "Looka",
+lookaPricing: "Paid",
+lookaLevel: "👶 Beginner Friendly",
+lookaDescription: "Looka helps you create professional logos and brand designs with AI in just a few minutes.",
+lookaUseTitle: "What for?",
+lookaUseText: "Logos, branding, social media designs, and professional brand identity.",
+lookaForTitle: "For whom?",
+lookaForText: "Perfect for startups, creators, small businesses, and freelancers.",
+lookaBenefitTitle: "Benefit",
+lookaBenefitText: "Automatically creates modern logos while saving time and design costs.",
+
+/* EN */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "Freemium",
+removebgLevel: "👶 Beginner Friendly",
+removebgDescription: "Remove.bg automatically removes image backgrounds using modern AI technology in just a few seconds.",
+removebgUseTitle: "What for?",
+removebgUseText: "Background removal, product images, profile pictures, logos, and social media graphics.",
+removebgForTitle: "For whom?",
+removebgForText: "Perfect for designers, creators, online shops, photographers, and social media users.",
+removebgBenefitTitle: "Benefit",
+removebgBenefitText: "Saves a lot of time in image editing and delivers fast professional results.",
+
+/* EN */
+
+reziTitle: "Rezi AI",
+reziPricing: "Freemium",
+reziLevel: "👶 Beginner Friendly",
+reziDescription: "Rezi AI helps you quickly create professional resumes and job applications with AI.",
+reziUseTitle: "What for?",
+reziUseText: "Resumes, cover letters, applications, and ATS-optimized career profiles.",
+reziForTitle: "For whom?",
+reziForText: "Perfect for applicants, students, beginners, and job seekers.",
+reziBenefitTitle: "Benefit",
+reziBenefitText: "Automatically creates modern application documents and increases job application success.",
+
+
     whyCard1Title: "⚡ Fast Recommendations",
 whyCard1Text: "Find matching AI tools for your exact problem in seconds.",
 whyCard2Title: "🎯 Clear Selection",
@@ -1099,6 +1360,136 @@ canvaForTitle: "Pour qui ?",
 canvaForText: "Parfait pour les créateurs, étudiants, fondateurs, candidats et petites entreprises.",
 canvaBenefitTitle: "Avantage",
 canvaBenefitText: "Facile à utiliser, beaucoup de modèles et des résultats rapides sans expérience en design.",
+
+/* FR */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "Freemium",
+capcutLevel: "👶 Débutant",
+capcutDescription: "CapCut AI t’aide à éditer rapidement et facilement des vidéos professionnelles, reels et TikToks.",
+capcutUseTitle: "Pour quoi ?",
+capcutUseText: "TikTok, reels, YouTube Shorts, montage vidéo et effets IA.",
+capcutForTitle: "Pour qui ?",
+capcutForText: "Parfait pour les créateurs de contenu, TikTokeurs, YouTubeurs et débutants sur les réseaux sociaux.",
+capcutBenefitTitle: "Avantage",
+capcutBenefitText: "Création rapide de vidéos IA avec effets, sous-titres et outils modernes.",
+
+/* FR */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "Freemium",
+chatgptLevel: "👶 Débutant",
+chatgptDescription: "ChatGPT t’aide à écrire, apprendre, planifier, programmer et trouver rapidement des réponses.",
+chatgptUseTitle: "Pour quoi ?",
+chatgptUseText: "Textes, idées, programmation, apprentissage, résumés et résolution de problèmes.",
+chatgptForTitle: "Pour qui ?",
+chatgptForText: "Parfait pour les étudiants, créateurs, développeurs, candidats et entreprises.",
+chatgptBenefitTitle: "Avantage",
+chatgptBenefitText: "Très polyvalent, facile à utiliser et utile pour presque toutes les tâches.",
+
+/* FR */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "Freemium",
+copyaiLevel: "👶 Débutant",
+copyaiDescription: "Copy.ai t’aide à rédiger plus rapidement des textes marketing, publications réseaux sociaux, descriptions produits et e-mails.",
+copyaiUseTitle: "Pour quoi ?",
+copyaiUseText: "Textes publicitaires, idées de blogs, e-mails, descriptions produits et contenu réseaux sociaux.",
+copyaiForTitle: "Pour qui ?",
+copyaiForText: "Parfait pour les marketeurs, créateurs, indépendants, boutiques et petites entreprises.",
+copyaiBenefitTitle: "Avantage",
+copyaiBenefitText: "Fait gagner du temps et génère rapidement des idées créatives de textes.",
+
+/* FR */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "Freemium",
+elevenlabsLevel: "🚀 Professionnel",
+elevenlabsDescription: "ElevenLabs crée des voix IA réalistes, des enregistrements vocaux et des voiceovers grâce à une technologie IA moderne.",
+elevenlabsUseTitle: "Pour quoi ?",
+elevenlabsUseText: "Voiceovers, podcasts, vidéos, livres audio, TikToks et générateurs de voix IA.",
+elevenlabsForTitle: "Pour qui ?",
+elevenlabsForText: "Parfait pour les créateurs, YouTubeurs, streamers, entreprises et producteurs de contenu.",
+elevenlabsBenefitTitle: "Avantage",
+elevenlabsBenefitText: "Voix extrêmement réalistes avec de nombreuses langues, émotions et une qualité professionnelle.",
+
+/* FR */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "Freemium",
+grammarlyLevel: "👶 Débutant",
+grammarlyDescription: "Grammarly t’aide à écrire des textes corrects, professionnels et faciles à comprendre.",
+grammarlyUseTitle: "Pour quoi ?",
+grammarlyUseText: "Correction grammaticale, orthographe, e-mails, candidatures et textes professionnels.",
+grammarlyForTitle: "Pour qui ?",
+grammarlyForText: "Parfait pour les étudiants, candidats, entreprises et créateurs de contenu.",
+grammarlyBenefitTitle: "Avantage",
+grammarlyBenefitText: "Améliore automatiquement les textes et rend l’écriture plus rapide et professionnelle.",
+
+/* FR */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "Payant",
+jasperLevel: "🚀 Professionnel",
+jasperDescription: "Jasper AI t’aide à créer des textes marketing, blogs et contenus réseaux sociaux professionnels grâce à l’IA.",
+jasperUseTitle: "Pour quoi ?",
+jasperUseText: "Textes marketing, blogs, publicités, SEO et contenu réseaux sociaux.",
+jasperForTitle: "Pour qui ?",
+jasperForText: "Parfait pour les entreprises, marketeurs, agences et créateurs de contenu professionnels.",
+jasperBenefitTitle: "Avantage",
+jasperBenefitText: "Crée rapidement des textes de haute qualité et fait gagner beaucoup de temps.",
+
+/* FR */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "Freemium",
+kickresumeLevel: "👶 Débutant",
+kickresumeDescription: "Kickresume t’aide à créer rapidement et professionnellement des CV, lettres de motivation et documents de carrière avec l’IA.",
+kickresumeUseTitle: "Pour quoi ?",
+kickresumeUseText: "CV, lettres de motivation, modèles de candidature et profils de carrière.",
+kickresumeForTitle: "Pour qui ?",
+kickresumeForText: "Parfait pour les candidats, étudiants, débutants et chercheurs d’emploi.",
+kickresumeBenefitTitle: "Avantage",
+kickresumeBenefitText: "Crée des documents de candidature modernes rapidement et de manière professionnelle.",
+
+/* FR */
+
+lookaTitle: "Looka",
+lookaPricing: "Payant",
+lookaLevel: "👶 Débutant",
+lookaDescription: "Looka t’aide à créer des logos et designs de marque professionnels avec l’IA en quelques minutes.",
+lookaUseTitle: "Pour quoi ?",
+lookaUseText: "Logos, branding, designs réseaux sociaux et identité visuelle professionnelle.",
+lookaForTitle: "Pour qui ?",
+lookaForText: "Parfait pour les startups, créateurs, petites entreprises et freelances.",
+lookaBenefitTitle: "Avantage",
+lookaBenefitText: "Crée automatiquement des logos modernes et réduit les coûts de design.",
+
+/* FR */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "Freemium",
+removebgLevel: "👶 Débutant",
+removebgDescription: "Remove.bg supprime automatiquement les arrière-plans des images grâce à une technologie IA moderne en quelques secondes.",
+removebgUseTitle: "Pour quoi ?",
+removebgUseText: "Suppression d’arrière-plan, images produits, photos de profil, logos et visuels réseaux sociaux.",
+removebgForTitle: "Pour qui ?",
+removebgForText: "Parfait pour les designers, créateurs, boutiques en ligne, photographes et utilisateurs des réseaux sociaux.",
+removebgBenefitTitle: "Avantage",
+removebgBenefitText: "Fait gagner beaucoup de temps dans l’édition d’images avec des résultats rapides et professionnels.",
+
+/* FR */
+
+reziTitle: "Rezi AI",
+reziPricing: "Freemium",
+reziLevel: "👶 Débutant",
+reziDescription: "Rezi AI t’aide à créer rapidement des CV et candidatures professionnels grâce à l’IA.",
+reziUseTitle: "Pour quoi ?",
+reziUseText: "CV, lettres de motivation, candidatures et profils optimisés ATS.",
+reziForTitle: "Pour qui ?",
+reziForText: "Parfait pour les candidats, étudiants, débutants et chercheurs d’emploi.",
+reziBenefitTitle: "Avantage",
+reziBenefitText: "Crée automatiquement des documents modernes et améliore les chances d’embauche.",
 
 // FR
     whyCard1Title: "⚡ Recommandations rapides",
@@ -1180,6 +1571,137 @@ canvaForText: "Perfecto para creadores, estudiantes, fundadores, candidatos y pe
 canvaBenefitTitle: "Ventaja",
 canvaBenefitText: "Fácil de usar, muchas plantillas y resultados rápidos sin experiencia en diseño.",
 
+/* ES */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "Freemium",
+capcutLevel: "👶 Para principiantes",
+capcutDescription: "CapCut AI te ayuda a editar videos, reels y TikToks de forma rápida y sencilla.",
+capcutUseTitle: "¿Para qué?",
+capcutUseText: "TikTok, reels, YouTube Shorts, edición de video y efectos IA.",
+capcutForTitle: "¿Para quién?",
+capcutForText: "Perfecto para creadores de contenido, TikTokers, YouTubers y principiantes en redes sociales.",
+capcutBenefitTitle: "Ventaja",
+capcutBenefitText: "Creación rápida de videos con efectos, subtítulos y herramientas modernas.",
+
+/* ES */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "Freemium",
+chatgptLevel: "👶 Para principiantes",
+chatgptDescription: "ChatGPT te ayuda con escritura, aprendizaje, planificación, programación y respuestas rápidas.",
+chatgptUseTitle: "¿Para qué?",
+chatgptUseText: "Textos, ideas, programación, aprendizaje, resúmenes y resolución de problemas.",
+chatgptForTitle: "¿Para quién?",
+chatgptForText: "Perfecto para estudiantes, creadores, desarrolladores, candidatos y empresas.",
+chatgptBenefitTitle: "Ventaja",
+chatgptBenefitText: "Muy versátil, fácil de usar y útil para casi cualquier tarea.",
+
+/* ES */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "Freemium",
+copyaiLevel: "👶 Para principiantes",
+copyaiDescription: "Copy.ai te ayuda a escribir textos de marketing, publicaciones para redes sociales, descripciones de productos y correos electrónicos más rápido.",
+copyaiUseTitle: "¿Para qué?",
+copyaiUseText: "Textos publicitarios, ideas de blogs, correos electrónicos, textos de productos y contenido para redes sociales.",
+copyaiForTitle: "¿Para quién?",
+copyaiForText: "Perfecto para marketers, creadores, freelancers, tiendas y pequeñas empresas.",
+copyaiBenefitTitle: "Ventaja",
+copyaiBenefitText: "Ahorra tiempo escribiendo y genera rápidamente ideas creativas de texto.",
+
+/* ES */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "Freemium",
+elevenlabsLevel: "🚀 Profesional",
+elevenlabsDescription: "ElevenLabs crea voces IA realistas, grabaciones y voiceovers usando tecnología moderna de IA.",
+elevenlabsUseTitle: "¿Para qué?",
+elevenlabsUseText: "Voiceovers, podcasts, videos, audiolibros, TikToks y generadores de voz IA.",
+elevenlabsForTitle: "¿Para quién?",
+elevenlabsForText: "Perfecto para creadores, YouTubers, streamers, empresas y productores de contenido.",
+elevenlabsBenefitTitle: "Ventaja",
+elevenlabsBenefitText: "Voces extremadamente realistas con muchos idiomas, emociones y calidad profesional.",
+
+/* ES */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "Freemium",
+grammarlyLevel: "👶 Para principiantes",
+grammarlyDescription: "Grammarly te ayuda a escribir textos correctos, profesionales y fáciles de entender.",
+grammarlyUseTitle: "¿Para qué?",
+grammarlyUseText: "Corrección gramatical, ortografía, correos electrónicos, solicitudes y textos profesionales.",
+grammarlyForTitle: "¿Para quién?",
+grammarlyForText: "Perfecto para estudiantes, candidatos, empresas y creadores de contenido.",
+grammarlyBenefitTitle: "Ventaja",
+grammarlyBenefitText: "Mejora automáticamente los textos y hace que escribir sea más rápido y profesional.",
+
+/* ES */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "De pago",
+jasperLevel: "🚀 Profesional",
+jasperDescription: "Jasper AI te ayuda a crear textos de marketing, blogs y contenido para redes sociales con IA.",
+jasperUseTitle: "¿Para qué?",
+jasperUseText: "Textos de marketing, blogs, anuncios, SEO y contenido para redes sociales.",
+jasperForTitle: "¿Para quién?",
+jasperForText: "Perfecto para empresas, marketers, agencias y creadores de contenido profesionales.",
+jasperBenefitTitle: "Ventaja",
+jasperBenefitText: "Crea textos de alta calidad rápidamente y ahorra mucho tiempo.",
+
+/* ES */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "Freemium",
+kickresumeLevel: "👶 Para principiantes",
+kickresumeDescription: "Kickresume te ayuda a crear currículums, cartas de presentación y documentos profesionales rápidamente con IA.",
+kickresumeUseTitle: "¿Para qué?",
+kickresumeUseText: "Currículums, cartas de presentación, plantillas de solicitud y perfiles profesionales.",
+kickresumeForTitle: "¿Para quién?",
+kickresumeForText: "Perfecto para candidatos, estudiantes, principiantes y personas que buscan trabajo.",
+kickresumeBenefitTitle: "Ventaja",
+kickresumeBenefitText: "Crea documentos de solicitud modernos de forma rápida y profesional.",
+
+/* ES */
+
+lookaTitle: "Looka",
+lookaPricing: "De pago",
+lookaLevel: "👶 Para principiantes",
+lookaDescription: "Looka te ayuda a crear logos y diseños de marca profesionales con IA en pocos minutos.",
+lookaUseTitle: "¿Para qué?",
+lookaUseText: "Logos, branding, diseños para redes sociales e identidad profesional.",
+lookaForTitle: "¿Para quién?",
+lookaForText: "Perfecto para startups, creadores, pequeñas empresas y freelancers.",
+lookaBenefitTitle: "Ventaja",
+lookaBenefitText: "Crea logos modernos automáticamente y ahorra tiempo y costes de diseño.",
+
+/* ES */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "Freemium",
+removebgLevel: "👶 Para principiantes",
+removebgDescription: "Remove.bg elimina automáticamente fondos de imágenes usando tecnología moderna de IA en segundos.",
+removebgUseTitle: "¿Para qué?",
+removebgUseText: "Eliminar fondos, imágenes de productos, fotos de perfil, logos y gráficos para redes sociales.",
+removebgForTitle: "¿Para quién?",
+removebgForText: "Perfecto para diseñadores, creadores, tiendas online, fotógrafos y usuarios de redes sociales.",
+removebgBenefitTitle: "Ventaja",
+removebgBenefitText: "Ahorra mucho tiempo en edición de imágenes y ofrece resultados rápidos y profesionales.",
+
+/* ES */
+
+reziTitle: "Rezi AI",
+reziPricing: "Freemium",
+reziLevel: "👶 Para principiantes",
+reziDescription: "Rezi AI te ayuda a crear currículums y solicitudes de empleo profesionales rápidamente con IA.",
+reziUseTitle: "¿Para qué?",
+reziUseText: "Currículums, cartas de presentación, solicitudes y perfiles optimizados para ATS.",
+reziForTitle: "¿Para quién?",
+reziForText: "Perfecto para candidatos, estudiantes, principiantes y personas que buscan trabajo.",
+reziBenefitTitle: "Ventaja",
+reziBenefitText: "Crea automáticamente documentos modernos y mejora las posibilidades de conseguir empleo.",
+
+
 // ES
     whyCard1Title: "⚡ Recomendaciones rápidas",
 whyCard1Text: "Encuentra herramientas de IA adecuadas para tu problema en segundos.",
@@ -1260,6 +1782,136 @@ canvaForText: "مثالي لصناع المحتوى، الطلاب، المؤس�
 canvaBenefitTitle: "الميزة",
 canvaBenefitText: "سهل الاستخدام، يحتوي على قوالب كثيرة ويعطي نتائج سريعة بدون خبرة في التصميم.",
 
+/* AR */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "مجاني جزئياً",
+capcutLevel: "👶 مناسب للمبتدئين",
+capcutDescription: "يساعدك CapCut AI على تعديل الفيديوهات والريلز والتيك توك بسرعة وسهولة.",
+capcutUseTitle: "لأي غرض؟",
+capcutUseText: "تيك توك، ريلز، يوتيوب شورتس، تعديل الفيديو وتأثيرات الذكاء الاصطناعي.",
+capcutForTitle: "لمن؟",
+capcutForText: "مثالي لصناع المحتوى، مستخدمي تيك توك، اليوتيوبرز والمبتدئين في السوشيال ميديا.",
+capcutBenefitTitle: "الميزة",
+capcutBenefitText: "إنشاء فيديوهات بسرعة مع مؤثرات وترجمة وأدوات تعديل حديثة.",
+
+/* AR */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "مجاني جزئياً",
+chatgptLevel: "👶 مناسب للمبتدئين",
+chatgptDescription: "يساعدك ChatGPT في الكتابة، التعلم، التخطيط، البرمجة والعثور على إجابات سريعة.",
+chatgptUseTitle: "لأي غرض؟",
+chatgptUseText: "الكتابة، الأفكار، البرمجة، التعلم، التلخيص وحل المشكلات.",
+chatgptForTitle: "لمن؟",
+chatgptForText: "مثالي للطلاب، صناع المحتوى، المطورين، المتقدمين للوظائف والشركات.",
+chatgptBenefitTitle: "الميزة",
+chatgptBenefitText: "متعدد الاستخدامات، سهل الاستعمال ومفيد لمعظم المهام.",
+
+/* AR */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "مجاني جزئياً",
+copyaiLevel: "👶 مناسب للمبتدئين",
+copyaiDescription: "يساعدك Copy.ai على كتابة النصوص التسويقية ومنشورات التواصل الاجتماعي ووصف المنتجات ورسائل البريد بسرعة.",
+copyaiUseTitle: "لأي غرض؟",
+copyaiUseText: "الإعلانات، أفكار المدونات، الرسائل الإلكترونية، وصف المنتجات ومحتوى السوشيال ميديا.",
+copyaiForTitle: "لمن؟",
+copyaiForText: "مثالي للمسوقين، صناع المحتوى، المستقلين والمتاجر والشركات الصغيرة.",
+copyaiBenefitTitle: "الميزة",
+copyaiBenefitText: "يوفر الوقت في الكتابة ويولد أفكاراً إبداعية بسرعة.",
+
+/* AR */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "مجاني جزئياً",
+elevenlabsLevel: "🚀 احترافي",
+elevenlabsDescription: "يقوم ElevenLabs بإنشاء أصوات وعمليات تعليق صوتي واقعية باستخدام تقنيات الذكاء الاصطناعي الحديثة.",
+elevenlabsUseTitle: "لأي غرض؟",
+elevenlabsUseText: "التعليق الصوتي، البودكاست، الفيديوهات، الكتب الصوتية، تيك توك ومولدات الصوت بالذكاء الاصطناعي.",
+elevenlabsForTitle: "لمن؟",
+elevenlabsForText: "مثالي لصناع المحتوى، اليوتيوبرز، الستريمرز، الشركات ومنتجي المحتوى.",
+elevenlabsBenefitTitle: "الميزة",
+elevenlabsBenefitText: "أصوات واقعية جداً مع لغات متعددة ومشاعر وجودة احترافية.",
+
+/* AR */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "مجاني جزئياً",
+grammarlyLevel: "👶 مناسب للمبتدئين",
+grammarlyDescription: "يساعدك Grammarly على كتابة نصوص صحيحة نحوياً واحترافية وواضحة.",
+grammarlyUseTitle: "لأي غرض؟",
+grammarlyUseText: "التدقيق النحوي، الإملاء، الرسائل الإلكترونية، طلبات التوظيف والنصوص الاحترافية.",
+grammarlyForTitle: "لمن؟",
+grammarlyForText: "مثالي للطلاب، المتقدمين للوظائف، الشركات وصناع المحتوى.",
+grammarlyBenefitTitle: "الميزة",
+grammarlyBenefitText: "يقوم بتحسين النصوص تلقائياً ويجعل الكتابة أسرع وأكثر احترافية.",
+
+/* AR */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "مدفوع",
+jasperLevel: "🚀 احترافي",
+jasperDescription: "يساعدك Jasper AI على إنشاء نصوص تسويقية ومدونات ومحتوى سوشيال ميديا احترافي باستخدام الذكاء الاصطناعي.",
+jasperUseTitle: "لأي غرض؟",
+jasperUseText: "النصوص التسويقية، المدونات، الإعلانات، تحسين محركات البحث ومحتوى السوشيال ميديا.",
+jasperForTitle: "لمن؟",
+jasperForText: "مثالي للشركات، المسوقين، الوكالات وصناع المحتوى المحترفين.",
+jasperBenefitTitle: "الميزة",
+jasperBenefitText: "ينشئ نصوصاً عالية الجودة بسرعة ويوفر الكثير من الوقت.",
+
+/* AR */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "مجاني جزئياً",
+kickresumeLevel: "👶 مناسب للمبتدئين",
+kickresumeDescription: "يساعدك Kickresume على إنشاء السير الذاتية وخطابات التقديم والوثائق المهنية بسرعة واحترافية باستخدام الذكاء الاصطناعي.",
+kickresumeUseTitle: "لأي غرض؟",
+kickresumeUseText: "السير الذاتية، خطابات التقديم، قوالب التوظيف والملفات المهنية.",
+kickresumeForTitle: "لمن؟",
+kickresumeForText: "مثالي للمتقدمين للوظائف، الطلاب، المبتدئين والباحثين عن عمل.",
+kickresumeBenefitTitle: "الميزة",
+kickresumeBenefitText: "ينشئ مستندات توظيف حديثة بسرعة وبشكل احترافي ومنظم.",
+
+/* AR */
+
+lookaTitle: "Looka",
+lookaPricing: "مدفوع",
+lookaLevel: "👶 مناسب للمبتدئين",
+lookaDescription: "يساعدك Looka على إنشاء شعارات وتصاميم علامات تجارية احترافية باستخدام الذكاء الاصطناعي خلال دقائق.",
+lookaUseTitle: "لأي غرض؟",
+lookaUseText: "الشعارات، الهوية البصرية، تصاميم السوشيال ميديا والعلامات التجارية.",
+lookaForTitle: "لمن؟",
+lookaForText: "مثالي للشركات الناشئة، صناع المحتوى، الشركات الصغيرة والمستقلين.",
+lookaBenefitTitle: "الميزة",
+lookaBenefitText: "ينشئ شعارات حديثة تلقائياً ويوفر الوقت وتكاليف التصميم.",
+
+/* AR */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "مجاني جزئياً",
+removebgLevel: "👶 مناسب للمبتدئين",
+removebgDescription: "يقوم Remove.bg بإزالة خلفيات الصور تلقائياً باستخدام تقنيات الذكاء الاصطناعي خلال ثوانٍ.",
+removebgUseTitle: "لأي غرض؟",
+removebgUseText: "إزالة الخلفية، صور المنتجات، الصور الشخصية، الشعارات وتصاميم السوشيال ميديا.",
+removebgForTitle: "لمن؟",
+removebgForText: "مثالي للمصممين، صناع المحتوى، المتاجر الإلكترونية، المصورين ومستخدمي السوشيال ميديا.",
+removebgBenefitTitle: "الميزة",
+removebgBenefitText: "يوفر الكثير من الوقت في تعديل الصور ويعطي نتائج احترافية بسرعة.",
+
+/* AR */
+
+reziTitle: "Rezi AI",
+reziPricing: "مجاني جزئياً",
+reziLevel: "👶 مناسب للمبتدئين",
+reziDescription: "يساعدك Rezi AI على إنشاء سير ذاتية وطلبات توظيف احترافية بسرعة باستخدام الذكاء الاصطناعي.",
+reziUseTitle: "لأي غرض؟",
+reziUseText: "السير الذاتية، خطابات التقديم، طلبات التوظيف والملفات المهنية المتوافقة مع ATS.",
+reziForTitle: "لمن؟",
+reziForText: "مثالي للمتقدمين للوظائف، الطلاب، المبتدئين والباحثين عن عمل.",
+reziBenefitTitle: "الميزة",
+reziBenefitText: "ينشئ مستندات توظيف حديثة تلقائياً ويزيد فرص القبول في الوظائف.",
+
     // AR
 whyCard1Title: "⚡ توصيات سريعة",
 whyCard1Text: "اعثر خلال ثوانٍ على أدوات ذكاء اصطناعي مناسبة لمشكلتك.",
@@ -1339,6 +1991,136 @@ canvaForTitle: "适合谁？",
 canvaForText: "非常适合创作者、学生、创业者、求职者和小型企业。",
 canvaBenefitTitle: "优势",
 canvaBenefitText: "操作简单，模板丰富，即使没有设计经验也能快速完成。",
+
+/* ZH */
+
+capcutTitle: "CapCut AI",
+capcutPricing: "免费增值",
+capcutLevel: "👶 适合初学者",
+capcutDescription: "CapCut AI 可帮助你快速轻松地编辑专业视频、Reels 和 TikTok。",
+capcutUseTitle: "用于什么？",
+capcutUseText: "TikTok、Reels、YouTube Shorts、视频编辑和 AI 特效。",
+capcutForTitle: "适合谁？",
+capcutForText: "非常适合内容创作者、TikToker、YouTuber 和社交媒体初学者。",
+capcutBenefitTitle: "优势",
+capcutBenefitText: "快速 AI 视频制作，带有效果、字幕和现代编辑工具。",
+
+/* ZH */
+
+chatgptTitle: "ChatGPT",
+chatgptPricing: "免费增值",
+chatgptLevel: "👶 适合初学者",
+chatgptDescription: "ChatGPT 可帮助你写作、学习、规划、编程以及快速找到答案。",
+chatgptUseTitle: "用于什么？",
+chatgptUseText: "写作、创意、编程、学习、总结和问题解决。",
+chatgptForTitle: "适合谁？",
+chatgptForText: "非常适合学生、创作者、开发者、求职者和企业。",
+chatgptBenefitTitle: "优势",
+chatgptBenefitText: "功能非常全面，易于使用，几乎适用于所有任务。",
+
+/* ZH */
+
+copyaiTitle: "Copy.ai",
+copyaiPricing: "免费增值",
+copyaiLevel: "👶 适合初学者",
+copyaiDescription: "Copy.ai 可帮助你更快地撰写营销文案、社交媒体帖子、产品描述和电子邮件。",
+copyaiUseTitle: "用于什么？",
+copyaiUseText: "广告文案、博客创意、电子邮件、产品文案和社交媒体内容。",
+copyaiForTitle: "适合谁？",
+copyaiForText: "非常适合营销人员、创作者、自由职业者、商店和小型企业。",
+copyaiBenefitTitle: "优势",
+copyaiBenefitText: "节省写作时间，并快速生成创意文本内容。",
+
+/* ZH */
+
+elevenlabsTitle: "ElevenLabs",
+elevenlabsPricing: "免费增值",
+elevenlabsLevel: "🚀 专业级",
+elevenlabsDescription: "ElevenLabs 使用现代 AI 技术创建逼真的 AI 声音、语音录音和配音。",
+elevenlabsUseTitle: "用于什么？",
+elevenlabsUseText: "配音、播客、视频、有声书、TikTok 和 AI 语音生成。",
+elevenlabsForTitle: "适合谁？",
+elevenlabsForText: "非常适合创作者、YouTuber、主播、企业和内容制作人。",
+elevenlabsBenefitTitle: "优势",
+elevenlabsBenefitText: "拥有多语言、情感表达和专业级质量的超真实 AI 声音。",
+
+/* ZH */
+
+grammarlyTitle: "Grammarly",
+grammarlyPricing: "免费增值",
+grammarlyLevel: "👶 适合初学者",
+grammarlyDescription: "Grammarly 可帮助你写出语法正确、专业且清晰的文本。",
+grammarlyUseTitle: "用于什么？",
+grammarlyUseText: "语法检查、拼写、电子邮件、求职申请和专业写作。",
+grammarlyForTitle: "适合谁？",
+grammarlyForText: "非常适合学生、求职者、企业和内容创作者。",
+grammarlyBenefitTitle: "优势",
+grammarlyBenefitText: "自动改进文本，让写作更快、更专业。",
+
+/* ZH */
+
+jasperTitle: "Jasper AI",
+jasperPricing: "付费",
+jasperLevel: "🚀 专业级",
+jasperDescription: "Jasper AI 可帮助你使用 AI 创建专业营销文案、博客和社交媒体内容。",
+jasperUseTitle: "用于什么？",
+jasperUseText: "营销文案、博客、广告、SEO 和社交媒体内容。",
+jasperForTitle: "适合谁？",
+jasperForText: "非常适合企业、营销人员、代理机构和专业内容创作者。",
+jasperBenefitTitle: "优势",
+jasperBenefitText: "快速生成高质量文本，并节省大量营销和内容创作时间。",
+
+/* ZH */
+
+kickresumeTitle: "Kickresume",
+kickresumePricing: "免费增值",
+kickresumeLevel: "👶 适合初学者",
+kickresumeDescription: "Kickresume 可帮助你使用 AI 快速专业地创建简历、求职信和职业文件。",
+kickresumeUseTitle: "用于什么？",
+kickresumeUseText: "简历、求职信、求职模板和职业档案。",
+kickresumeForTitle: "适合谁？",
+kickresumeForText: "非常适合求职者、学生、职场新人和找工作的人。",
+kickresumeBenefitTitle: "优势",
+kickresumeBenefitText: "快速创建现代化、专业化的求职文件。",
+
+/* ZH */
+
+lookaTitle: "Looka",
+lookaPricing: "付费",
+lookaLevel: "👶 适合初学者",
+lookaDescription: "Looka 可帮助你在几分钟内使用 AI 创建专业 logo 和品牌设计。",
+lookaUseTitle: "用于什么？",
+lookaUseText: "Logo、品牌设计、社交媒体设计和专业品牌形象。",
+lookaForTitle: "适合谁？",
+lookaForText: "非常适合创业公司、创作者、小型企业和自由职业者。",
+lookaBenefitTitle: "优势",
+lookaBenefitText: "自动生成现代化 logo，并节省时间和设计成本。",
+
+/* ZH */
+
+removebgTitle: "Remove.bg",
+removebgPricing: "免费增值",
+removebgLevel: "👶 适合初学者",
+removebgDescription: "Remove.bg 使用现代 AI 技术在几秒钟内自动移除图片背景。",
+removebgUseTitle: "用于什么？",
+removebgUseText: "背景移除、产品图片、头像、logo 和社交媒体图片。",
+removebgForTitle: "适合谁？",
+removebgForText: "非常适合设计师、创作者、网店、摄影师和社交媒体用户。",
+removebgBenefitTitle: "优势",
+removebgBenefitText: "节省大量图片编辑时间，并快速提供专业效果。",
+
+/* ZH */
+
+reziTitle: "Rezi AI",
+reziPricing: "免费增值",
+reziLevel: "👶 适合初学者",
+reziDescription: "Rezi AI 可帮助你使用 AI 快速创建专业简历和求职申请。",
+reziUseTitle: "用于什么？",
+reziUseText: "简历、求职信、求职申请和 ATS 优化职业档案。",
+reziForTitle: "适合谁？",
+reziForText: "非常适合求职者、学生、职场新人和找工作的人。",
+reziBenefitTitle: "优势",
+reziBenefitText: "自动创建现代化求职文件，并提高求职成功率。",
 
      // ZH
 whyCard1Title: "⚡ 快速推荐",
