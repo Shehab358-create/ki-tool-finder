@@ -2567,3 +2567,57 @@ body.dark-mode .tool-info-grid p{
     text-shadow:
         0 0 10px rgba(255,255,255,0.8);
 }
+
+/* FORCE STRONG BLUE HOVER FOR RIGHT NAV ICONS */
+
+.nav-user a.nav-user-btn:hover,
+.nav-user a.nav-user-btn:hover i,
+.nav-user a.nav-user-btn:hover span{
+    color:white !important;
+}
+
+.nav-user a.nav-user-btn:hover{
+    background:linear-gradient(135deg,#2563eb,#06b6d4) !important;
+
+    border:1px solid #38bdf8 !important;
+
+    transform:translateY(-4px) scale(1.08) !important;
+
+    box-shadow:
+        0 0 25px rgba(37,99,235,1),
+        0 0 55px rgba(6,182,212,0.95),
+        0 0 90px rgba(6,182,212,0.8) !important;
+}
+
+.nav-user a.nav-user-btn:hover i{
+    text-shadow:
+        0 0 12px rgba(255,255,255,0.9);
+}
+
+/* FINAL FORCE: RIGHT NAV ICON GLOW */
+
+.nav-user a.nav-user-btn:hover,
+.nav-user a.nav-user-btn:hover *,
+.navbar .nav-user a.nav-user-btn:hover,
+.navbar .nav-user a.nav-user-btn:hover *{
+    color:white !important;
+}
+
+.navbar .nav-user a.nav-user-btn:hover{
+    background:linear-gradient(135deg,#2563eb,#06b6d4) !important;
+    border-color:#38bdf8 !important;
+    transform:translateY(-4px) scale(1.08) !important;
+
+    box-shadow:
+        0 0 25px rgba(37,99,235,1),
+        0 0 55px rgba(6,182,212,0.95),
+        0 0 90px rgba(6,182,212,0.8) !important;
+}
+
+.navbar .nav-user a.nav-user-btn:hover i{
+    background:rgba(255,255,255,0.22) !important;
+
+    box-shadow:
+        0 0 18px rgba(255,255,255,0.7),
+        0 0 35px rgba(6,182,212,0.9) !important;
+}
