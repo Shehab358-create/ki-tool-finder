@@ -540,9 +540,9 @@ function generateWorkflow(){
 
     const result = document.getElementById("workflowResult");
     result.innerHTML = `
-  <div class="ai-thinking">
-    🧠 KI erstellt deinen optimalen Workflow...
-  </div>
+<div class="workflow-loading active">
+    ✨ KI erstellt deinen optimalen Workflow...
+</div>
 `;
 
 setTimeout(() => {
@@ -553,56 +553,40 @@ setTimeout(() => {
     if(input.includes("youtube") || input.includes("video")){
 
         workflowHTML = `
-        
-        <div class="workflow-card">
+<div class="workflow-card-modern">
 
-            <h3>🎬 YouTube Creator Workflow</h3>
+    <h2>🎬 YouTube Creator Workflow</h2>
 
-            <div class="workflow-step">
-                1. ChatGPT → Skript schreiben
-            </div>
+    <div class="workflow-step-modern">
+        <span class="step-number">1</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
+        <span>ChatGPT → Skript schreiben</span>
+    </div>
 
-            <div class="workflow-step">
-                2. ElevenLabs → KI Stimme erstellen
-            </div>
+    <div class="workflow-step-modern">
+        <span class="step-number">2</span>
+        <img src="https://seeklogo.com/images/E/elevenlabs-logo-6D2A16B6FE-seeklogo.com.png">
+        <span>ElevenLabs → KI Stimme erstellen</span>
+    </div>
 
-            <div class="workflow-step">
-                3. Canva → Thumbnail erstellen
-            </div>
+    <div class="workflow-step-modern">
+        <span class="step-number">3</span>
+        <img src="https://static.canva.com/static/images/favicon.ico">
+        <span>Canva → Thumbnail erstellen</span>
+    </div>
 
-            <div class="workflow-step">
-                4. CapCut → Video schneiden
-            </div>
+    <div class="workflow-step-modern">
+        <span class="step-number">4</span>
+        <img src="https://static.capcut.com/favicon.ico">
+        <span>CapCut → Video schneiden</span>
+    </div>
 
-        </div>
+    <div class="workflow-finish">
+        ✨ <strong>Fertig!</strong> Dein Workflow ist bereit. Starte jetzt durch!
+    </div>
 
-        `;
-    }
-
-    // INSTAGRAM
-    else if(input.includes("instagram") || input.includes("social media")){
-
-        workflowHTML = `
-        
-        <div class="workflow-card">
-
-            <h3>📸 Instagram Content Workflow</h3>
-
-            <div class="workflow-step">
-                1. ChatGPT → Caption schreiben
-            </div>
-
-            <div class="workflow-step">
-                2. Canva → Design erstellen
-            </div>
-
-            <div class="workflow-step">
-                3. Remove.bg → Hintergrund entfernen
-            </div>
-
-        </div>
-
-        `;
+</div>
+`;
     }
 
     // BEWERBUNG
@@ -903,7 +887,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const pageText = {
-  
+
   de: {
 
 heroTitle: "Finde das beste KI-Tool für dein Problem",
