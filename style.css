@@ -2621,3 +2621,7 @@ body.dark-mode .tool-info-grid p{
         0 0 18px rgba(255,255,255,0.7),
         0 0 35px rgba(6,182,212,0.9) !important;
 }
+
+.nav-user-btn:hover{
+    outline: 6px solid red !important;
+}
